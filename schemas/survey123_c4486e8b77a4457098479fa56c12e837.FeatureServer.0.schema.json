@@ -1,0 +1,1011 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "survey",
+  "type": "Feature Layer",
+  "serviceItemId": "04cd5eb4a16e490cb996092486c2588e",
+  "sourceSchemaChangesAllowed": true,
+  "hasViews": true,
+  "displayField": "",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true,
+    "allowOthersToDelete": true,
+    "allowOthersToUpdate": true,
+    "allowAnonymousToQuery": true,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "serverGens": {
+    "minServerGen": 1786715,
+    "serverGen": 1786715
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1760731141584,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -9093074.808819735,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 5084008.1576437475,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "label": "Survey Point",
+      "symbol": {
+        "angle": 0,
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "width": 1
+        },
+        "size": 8,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "propagateVisibleFields": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Incident_Date",
+      "type": "esriFieldTypeDate",
+      "alias": "Tell us when the incident occured",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "location",
+      "type": "esriFieldTypeString",
+      "alias": "Location",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "concern_nature",
+      "type": "esriFieldTypeString",
+      "alias": "Tell us the nature of your concern",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_concern_nature",
+        "codedValues": [
+          {
+            "name": "I have a safety concern driving in this area",
+            "code": "concern_driving"
+          },
+          {
+            "name": "I have a safety concern taking transit in this area",
+            "code": "concern_transit"
+          },
+          {
+            "name": "I have a safety concern walking or using a wheelchair in this area",
+            "code": "concern_walking_wheelchair"
+          },
+          {
+            "name": "I have a safety concern riding a bicycle in this area",
+            "code": "concern_bicycle"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_driving",
+      "type": "esriFieldTypeString",
+      "alias": "I have a safety concern driving in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_i_have_a_safety_concern_driving",
+        "codedValues": [
+          {
+            "name": "It's hard for people to see each other",
+            "code": "It's_hard_for_people_to_see_eac"
+          },
+          {
+            "name": "People drive at high speeds",
+            "code": "People_drive_at_high_speeds"
+          },
+          {
+            "name": "People drive through red lights/stop signs",
+            "code": "People_drive_through_red_lights"
+          },
+          {
+            "name": "People are distracted while driving their cars",
+            "code": "People_are_distracted_while_dri"
+          },
+          {
+            "name": "Street needs repair",
+            "code": "Street_needs_repair"
+          },
+          {
+            "name": "I am not sure how to drive here because of the bikeway nearby",
+            "code": "I_am_not_sure_how_to_drive_here"
+          },
+          {
+            "name": "Bicyclists are unpredictable",
+            "code": "Bicyclists_are_unpredictable"
+          },
+          {
+            "name": "I am not sure how to drive around people riding bikes here",
+            "code": "I_am_not_sure_how_to_drive_arou"
+          },
+          {
+            "name": "Other",
+            "code": "other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_driving_other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - I have a safety concern driving in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_taking_",
+      "type": "esriFieldTypeString",
+      "alias": "I have a safety concern taking transit in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_i_have_a_safety_concern_taking_",
+        "codedValues": [
+          {
+            "name": "Sidewalks are not plowed when it snows",
+            "code": "Sidewalks_are_not_plowed_when_i"
+          },
+          {
+            "name": "Difficulty crossing street to make transfers",
+            "code": "Difficulty_crossing_street_to_m"
+          },
+          {
+            "name": "Lack of shade/shelter at stop",
+            "code": "Lack_of_shade_shelter_at_stop"
+          },
+          {
+            "name": "Lack of sidewalk on way to bus stop",
+            "code": "Lack_of_sidewalk_on_way_to_bus_"
+          },
+          {
+            "name": "Transit is unpredictable or comes too infrequently",
+            "code": "Transit_is_unpredictable_or_com"
+          },
+          {
+            "name": "People drive at high speeds near transit stops",
+            "code": "People_drive_at_high_speeds_nea"
+          },
+          {
+            "name": "People driving don't yield while turning near transit stops",
+            "code": "People_driving_don't_yield_whil"
+          },
+          {
+            "name": "There are barriers, like poles or signs, blocking the sidewalk",
+            "code": "There_are_barriers_like_poles_o"
+          },
+          {
+            "name": "There are no access ramps or they are in poor condition",
+            "code": "There_are_no_access_ramps_or_th"
+          },
+          {
+            "name": "People want to cross the street here and it's too far to the next crosswalk",
+            "code": "People_want_to_cross_the_street"
+          },
+          {
+            "name": "Other",
+            "code": "other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_taking__other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - I have a safety concern taking transit in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_walking",
+      "type": "esriFieldTypeString",
+      "alias": "I have a safety concern walking or using a wheelchair in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_i_have_a_safety_concern_walking",
+        "codedValues": [
+          {
+            "name": "Sidewalks are not plowed when it snows",
+            "code": "Sidewalks_are_not_plowed_when_i"
+          },
+          {
+            "name": "People riding their bikes on the sidewalk",
+            "code": "People_riding_their_bikes_on_th"
+          },
+          {
+            "name": "No sidewalks",
+            "code": "No_sidewalks"
+          },
+          {
+            "name": "Sidewalks are in poor condition or are narrow",
+            "code": "Sidewalks_are_in_poor_condition"
+          },
+          {
+            "name": "Not enough time to cross the street",
+            "code": "Not_enough_time_to_cross_the_st"
+          },
+          {
+            "name": "People walking here have to wait too long for the signal to change",
+            "code": "People_walking_here_have_to_wai"
+          },
+          {
+            "name": "Too many traffic lanes to cross at one time",
+            "code": "Too_many_traffic_lanes_to_cross"
+          },
+          {
+            "name": "People drive at high speeds",
+            "code": "People_drive_at_high_speeds"
+          },
+          {
+            "name": "People driving don't yield while turning",
+            "code": "People_driving_don't_yield_whil"
+          },
+          {
+            "name": "It's hard for people to see each other",
+            "code": "It's_hard_for_people_to_see_eac"
+          },
+          {
+            "name": "There are barriers, like poles or signs, blocking the sidewalk",
+            "code": "There_are_barriers_like_poles_o"
+          },
+          {
+            "name": "There are no access ramps or they are in poor condition",
+            "code": "There_are_no_access_ramps_or_th"
+          },
+          {
+            "name": "People driving don't yield while going straight",
+            "code": "choice_13"
+          },
+          {
+            "name": "People want to cross the street here and it's too far to the next crosswalk",
+            "code": "People_want_to_cross_the_street"
+          },
+          {
+            "name": "People drive through red lights/stop signs",
+            "code": "People_drive_through_red_lights"
+          },
+          {
+            "name": "Other",
+            "code": "other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_walking_other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - I have a safety concern walking or using a wheelchair in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_riding_",
+      "type": "esriFieldTypeString",
+      "alias": "I have a safety concern riding a bicycle in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_i_have_a_safety_concern_riding_",
+        "codedValues": [
+          {
+            "name": "Bike lanes are not plowed when it snows",
+            "code": "Bike_lanes_are_not_plowed_when_"
+          },
+          {
+            "name": "Drivers passing too close",
+            "code": "Drivers_passing_too_close"
+          },
+          {
+            "name": "Too many traffic lanes to cross at one time",
+            "code": "Too_many_traffic_lanes_to_cross"
+          },
+          {
+            "name": "No bike lanes",
+            "code": "No_bike_lanes"
+          },
+          {
+            "name": "People drive at high speeds",
+            "code": "People_drive_at_high_speeds"
+          },
+          {
+            "name": "People driving don't yield while turning",
+            "code": "People_driving_don't_yield_whil"
+          },
+          {
+            "name": "People driving don't yield while going straight",
+            "code": "choice_7"
+          },
+          {
+            "name": "It is hard to make a left turn to get where I want to go",
+            "code": "It_is_hard_to_make_a_left_turn_"
+          },
+          {
+            "name": "It's hard for people to see each other",
+            "code": "It's_hard_for_people_to_see_eac"
+          },
+          {
+            "name": "People drive through red lights/stop signs",
+            "code": "People_drive_through_red_lights"
+          },
+          {
+            "name": "Street needs repair",
+            "code": "Street_needs_repair"
+          },
+          {
+            "name": "Other",
+            "code": "other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "i_have_a_safety_concern_riding__other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - I have a safety concern riding a bicycle in this area",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "where_were_you_headed",
+      "type": "esriFieldTypeString",
+      "alias": "Where were you headed?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "where_where_they_headed",
+      "type": "esriFieldTypeString",
+      "alias": "Where where they headed?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "if_you_would_like_describe_the_",
+      "type": "esriFieldTypeString",
+      "alias": "If you would like, describe the incident.",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "tell_us_more_about_your_concern",
+      "type": "esriFieldTypeString",
+      "alias": "Tell us more about your concern, if you would like to:",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "report_Type",
+      "type": "esriFieldTypeString",
+      "alias": "Tell us why you're here:",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_report_Type",
+        "codedValues": [
+          {
+            "name": "I am reporting a specific incidence of a Close Call",
+            "code": "I_am_reporting_a_specific_incid"
+          },
+          {
+            "name": "I am reporting a more general safety concern",
+            "code": "I_am_reporting_a_more_general_s"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "roaduser_reporter",
+      "type": "esriFieldTypeString",
+      "alias": "What kind of road user were you?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_roaduser_reporter",
+        "codedValues": [
+          {
+            "name": "Pedestrian/person using a wheelchair",
+            "code": "Pedestrian_wheelchair_user"
+          },
+          {
+            "name": "Driver",
+            "code": "Driver"
+          },
+          {
+            "name": "Bicyclist",
+            "code": "Bicyclist"
+          },
+          {
+            "name": "Scooter",
+            "code": "Scooter"
+          },
+          {
+            "name": "Truck/Commercial Vehicle",
+            "code": "Truck_Commercial_Vehicle"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "roaduser_offender",
+      "type": "esriFieldTypeString",
+      "alias": "What kind of road user was the offender?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_roaduser_offender",
+        "codedValues": [
+          {
+            "name": "Pedestrian/wheelchair user",
+            "code": "Pedestrian_wheelchair_user"
+          },
+          {
+            "name": "Driver",
+            "code": "Driver"
+          },
+          {
+            "name": "Bicyclist",
+            "code": "Bicyclist"
+          },
+          {
+            "name": "Scooter",
+            "code": "Scooter"
+          },
+          {
+            "name": "Truck/Commercial Vehicle",
+            "code": "Truck_Commercial_Vehicle"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "severity",
+      "type": "esriFieldTypeString",
+      "alias": "Were there any injuries or damage?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_severity",
+        "codedValues": [
+          {
+            "name": "No injuries/damage",
+            "code": "No_injuries_damage"
+          },
+          {
+            "name": "Property damage only",
+            "code": "Property_damage_only"
+          },
+          {
+            "name": "Minor injuries",
+            "code": "Minor_injuries"
+          },
+          {
+            "name": "Serious injuries",
+            "code": "Serious_injuries"
+          },
+          {
+            "name": "Fatality",
+            "code": "Fatality"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "please_u",
+      "type": "esriFieldTypeString",
+      "alias": "Untitled singleline text question",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.survey123_c4486e8b77a4457098479fa56c12e837_SURVEY_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__survey12__5242E632C5C04D01",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync,ChangeTracking"
+}

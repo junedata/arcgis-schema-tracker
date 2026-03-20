@@ -1,0 +1,1792 @@
+{
+  "currentVersion": 12,
+  "id": 1,
+  "name": "Census Collection 2021 Tracts",
+  "type": "Feature Layer",
+  "serviceItemId": "86dda5f52da743e095fe1f8b4801ba85",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1677682680209,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriFeet"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2113663.8598078936,
+    "ymin": 586581.8803575635,
+    "xmax": 2277078.3029914647,
+    "ymax": 717463.3977934718,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "classBreaks",
+      "authoringInfo": {
+        "type": "classedColor",
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                196,
+                27,
+                126,
+                255
+              ],
+              "toColor": [
+                196,
+                27,
+                126,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                232,
+                162,
+                201,
+                255
+              ],
+              "toColor": [
+                232,
+                162,
+                201,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                225,
+                239,
+                255
+              ],
+              "toColor": [
+                252,
+                225,
+                239,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                247,
+                247,
+                247,
+                255
+              ],
+              "toColor": [
+                247,
+                247,
+                247,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                230,
+                245,
+                208,
+                255
+              ],
+              "toColor": [
+                230,
+                245,
+                208,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                160,
+                214,
+                105,
+                255
+              ],
+              "toColor": [
+                160,
+                214,
+                105,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                76,
+                145,
+                33,
+                255
+              ],
+              "toColor": [
+                76,
+                145,
+                33,
+                255
+              ]
+            }
+          ]
+        },
+        "classificationMethod": "esriClassifyManual"
+      },
+      "field": "POP_PER_ACRE",
+      "classificationMethod": "esriClassifyManual",
+      "minValue": 0,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              197,
+              27,
+              125,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 2.8186825425949777,
+          "label": "0.0 - 2.8"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              233,
+              163,
+              201,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 4.452168355512497,
+          "label": "2.9 - 4.5"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              253,
+              224,
+              239,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 6.3363476060808965,
+          "label": "4.6 - 6.3"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              247,
+              247,
+              247,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 7.8243455949650444,
+          "label": "6.4 - 7.8"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              230,
+              245,
+              208,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 9.90994194424151,
+          "label": "7.9 - 9.9"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              161,
+              215,
+              106,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 30,
+          "label": "10.0 - 30.0"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              77,
+              146,
+              33,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "width": 0.7
+            }
+          },
+          "classMaxValue": 41.26968432298737,
+          "label": "30.1 - 41.3"
+        }
+      ],
+      "legendOptions": {
+        "order": "ascendingValues"
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 35,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID20",
+      "type": "esriFieldTypeString",
+      "alias": "GEOID20",
+      "sqlType": "sqlTypeOther",
+      "length": 11,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Cleveland Ward",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "NAME",
+      "sqlType": "sqlTypeOther",
+      "length": 512,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ACRES",
+      "type": "esriFieldTypeDouble",
+      "alias": "Acres",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "POP_PER_ACRE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population per acre",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "HH_PER_ACRE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households per acre",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B01001_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B01001_001M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP02_0001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP02_0001M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Households MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP02_0016E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average HH size",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP02_0016M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average HH size MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied housing units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0002M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied housing units MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0046E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0046M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0047E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0047M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Vacant housing units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0003M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Vacant housing units MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0004E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Homeowner vacancy rate",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Homeowner vacancy rate MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0005E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Rental vacancy rate",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Rental vacancy rate MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0002PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent male",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0002PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent male MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0003PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent female",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0003PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent female MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0038PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Black",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0038PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Black MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0037PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent White",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0037PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent White MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0044PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Asian",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0044PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Asian MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0057PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Some Other Race",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0057PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Some Other Race MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0052PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Hawaiian and Pacific Islander",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0052PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Hawaiian and Pacific Islander MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0039PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Native American",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0039PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Native American MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0058PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Two or More Race",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0058PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Two or More Race MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0071PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Latino",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0071PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Latino MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0077PE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent White & not Latino",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP05_0077PM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent White & not Latino MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All households, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_001M",
+      "type": "esriFieldTypeInteger",
+      "alias": "All households, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "No vehicles available, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_002M",
+      "type": "esriFieldTypeInteger",
+      "alias": "No vehicles available, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1 vehicle available, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_003M",
+      "type": "esriFieldTypeInteger",
+      "alias": "1 vehicle available, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2 vehicles available, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_004M",
+      "type": "esriFieldTypeInteger",
+      "alias": "2 vehicles available, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3 vehicles available, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_005M",
+      "type": "esriFieldTypeInteger",
+      "alias": "3 vehicles available, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4 or more vehicles available, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_006M",
+      "type": "esriFieldTypeInteger",
+      "alias": "4 or more vehicles available, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_015E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Two-person, one vehicle, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B08201_015M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Two-person, one vehicle, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers 16 and over",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_001M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers 16 and over MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_003E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Drove alone to work, %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Drove alone to work, % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_004E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Carpooled to work %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Carpooled to work % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_009E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Public transit to work %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Public transit to work % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_010E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Walked to work %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Walked to work % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_011E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Biked to work %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Biked to work % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_012E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Taxi, motorcycle, other means to work %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_012M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Taxi, motorcycle, other means to work % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_013E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Worked from home %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_013M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Worked from home % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_046E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Mean travel time to work, minutes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S0801_C01_046M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Mean travel time to work, minutes MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S1810_C02_047E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Have ambulatory difficulty, persons",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S1810_C02_047M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Have ambulatory difficulty, persons MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S1810_C03_047E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Have ambulatory difficulty, %",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S1810_C03_047M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Have ambulatory difficulty, % MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0050E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied housing units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0050M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied housing units MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0051E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2019 or later",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0051M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2019 or later MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0052E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2015 to 2018",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0052M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2015 to 2018 MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0053E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2010 to 2014",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0053M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2010 to 2014 MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0054E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2000 to 2009",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0054M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 2000 to 2009 MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0055E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 1990 to 1999",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0055M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 1990 to 1999 MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0056E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 1989 and earlier",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0056M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Moved in 1989 and earlier MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0134E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Median gross rent, dollars",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0134M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Median gross rent, dollars MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0136E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied units playing rent, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0136M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Occupied units playing rent, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0142E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Paying 35% + income on rent, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0142M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Paying 35% + income on rent, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0143E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Not computed income on rent, HHs",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DP04_0143M",
+      "type": "esriFieldTypeInteger",
+      "alias": "Not computed income on rent, HHs MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S2201_C03_001E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households receiving food stamps",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "S2201_C03_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households receiving food stamps MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "S2201_C04_001E",
+      "type": "esriFieldTypeDouble",
+      "alias": "S2201_C04_001E",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "S2201_C04_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent households receiving food stamps MOE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CENSUS_C__F4B70D85D3225C91",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.CENSUS_COLLECTION_2021_CENSUS_COLLECTION_2021_TRACTS_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "0.0 - 2.8",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 1.4093412712974889
+        }
+      }
+    },
+    {
+      "name": "2.9 - 4.5",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 3.6354254490537374
+        }
+      }
+    },
+    {
+      "name": "4.6 - 6.3",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 5.394257980796697
+        }
+      }
+    },
+    {
+      "name": "6.4 - 7.8",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 7.0803466005229705
+        }
+      }
+    },
+    {
+      "name": "7.9 - 9.9",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 8.867143769603278
+        }
+      }
+    },
+    {
+      "name": "10.0 - 30.0",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 19.954970972120755
+        }
+      }
+    },
+    {
+      "name": "30.1 - 41.3",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "POP_PER_ACRE": 35.63484216149369
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

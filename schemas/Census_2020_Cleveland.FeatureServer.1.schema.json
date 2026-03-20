@@ -1,0 +1,3586 @@
+{
+  "currentVersion": 12,
+  "id": 1,
+  "name": "Decennial 2020 Populated Blocks Cleveland Only",
+  "type": "Feature Layer",
+  "serviceItemId": "25f6cdc173774df594b4db4f8aa98926",
+  "cacheMaxAge": 30,
+  "displayField": "NAME20",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": false,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1668527534457,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriFeet"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 52143,
+  "maxScale": 624,
+  "extent": {
+    "xmin": 2140637.4401638317,
+    "ymin": 629405.6955970213,
+    "xmax": 2233887.422474721,
+    "ymax": 705574.9441940067,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+          252,
+          211,
+          184,
+          255
+        ],
+        "outline": {
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "color": [
+            110,
+            110,
+            110,
+            255
+          ],
+          "width": 0.7
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "STATEFP20",
+      "type": "esriFieldTypeString",
+      "alias": "STATEFP20",
+      "sqlType": "sqlTypeOther",
+      "length": 2,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "COUNTYFP20",
+      "type": "esriFieldTypeString",
+      "alias": "COUNTYFP20",
+      "sqlType": "sqlTypeOther",
+      "length": 3,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TRACTCE20",
+      "type": "esriFieldTypeString",
+      "alias": "TRACTCE20",
+      "sqlType": "sqlTypeOther",
+      "length": 6,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BLOCKCE20",
+      "type": "esriFieldTypeString",
+      "alias": "BLOCKCE20",
+      "sqlType": "sqlTypeOther",
+      "length": 4,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID20",
+      "type": "esriFieldTypeString",
+      "alias": "GEOID20",
+      "sqlType": "sqlTypeOther",
+      "length": 15,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NAME20",
+      "type": "esriFieldTypeString",
+      "alias": "NAME20",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "MTFCC20",
+      "type": "esriFieldTypeString",
+      "alias": "MTFCC20",
+      "sqlType": "sqlTypeOther",
+      "length": 5,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ALAND20",
+      "type": "esriFieldTypeDouble",
+      "alias": "ALAND20",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "AWATER20",
+      "type": "esriFieldTypeDouble",
+      "alias": "AWATER20",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTPTLAT20",
+      "type": "esriFieldTypeString",
+      "alias": "INTPTLAT20",
+      "sqlType": "sqlTypeOther",
+      "length": 11,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTPTLON20",
+      "type": "esriFieldTypeString",
+      "alias": "INTPTLON20",
+      "sqlType": "sqlTypeOther",
+      "length": 12,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "GEOID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "POP100",
+      "type": "esriFieldTypeInteger",
+      "alias": "POP100",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "HU100",
+      "type": "esriFieldTypeInteger",
+      "alias": "HU100",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTPTLAT",
+      "type": "esriFieldTypeDouble",
+      "alias": "INTPTLAT",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTPTLON",
+      "type": "esriFieldTypeDouble",
+      "alias": "INTPTLON",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LSADC",
+      "type": "esriFieldTypeString",
+      "alias": "LSADC",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PARTFLAG",
+      "type": "esriFieldTypeString",
+      "alias": "PARTFLAG",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "UGA",
+      "type": "esriFieldTypeInteger",
+      "alias": "UGA",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010001",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010002",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population of one race",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010003",
+      "type": "esriFieldTypeInteger",
+      "alias": "White alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010004",
+      "type": "esriFieldTypeInteger",
+      "alias": "Black alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010005",
+      "type": "esriFieldTypeInteger",
+      "alias": "Native American alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010006",
+      "type": "esriFieldTypeInteger",
+      "alias": "Asian alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010007",
+      "type": "esriFieldTypeInteger",
+      "alias": "Native Hawaiian and Pacific Islander alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010008",
+      "type": "esriFieldTypeInteger",
+      "alias": "Some Other Race alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010009",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population of two or more races",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010010",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population of two races",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010011",
+      "type": "esriFieldTypeInteger",
+      "alias": "Black and white",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010012",
+      "type": "esriFieldTypeInteger",
+      "alias": "Native American and white",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010013",
+      "type": "esriFieldTypeInteger",
+      "alias": "Asian and white",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010014",
+      "type": "esriFieldTypeInteger",
+      "alias": "Native Hawaiian and white",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010015",
+      "type": "esriFieldTypeInteger",
+      "alias": "Some other race and white",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010016",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010016",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010017",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010017",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010018",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010018",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010019",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010019",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010020",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010020",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010021",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010021",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010022",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010022",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010023",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010023",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010024",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010024",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010025",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010025",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010026",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010026",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010027",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010027",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010028",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010028",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010029",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010029",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010030",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010030",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010031",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010031",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010032",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010032",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010033",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010033",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010034",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010034",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010035",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010035",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010036",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010036",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010037",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010037",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010038",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010038",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010039",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010039",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010040",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010040",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010041",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010041",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010042",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010042",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010043",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010043",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010044",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010044",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010045",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010045",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010046",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010046",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010047",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010047",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010048",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010048",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010049",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010049",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010050",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010050",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010051",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010051",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010052",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010052",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010053",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010053",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010054",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010054",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010055",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010055",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010056",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010056",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010057",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010057",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010058",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010058",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010059",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010059",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010060",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010060",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010061",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010061",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010062",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010062",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010063",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010063",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010064",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010064",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010065",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010065",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010066",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010066",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010067",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010067",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010068",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010068",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010069",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010069",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010070",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010070",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0010071",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0010071",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020001",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020001",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020002",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020002",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020003",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020003",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020004",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020004",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020005",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020005",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020006",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020006",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020007",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020007",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020008",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020008",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020009",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020009",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020010",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020010",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020011",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020011",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020012",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020012",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020013",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020013",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020014",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020014",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020015",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020015",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020016",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020016",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020017",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020017",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020018",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020018",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020019",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020019",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020020",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020020",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020021",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020021",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020022",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020022",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020023",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020023",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020024",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020024",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020025",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020025",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020026",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020026",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020027",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020027",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020028",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020028",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020029",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020029",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020030",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020030",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020031",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020031",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020032",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020032",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020033",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020033",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020034",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020034",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020035",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020035",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020036",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020036",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020037",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020037",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020038",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020038",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020039",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020039",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020040",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020040",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020041",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020041",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020042",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020042",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020043",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020043",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020044",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020044",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020045",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020045",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020046",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020046",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020047",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020047",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020048",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020048",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020049",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020049",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020050",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020050",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020051",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020051",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020052",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020052",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020053",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020053",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020054",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020054",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020055",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020055",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020056",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020056",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020057",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020057",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020058",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020058",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020059",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020059",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020060",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020060",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020061",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020061",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020062",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020062",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020063",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020063",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020064",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020064",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020065",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020065",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020066",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020066",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020067",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020067",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020068",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020068",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020069",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020069",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020070",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020070",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020071",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020071",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020072",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020072",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0020073",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0020073",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030001",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030001",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030002",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030002",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030003",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030003",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030004",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030004",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030005",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030005",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030006",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030006",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030007",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030007",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030008",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030008",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030009",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030009",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030010",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030010",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030011",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030011",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030012",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030012",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030013",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030013",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030014",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030014",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030015",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030015",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030016",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030016",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030017",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030017",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030018",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030018",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030019",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030019",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030020",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030020",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030021",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030021",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030022",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030022",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030023",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030023",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030024",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030024",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030025",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030025",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030026",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030026",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030027",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030027",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030028",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030028",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030029",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030029",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030030",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030030",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030031",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030031",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030032",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030032",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030033",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030033",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030034",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030034",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030035",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030035",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030036",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030036",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030037",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030037",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030038",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030038",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030039",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030039",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030040",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030040",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030041",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030041",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030042",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030042",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030043",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030043",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030044",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030044",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030045",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030045",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030046",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030046",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030047",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030047",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030048",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030048",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030049",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030049",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030050",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030050",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030051",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030051",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030052",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030052",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030053",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030053",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030054",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030054",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030055",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030055",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030056",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030056",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030057",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030057",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030058",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030058",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030059",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030059",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030060",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030060",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030061",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030061",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030062",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030062",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030063",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030063",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030064",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030064",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030065",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030065",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030066",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030066",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030067",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030067",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030068",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030068",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030069",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030069",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030070",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030070",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0030071",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0030071",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040001",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040001",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040002",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040002",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040003",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040003",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040004",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040004",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040005",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040005",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040006",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040006",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040007",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040007",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040008",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040008",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040009",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040009",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040010",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040010",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040011",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040011",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040012",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040012",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040013",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040013",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040014",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040014",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040015",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040015",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040016",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040016",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040017",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040017",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040018",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040018",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040019",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040019",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040020",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040020",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040021",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040021",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040022",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040022",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040023",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040023",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040024",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040024",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040025",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040025",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040026",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040026",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040027",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040027",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040028",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040028",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040029",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040029",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040030",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040030",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040031",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040031",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040032",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040032",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040033",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040033",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040034",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040034",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040035",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040035",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040036",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040036",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040037",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040037",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040038",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040038",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040039",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040039",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040040",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040040",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040041",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040041",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040042",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040042",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040043",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040043",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040044",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040044",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040045",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040045",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040046",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040046",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040047",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040047",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040048",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040048",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040049",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040049",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040050",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040050",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040051",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040051",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040052",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040052",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040053",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040053",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040054",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040054",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040055",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040055",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040056",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040056",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040057",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040057",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040058",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040058",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040059",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040059",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040060",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040060",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040061",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040061",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040062",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040062",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040063",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040063",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040064",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040064",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040065",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040065",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040066",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040066",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040067",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040067",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040068",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040068",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040069",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040069",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040070",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040070",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040071",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040071",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040072",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040072",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0040073",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0040073",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "H0010001",
+      "type": "esriFieldTypeInteger",
+      "alias": "H0010001",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "H0010002",
+      "type": "esriFieldTypeInteger",
+      "alias": "H0010002",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "H0010003",
+      "type": "esriFieldTypeInteger",
+      "alias": "H0010003",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050001",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050001",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050002",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050002",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050003",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050003",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050004",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050004",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050005",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050005",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050006",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050006",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050007",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050007",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050008",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050008",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050009",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050009",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "P0050010",
+      "type": "esriFieldTypeInteger",
+      "alias": "P0050010",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SPA_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "SPA_NAME",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CENSUS_2__F4B70D85E1E6B9EF",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.CENSUS_2020_CLEVELAND_DECENNIAL2020_POPULATED_BLOCKS_IN_CLE_W_SPA_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Decennial2020_Populated Blocks in CLE w SPA",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

@@ -1,0 +1,620 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Traffic Count Points",
+  "type": "Feature Layer",
+  "serviceItemId": "41dac8cbf74a4e31bda30a105b53bcc6",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "uid",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1773856349761,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2149976.969924301,
+    "ymin": 640645.3207868934,
+    "xmax": 34592127.88129743,
+    "ymax": 1028221.3311026894,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriPMS",
+        "url": "158f49b0273858c3ec59ac4338837ac5",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAATCAYAAACk9eypAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA7UlEQVQokZWSMVLDMBBFn8CkcO1LqHcb01LnEPS0dgoV2IdITR3OENXudQnXZiYZZilsIZBlPGwnad9/0qwy/lnZYud40XyiAbjH8fro0sDxohH1jLDnbt4ToLaOXf6CKYcAmL7gOtaoOflnKTTX8Q14CsDt45BsDlBBY2vaqpsAkT1q47UyBWbf2q1SaExfzAbcJiQ4TDl4g4MNYOqZr/SQn7iNh78BeQ+AKQcaewbWoLMfYBhcW3U0dgkIA7v85Jfx11haFNZPeQnElig9ZfhtidLTgLck0tcMk0VBnL4OtFWH6YvU0ZohmQ7wBUizT9PKvJazAAAAAElFTkSuQmCC",
+        "contentType": "image/png",
+        "width": 9,
+        "height": 14,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 6
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "labelExpressionInfo": {
+          "expression": "$feature.loc1",
+          "title": "Custom"
+        },
+        "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+        "deconflictionStrategy": "dynamic",
+        "stackLabel": true,
+        "stackRowLength": 24,
+        "stackAlignment": "dynamic",
+        "removeDuplicates": "none",
+        "useCodedValues": true,
+        "maxScale": 0,
+        "minScale": 0,
+        "name": "Class 1",
+        "priority": -1,
+        "symbol": {
+          "type": "esriTS",
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "backgroundColor": null,
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "verticalAlignment": "bottom",
+          "horizontalAlignment": "left",
+          "rightToLeft": false,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "kerning": true,
+          "haloColor": null,
+          "haloSize": null,
+          "font": {
+            "family": "Tahoma",
+            "size": 7,
+            "style": "normal",
+            "weight": "normal",
+            "decoration": "none"
+          }
+        }
+      }
+    ]
+  },
+  "timeInfo": {
+    "startTimeField": "start_date",
+    "endTimeField": "",
+    "trackIdField": "",
+    "timeExtent": "untracked",
+    "timeReference": {
+      "timeZone": "UTC",
+      "timeZoneIANA": "Etc/UTC",
+      "respectsDaylightSaving": false
+    },
+    "timeInterval": 0,
+    "timeIntervalUnits": "",
+    "exportOptions": {
+      "useTime": false,
+      "timeDataCumulative": false,
+      "TimeOffset": 0,
+      "timeOffsetUnits": "esriTimeUnitsCenturies"
+    },
+    "hasLiveData": false
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "GlobalID",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "uid",
+      "type": "esriFieldTypeInteger",
+      "alias": "Unique Report ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The unique ID for each report.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "year",
+      "type": "esriFieldTypeInteger",
+      "alias": "Report Year",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The year the traffic report was created.\",\"fieldValueType\":\"dateAndTime\"}"
+    },
+    {
+      "name": "start_date",
+      "type": "esriFieldTypeDate",
+      "alias": "Start Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The date that the count started.\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "end_date",
+      "type": "esriFieldTypeDate",
+      "alias": "End Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The date that the count ended.\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "lat",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The latitude of the area being counted.\",\"fieldValueType\":\"coordinate\"}"
+    },
+    {
+      "name": "lon",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The longitude of the area being counted.\",\"fieldValueType\":\"coordinate\"}"
+    },
+    {
+      "name": "loc1",
+      "type": "esriFieldTypeString",
+      "alias": "Location 1",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The first bound/location of the area being counted.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "loc2",
+      "type": "esriFieldTypeString",
+      "alias": "Location 2",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The second bound/location of the area being counted.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "spdperc_15",
+      "type": "esriFieldTypeDouble",
+      "alias": "15th Percentile Speed (avg.)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The average speed of the lowest 15th percentile of cars.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "spdperc_50",
+      "type": "esriFieldTypeDouble",
+      "alias": "50th Percentile Speed (avg.)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The average speed of the lowest 50th percentile of cars.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "spdperc_85",
+      "type": "esriFieldTypeDouble",
+      "alias": "85th Percentile Speed (avg.)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The average speed of the lowest 85th percentile of cars.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "spdperc_95",
+      "type": "esriFieldTypeDouble",
+      "alias": "95th Percentile Speed (avg.)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The average speed of the lowest 95th percentile of cars.\",\"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "adt",
+      "type": "esriFieldTypeInteger",
+      "alias": "Average Daily Traffic",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The average number of cars per day while the count was active for this area.\",\"fieldValueType\":\"countOrAmount\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__TRAFFIC___F4B70D85E190BF82",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.TRAFFIC_COUNTS_AS_OF_APRIL_2021_V2_DOS_TRAFFICCOUNTS2_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "uid_Index",
+      "fields": "uid",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "uid_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "year_Index",
+      "fields": "year",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "year_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "adt_Index",
+      "fields": "adt",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "adt_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "spdperc_85_Index",
+      "fields": "spdperc_85",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "spdperc_85_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "spdperc_50_Index",
+      "fields": "spdperc_50",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "spdperc_50_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "start_date_Index",
+      "fields": "start_date",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "start_date_Index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "DOS_TrafficCounts",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

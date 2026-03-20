@@ -1,0 +1,548 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Cleveland Recreational Facilities",
+  "type": "Feature Layer",
+  "serviceItemId": "25767cf3e63c400e87d3fd7112cfbaa9",
+  "cacheMaxAge": 30,
+  "displayField": "Facility_Name",
+  "description": "Point layer of Cleveland recreational facility locations.",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758142097108,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 2311163,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2156742.2352651358,
+    "ymin": 644930.7292108089,
+    "xmax": 2241309.3951987177,
+    "ymax": 698250.3988179713,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriPMS",
+        "url": "cf1e33b22a2c187a2617aee1a70af054",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 13.5,
+        "height": 13.5,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Facility_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Facility Name",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Facility_Type",
+      "type": "esriFieldTypeString",
+      "alias": "Facility Type",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Type of facility\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Classification",
+      "type": "esriFieldTypeString",
+      "alias": "Classification",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Address",
+      "type": "esriFieldTypeString",
+      "alias": "Address",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "Operational_Status",
+      "type": "esriFieldTypeString",
+      "alias": "Operational Status",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Ward",
+      "type": "esriFieldTypeString",
+      "alias": "Ward",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"City of Cleveland ward\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "Neighborhood",
+      "type": "esriFieldTypeString",
+      "alias": "Neighborhood",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Indoor_Basketball_Court",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Indoor Basketball Court",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Basketball_Hoops",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Basketball Hoops",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Indoor_Running_Track",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Indoor Running Track",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Indoor_Skating_Rink",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Indoor Skating Rink",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Indoor_Swimming_Pool",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Indoor Swimming Pool",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Indoor_Waterslide",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Indoor Waterslide",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Outdoor_Swimming_Pool",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Outdoor Swimming Pool",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Outdoor_Waterslide",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Outdoor Waterslide",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Weight_Room",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Weight Room",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Boxing_Ring",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Boxing Ring",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Other_Indoor_Hard_Court_Count",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Other Indoor Hard Court Count",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Other_Indoor_Hard_Court_Type",
+      "type": "esriFieldTypeString",
+      "alias": "Other Indoor Hard Court Type",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Onsite_Park",
+      "type": "esriFieldTypeString",
+      "alias": "Onsite Park",
+      "sqlType": "sqlTypeOther",
+      "length": 200,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CLEVELAN__F4B70D854E41AD73",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.CLEVELAND_PARKS_AND_RECREATION_SYSTEM_CLEVELAND_RECREATIONAL_FACILITIES_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Outdoor_Swimming_Pool_Index",
+      "fields": "Outdoor_Swimming_Pool",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Outdoor_Swimming_Pool_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Indoor_Swimming_Pool_Index",
+      "fields": "Indoor_Swimming_Pool",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Indoor_Swimming_Pool_Index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Cleveland Recreational Facilities",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {
+          "Other_Indoor_Hard_Court_Type": null,
+          "Onsite_Park": null,
+          "Facility_Name": null,
+          "Facility_Type": null,
+          "Classification": null,
+          "Address": null,
+          "Operational_Status": null,
+          "Ward": null,
+          "Neighborhood": null,
+          "Indoor_Basketball_Court": null,
+          "Basketball_Hoops": null,
+          "Indoor_Running_Track": null,
+          "Indoor_Skating_Rink": null,
+          "Indoor_Swimming_Pool": null,
+          "Indoor_Waterslide": null,
+          "Outdoor_Swimming_Pool": null,
+          "Outdoor_Waterslide": null,
+          "Weight_Room": null,
+          "Boxing_Ring": null,
+          "Other_Indoor_Hard_Court_Count": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

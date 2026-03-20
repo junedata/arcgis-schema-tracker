@@ -1,0 +1,1646 @@
+{
+  "currentVersion": 12,
+  "id": 4,
+  "name": "Disability Status",
+  "type": "Feature Layer",
+  "serviceItemId": "89c639f534684dbaab9218d2227580ba",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "This layer shows disability status by sex and age group.&nbsp;This is shown by tract, county, and state boundaries.&nbsp;This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis. &nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This layer is symbolized to show the percentage of elderly (65+) with a disability. To see the full list of attributes available in this service, go to the &amp;quot;Data&amp;quot; tab, and choose &amp;quot;Fields&amp;quot; at the top right.&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Current Vintage&lt;/b&gt;:&nbsp;&lt;span style=\"font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;2019-2023&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ACS Table(s)&lt;/b&gt;: B18101&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data downloaded from&lt;/b&gt;:&nbsp;&lt;a&gt;Census Bureau's API for American Community Survey&lt;/a&gt;&nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;The United States Census Bureau's American Community Survey (ACS):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;About the Survey&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Geography &amp;amp; ACS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Technical Documentation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;News &amp;amp; Updates&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;This ready-to-use layer can be used within ArcGIS Pro, ArcGIS Online, its configurable apps, dashboards, Story Maps, custom apps, and mobile apps. Data can also be exported for offline workflows. For more information about ACS layers, visit the&nbsp;&lt;a&gt;FAQ&lt;/a&gt;. Please cite the Census and ACS when using this data.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Data Note from the Census:&lt;/b&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error. The value shown here is the 90 percent margin of error. The margin of error can be interpreted as providing a 90 percent probability that the interval defined by the estimate minus the margin of error and the estimate plus the margin of error (the lower and upper confidence bounds) contains the true value. In addition to sampling variability, the ACS estimates are subject to nonsampling error (for a discussion of nonsampling variability, see&nbsp;&lt;a&gt;Accuracy of the Data&lt;/a&gt;).&nbsp; The effect of nonsampling error is not represented in these tables.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data Processing Notes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This layer is updated automatically when the most current vintage of ACS data is released each year, usually in December. The layer always contains the latest available ACS 5-year estimates. It is updated annually within days of the Census Bureau's release schedule.&nbsp;&lt;a&gt;Click here&lt;/a&gt;&nbsp;to learn more about ACS data releases.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Boundaries come from the&nbsp;&lt;a&gt;US Census TIGER geodatabases,&lt;/a&gt;&nbsp;specifically, the National Sub-State Geography Database (named tlgdb_(year)_a_us_substategeo.gdb). Boundaries are updated at the same time as the data updates (annually), and the boundary vintage appropriately matches the data vintage&nbsp;&lt;a&gt;as specified by the Census&lt;/a&gt;. These are Census boundaries with water and/or coastlines erased for cartographic and mapping purposes. For census tracts, the water cutouts are derived from a subset of the&nbsp;&lt;a&gt;2020 Areal Hydrography boundaries offered by TIGER&lt;/a&gt;. Water bodies and rivers which are 50 million square meters or larger (mid to large sized water bodies) are erased from the tract level boundaries, as well as additional important features. For state and county boundaries, the water and coastlines are derived from the coastlines of the 2022 500k&nbsp;&lt;a&gt;TIGER Cartographic Boundary Shapefiles&lt;/a&gt;. These are erased to more accurately portray the coastlines and Great Lakes. The original AWATER and ALAND fields are still available as attributes within the data table (units are square meters).&lt;/li&gt;&lt;li&gt;The States layer contains 52 records - all US states, Washington D.C., and Puerto Rico&lt;/li&gt;&lt;li&gt;Census tracts with no population that occur in areas of water, such as oceans, are removed from this data service (Census Tracts beginning with 99).&lt;/li&gt;&lt;li&gt;Percentages and derived counts, and associated margins of error, are calculated values (that can be identified by the &amp;quot;_calc_&amp;quot; stub in the field name), and abide by the specifications&nbsp;&lt;a&gt;defined by the American Community Survey&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Field alias names were created based on the Table Shells file available from the&nbsp;&lt;a&gt;American Community Survey Summary File Documentation page&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Negative values (e.g., -4444...) have been set to null, with the exception of -5555... which has been set to zero.&nbsp;These negative values exist in the raw API data to indicate the following situations:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;Either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The median falls in the lowest interval of an open-ended distribution, or in the upper interval of an open-ended distribution. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;The estimate is controlled. A statistical test for sampling variability is not appropriate.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The data for this geographic area cannot be displayed because the number of sample cases is too small.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758912739779,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": null,
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "colorInfo",
+          "field": "B18101_calc_pctEldDE",
+          "valueExpression": null,
+          "stops": [
+            {
+              "value": 19,
+              "color": [
+                242,
+                240,
+                247,
+                255
+              ],
+              "label": "< 19%"
+            },
+            {
+              "value": 26,
+              "color": [
+                203,
+                201,
+                226,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 33,
+              "color": [
+                158,
+                154,
+                200,
+                255
+              ],
+              "label": "33% - national average"
+            },
+            {
+              "value": 40,
+              "color": [
+                117,
+                107,
+                177,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 48,
+              "color": [
+                84,
+                39,
+                143,
+                255
+              ],
+              "label": "> 48%"
+            }
+          ]
+        },
+        {
+          "type": "sizeInfo",
+          "target": "outline",
+          "expression": "view.scale",
+          "valueExpression": "$view.scale",
+          "stops": [
+            {
+              "size": 1.5,
+              "value": 49988
+            },
+            {
+              "size": 0.75,
+              "value": 156213
+            },
+            {
+              "size": 0.375,
+              "value": 624851
+            },
+            {
+              "size": 0,
+              "value": 1249703
+            }
+          ]
+        }
+      ],
+      "authoringInfo": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "minSliderValue": 0,
+            "maxSliderValue": 100,
+            "theme": "high-to-low"
+          }
+        ]
+      },
+      "type": "classBreaks",
+      "field": "B18101_calc_pctEldDE",
+      "minValue": -9007199254740991,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "color": [
+              170,
+              170,
+              170,
+              255
+            ],
+            "outline": {
+              "color": [
+                194,
+                194,
+                194,
+                64
+              ],
+              "width": 0.75,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "type": "esriSFS",
+            "style": "esriSFSSolid"
+          },
+          "classMaxValue": 9007199254740991
+        }
+      ],
+      "defaultSymbol": {
+        "color": [
+          214,
+          214,
+          214,
+          255
+        ],
+        "outline": {
+          "color": null,
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSNull"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "defaultLabel": "No Value"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"An ObjectID is a unique, not null integer field used to uniquely identify rows in tables in a geographical table.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "GEOID",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ALAND",
+      "type": "esriFieldTypeDouble",
+      "alias": "ALAND",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "AWATER",
+      "type": "esriFieldTypeDouble",
+      "alias": "AWATER",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "NAME",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Civilian Noninstitutionalized Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Civilian Noninstitutionalized Population - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Civilian Noninstitutionalized Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Civilian Noninstitutionalized Population - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population under 5 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population under 5 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population under 5 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population under 5 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population under 5 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population under 5 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 5 to 17 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_006M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 5 to 17 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_007E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 5 to 17 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_007M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 5 to 17 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_008E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 5 to 17 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_008M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 5 to 17 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_009E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 18 to 34 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 18 to 34 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 18 to 34 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 18 to 34 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_011E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 18 to 34 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 18 to 34 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_012E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 35 to 64 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_012M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 35 to 64 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_013E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 35 to 64 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_013M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 35 to 64 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_014E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 35 to 64 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_014M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 35 to 64 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_015E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 65 to 74 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_015M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 65 to 74 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_016E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 65 to 74 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_016M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 65 to 74 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_017E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 65 to 74 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_017M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 65 to 74 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_018E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 75 years and over",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_018M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 75 years and over - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_019E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 75 years and over with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_019M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 75 years and over with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_020E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population 75 years and over with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_020M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Male Population 75 years and over with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_021E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Civilian Noninstitutionalized Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_021M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Civilian Noninstitutionalized Population - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_022E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population under 5 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_022M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population under 5 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_023E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population under 5 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_023M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population under 5 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_024E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population under 5 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_024M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population under 5 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_025E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 5 to 17 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_025M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 5 to 17 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_026E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 5 to 17 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_026M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 5 to 17 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_027E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 5 to 17 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_027M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 5 to 17 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_028E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 18 to 34 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_028M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 18 to 34 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_029E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 18 to 34 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_029M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 18 to 34 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_030E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 18 to 34 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_030M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 18 to 34 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_031E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 35 to 64 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_031M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 35 to 64 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_032E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 35 to 64 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_032M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 35 to 64 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_033E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 35 to 64 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_033M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 35 to 64 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_034E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 65 to 74 years",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_034M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 65 to 74 years - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_035E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 65 to 74 years with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_035M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 65 to 74 years with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_036E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 65 to 74 years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_036M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 65 to 74 years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_037E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 75 years and over",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_037M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 75 years and over - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_038E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 75 years and over with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_038M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 75 years and over with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_039E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population 75 years and over years with no disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_039M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Female Population 75 years and over years with no disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numMDE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numMDM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Male Population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctMDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Male Population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctMDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Male Population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numFDE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numFDM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Female Population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctFDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Female Population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctFDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Female Population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numEldDE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Elderly (65+ years) population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numEldDM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Elderly (65+ years) population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctEldDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of elderly (65+ years) population with a disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctEldDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of elderly (65+ years) population with a disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numTotEldE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Elderly (65+ years) Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numTotEldM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Elderly (65+ years) Population - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numDE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population with a Disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_numDM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population with a Disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population with a Disability",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B18101_calc_pctDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population with a Disability - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Year",
+      "type": "esriFieldTypeString",
+      "alias": "Year",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACEFP",
+      "type": "esriFieldTypeString",
+      "alias": "PLACEFP",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACENAME",
+      "type": "esriFieldTypeString",
+      "alias": "PLACENAME",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeString",
+      "alias": "WARD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "type": "esriFieldTypeString",
+      "alias": "NEIGHBORHOOD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Census_Data_TRACT5_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__Census_D__F4B70D85BF5DFD6C",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Tract",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "B18101_calc_pctEldDE": null,
+          "B18101_calc_pctEldDM": null,
+          "GEOID": null,
+          "ALAND": null,
+          "AWATER": null,
+          "NAME": null,
+          "State": null,
+          "County": null,
+          "B18101_001E": null,
+          "B18101_001M": null,
+          "B18101_002E": null,
+          "B18101_002M": null,
+          "B18101_003E": null,
+          "B18101_003M": null,
+          "B18101_004E": null,
+          "B18101_004M": null,
+          "B18101_005E": null,
+          "B18101_005M": null,
+          "B18101_006E": null,
+          "B18101_006M": null,
+          "B18101_007E": null,
+          "B18101_007M": null,
+          "B18101_008E": null,
+          "B18101_008M": null,
+          "B18101_009E": null,
+          "B18101_009M": null,
+          "B18101_010E": null,
+          "B18101_010M": null,
+          "B18101_011E": null,
+          "B18101_011M": null,
+          "B18101_012E": null,
+          "B18101_012M": null,
+          "B18101_013E": null,
+          "B18101_013M": null,
+          "B18101_014E": null,
+          "B18101_014M": null,
+          "B18101_015E": null,
+          "B18101_015M": null,
+          "B18101_016E": null,
+          "B18101_016M": null,
+          "B18101_017E": null,
+          "B18101_017M": null,
+          "B18101_018E": null,
+          "B18101_018M": null,
+          "B18101_019E": null,
+          "B18101_019M": null,
+          "B18101_020E": null,
+          "B18101_020M": null,
+          "B18101_021E": null,
+          "B18101_021M": null,
+          "B18101_022E": null,
+          "B18101_022M": null,
+          "B18101_023E": null,
+          "B18101_023M": null,
+          "B18101_024E": null,
+          "B18101_024M": null,
+          "B18101_025E": null,
+          "B18101_025M": null,
+          "B18101_026E": null,
+          "B18101_026M": null,
+          "B18101_027E": null,
+          "B18101_027M": null,
+          "B18101_028E": null,
+          "B18101_028M": null,
+          "B18101_029E": null,
+          "B18101_029M": null,
+          "B18101_030E": null,
+          "B18101_030M": null,
+          "B18101_031E": null,
+          "B18101_031M": null,
+          "B18101_032E": null,
+          "B18101_032M": null,
+          "B18101_033E": null,
+          "B18101_033M": null,
+          "B18101_034E": null,
+          "B18101_034M": null,
+          "B18101_035E": null,
+          "B18101_035M": null,
+          "B18101_036E": null,
+          "B18101_036M": null,
+          "B18101_037E": null,
+          "B18101_037M": null,
+          "B18101_038E": null,
+          "B18101_038M": null,
+          "B18101_039E": null,
+          "B18101_039M": null,
+          "B18101_calc_numMDE": null,
+          "B18101_calc_numMDM": null,
+          "B18101_calc_pctMDE": null,
+          "B18101_calc_pctMDM": null,
+          "B18101_calc_numFDE": null,
+          "B18101_calc_numFDM": null,
+          "B18101_calc_pctFDE": null,
+          "B18101_calc_pctFDM": null,
+          "B18101_calc_numEldDE": null,
+          "B18101_calc_numEldDM": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

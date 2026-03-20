@@ -1,0 +1,41 @@
+# ArcGIS REST services root URL for the target organization.
+# Find it at: https://services3.arcgis.com/<orgId>/ArcGIS/rest/services
+# The orgId appears in the URL of any ArcGIS Online item or service for that org.
+services_url: https://services3.arcgis.com/<orgId>/ArcGIS/rest/services
+
+# exclude: all means nothing syncs unless explicitly listed under include.
+# exclude: [list of service names] skips only those services.
+exclude: all
+
+# include: all syncs every service (minus any excluded).
+# include: [list of service names] syncs only those services.
+# Run first_setup.py to auto-populate this list from the org, then
+# delete any services you do NOT want to track.
+include:
+  - MyServiceName
+  - AnotherServiceName
+
+# Keys to suppress in all saved schema files. Values at these paths will be
+# replaced with "untracked" so that non-schema metadata (e.g. timestamps)
+# does not produce noisy commits. Use dot-notation for nested keys.
+ignore_keys:
+  - editingInfo.lastEditDate
+  - editingInfo.dataLastEditDate
+  - timeInfo.timeExtent
+
+# What to do when schemas change after a sync.
+#   none   - write files only; commit and push manually (default)
+#   commit - auto-commit changed files and push with a datestamped message
+#   ntfy   - send an alert to an ntfy channel; commit and push manually
+#   both   - auto-commit and push, then send ntfy alert
+on_change: none
+
+# Required when on_change is "ntfy" or "both".
+# ntfy_topic is the channel name subscribers will follow.
+# ntfy_server defaults to https://ntfy.sh if omitted.
+# ntfy_topic: your-topic-name
+# ntfy_server: https://ntfy.sh
+
+# Public GitHub repository URL. Used to build a direct commit link in ntfy alerts.
+# Required when on_change is "commit" or "both".
+# repo_url: https://github.com/<owner>/<repo>

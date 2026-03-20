@@ -1,0 +1,343 @@
+{
+  "currentVersion": 12,
+  "id": 5,
+  "name": "Adult Care Facilities",
+  "type": "Feature Layer",
+  "serviceItemId": "061480f38c404d5c8d264215d40a61a3",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "USER_Organization_Name",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1756303335508,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2163637.1654071403,
+    "ymin": 644554.0436124802,
+    "xmax": 2233638.3170369714,
+    "ymax": 700333.3205051422,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriPMS",
+        "url": "21d9460775d57026e3e7ee47d2cad69e",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACoElEQVRIicVVu3LTQBS98qSwqSLTYHXBFSQVEj/AI1VEA+Ng0lufYfszrD6Z2JMUyMMXJJOCaEMDdLZpsLusO3soJOZsfBWtkUAZhuHOaPTavec+zj27Qf/YNv47wOFgYJdiwzWotBdRbBlENXw3yBBxHIuoFPkHjYa4M4ByHBmd6mZ1z7JqZFkPqFKuUKVSVv+vpbSlnNufv3xtHfdPRRz9eNVsNqeFAI76J+69cjnY2X5M9YdbmQFUTVNd+D8aT+zL8Or78eDUe9t47f8WAM7vm2aws/2IEHnafP9mb6vV0r4DxDQ36ez8onfUP5m9238zzARAWW4i150LIajb7dJwOEyA8Fyr3a5BNrsvntP74YfgcDBwuC8aAGqOsqSd+75PnudpEQPQsizq9XpaNujPU+cJheGnHhE5GgCiR0O55utRZxmA17NRPRlNbPhDFgkAqMiRp6N2XTdxCEeI3LZt9T6dTjOzQT/kfI5FtwDgOajIAGztdjtx6DgqawqCQN3hnL9hDwPU61s0Hn/Di58AYIjAc44UGzqdDhUxRM9BcMNjitWHVAZU4yFCPXmDELlDmli6bHeWCm+NQXmO0rZYLCkmmq1lYAiMP9L7W5NSUomMqQYA4YK2AABlAUPyjMvGd2YTZ7dYLpU/DQCqCOECj1GWvNqLFHPYsB7OwzBU76PRRPnTADAUUEUIF1gxm6kSFjYetNF4QlLOxcF+hlRAcqGKuy+fFWrmul1LSR/Dq1lsRAkzNADoOSQXqgjhYtoWdX52foFHL30A/UJT6DkkF6oI4co7D9KGsiByOE9LdSYADIsguVBFCBe0BePPFAbPQUWwBQ1FzVGWrKMzd9BWix2oIoQL2sLjjyECz5MzedXQLPvjJK+AcGlHYVH7CUSicrYIiBMfAAAAAElFTkSuQmCC",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "ObjectID",
+  "uniqueIdField": {
+    "name": "ObjectID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "ObjectID",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Match_addr",
+      "type": "esriFieldTypeString",
+      "alias": "Match_addr",
+      "sqlType": "sqlTypeOther",
+      "length": 500,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "USER_Organization_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Organization Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "USER_Approved_Maximum___of_Lice",
+      "type": "esriFieldTypeDouble",
+      "alias": "Approved Maximum # of Licensed Beds",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": 0
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__RESIDENT__9A6192B14483A892",
+      "fields": "ObjectID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.RESIDENTIAL_FACILITIES_CLEGIS1_PLANNING_ADULT_CARE_FACILITIES_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "cleGIS1.PLANNING.Adult_Care_Facilities",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {
+          "USER_Expiration_Date": 0,
+          "USER_Last_Updated": 0,
+          "Match_addr": null,
+          "USER_Organization_Name": "",
+          "USER_License__": "",
+          "USER_Facility_Phone_Number": "",
+          "USER_Approved_Maximum___of_Lice": 0,
+          "USER_Effective_Date": 0
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

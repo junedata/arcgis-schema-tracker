@@ -1,0 +1,2301 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "survey",
+  "type": "Feature Layer",
+  "serviceItemId": "ceaa7c87a4324aff8e33b7b73e7a01fe",
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": false,
+    "allowOthersToDelete": false,
+    "allowOthersToUpdate": false,
+    "allowAnonymousToQuery": true,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1691415981451,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "label": "Survey Point",
+      "symbol": {
+        "angle": 0,
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "width": 1
+        },
+        "size": 8,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "propagateVisibleFields": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "address",
+      "type": "esriFieldTypeString",
+      "alias": "Address",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_address",
+        "codedValues": [
+          {
+            "name": "Choice 1",
+            "code": "Choice 1"
+          },
+          {
+            "name": "Choice 2",
+            "code": "Choice 2"
+          },
+          {
+            "name": "Choice 3",
+            "code": "Choice 3"
+          },
+          {
+            "name": "address 1",
+            "code": "address 1"
+          },
+          {
+            "name": "address 2",
+            "code": "address 2"
+          },
+          {
+            "name": "address 3",
+            "code": "address 3"
+          },
+          {
+            "name": "16011  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16011  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16312  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16312  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16113  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16113  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16212  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16212  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16305  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16305  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16213  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16213  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16300  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16300  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16114  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16114  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16117  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16117  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16316  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16316  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16204  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16204  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16106  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16106  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16201  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16201  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16308  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16308  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16317  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16317  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16010  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16010  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16217  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16217  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16109  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16109  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16313  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16313  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16311  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16311  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16401  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16401  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16304  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16304  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16216  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16216  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16118  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16118  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16309  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16309  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16209  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16209  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16010  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16010  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16200  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16200  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16110  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16110  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16205  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16205  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16316  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16316  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16208  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16208  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16101  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16101  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16105  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16105  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16102  BILTMORE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16102  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16301  GLENDALE AVE, CLEVELAND, OH, 44128-1",
+            "code": "16301  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16208  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16208  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16102  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16102  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16007  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16007  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15903  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15903  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15803  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15803  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15607  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15607  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15611  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15611  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16010  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16010  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15706  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15706  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15615  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15615  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15606  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15606  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15503  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15503  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15703  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15703  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16212  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16212  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16002  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16002  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16302  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16302  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15914  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15914  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15714  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15714  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16007  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16007  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15906  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15906  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16413  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16413  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16300  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16300  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16121  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16121  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16117  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16117  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15911  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15911  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15610  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15610  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16109  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16109  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15710  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15710  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16216  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16216  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15515  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15515  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16210  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16210  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16316  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16316  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15714  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15714  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15910  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15910  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16010  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16010  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15810  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15810  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16215  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16215  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16209  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16209  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15806  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15806  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "3887  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3887  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "15903  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15903  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15906  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15906  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16405  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16405  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16301  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16301  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15811  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15811  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16408  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16408  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16220  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16220  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16209  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16209  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15514  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15514  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16312  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16312  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15906  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15906  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16106  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16106  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "3875  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3875  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "15811  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15811  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15611  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15611  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15510  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15510  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15910  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15910  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16002  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16002  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16306  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16306  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15707  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15707  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16121  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16121  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16011  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16011  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15606  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15606  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16006  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16006  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15810  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15810  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16327  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16327  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16011  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16011  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15702  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15702  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15507  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15507  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16213  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16213  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15715  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15715  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15707  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15707  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15910  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15910  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15802  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15802  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15906  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15906  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15915  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15915  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15910  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15910  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16404  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16404  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15600  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15600  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15914  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15914  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16304  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16304  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15710  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15710  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15515  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15515  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15702  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15702  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15807  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15807  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15807  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15807  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16101  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16101  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "0  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "0  BILTMORE AVE, CLEVELAND, OH,"
+          },
+          {
+            "name": "15707  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15707  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "0  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "choice_130"
+          },
+          {
+            "name": "15510  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15510  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16304  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16304  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15707  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15707  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15806  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15806  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16003  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16003  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16401  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16401  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16405  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16405  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16413  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16413  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16417  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16417  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16300  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16300  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15511  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15511  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15911  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15911  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16316  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16316  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16208  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16208  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16309  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16309  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16007  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16007  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16003  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16003  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15910  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15910  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16006  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16006  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15710  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15710  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16201  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16201  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15807  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15807  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16206  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16206  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16102  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16102  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15911  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15911  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15606  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15606  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16408  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16408  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15602  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15602  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15902  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15902  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16003  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16003  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16006  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16006  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16007  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16007  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15802  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15802  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15703  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15703  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15806  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15806  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16002  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16002  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15711  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15711  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16209  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16209  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15907  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15907  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15902  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15902  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15902  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15902  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16011  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16011  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16308  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16308  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "0  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "0  E 155 ST, CLEVELAND, OH, 441"
+          },
+          {
+            "name": "16205  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16205  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15711  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15711  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15803  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15803  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15810  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15810  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16416  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16416  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15607  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15607  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15508  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15508  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15606  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15606  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16110  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16110  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16214  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16214  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16200  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16200  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15615  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15615  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15803  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15803  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16315  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16315  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15500  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15500  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15611  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15611  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16118  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16118  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15615  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15615  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15502  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15502  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16002  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16002  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15900  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15900  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15609  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15609  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16409  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16409  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15807  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15807  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16114  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16114  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16109  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16109  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15915  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15915  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16400  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16400  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15807  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15807  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15614  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15614  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16003  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16003  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15610  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15610  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15515  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15515  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15902  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15902  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16115  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16115  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16303  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16303  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "3881  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3881  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "15703  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15703  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16309  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16309  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15803  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15803  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16202  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16202  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16101  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16101  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15503  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15503  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16221  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16221  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15603  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15603  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16305  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16305  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16215  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16215  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16417  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16417  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15915  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15915  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15714  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15714  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15706  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15706  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16110  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16110  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15703  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15703  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15603  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15603  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16221  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16221  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15806  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15806  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15507  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15507  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15715  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15715  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15505  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15505  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16115  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16115  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15715  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15715  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15614  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15614  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15714  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15714  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15810  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15810  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16105  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16105  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16404  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16404  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15514  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15514  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16408  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16408  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16212  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16212  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16106  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16106  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15606  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15606  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "0  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "0  TALFORD AVE, CLEVELAND, OH,"
+          },
+          {
+            "name": "16114  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16114  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16405  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16405  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16101  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16101  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15802  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15802  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16110  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16110  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16114  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16114  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15506  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15506  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "3853  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3853  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "15615  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15615  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15911  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15911  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16003  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16003  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16407  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16407  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16010  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16010  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16105  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16105  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16216  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16216  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16201  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16201  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16200  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16200  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15706  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15706  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15811  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15811  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16118  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16118  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15603  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15603  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16417  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16417  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15907  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15907  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15903  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15903  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15607  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15607  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16006  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16006  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15605  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15605  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15811  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15811  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16317  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16317  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16102  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16102  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16204  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16204  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16401  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16401  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15715  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15715  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15601  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15601  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16323  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16323  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15610  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15610  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15915  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15915  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15903  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15903  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15607  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15607  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15811  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15811  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15501  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15501  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15515  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15515  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15602  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15602  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16204  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16204  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16105  STOCKBRIDGE AVE, CLEVELAND,44128-2",
+            "code": "16105  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "3857  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3857  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "15510  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15510  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15914  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15914  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16106  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16106  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16007  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16007  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15711  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15711  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15511  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15511  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15710  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15710  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16315  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16315  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15610  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15610  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15710  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15710  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15701  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15701  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15611  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15611  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15914  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15914  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15502  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15502  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16413  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16413  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16313  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16313  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15711  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15711  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16319  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16319  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16109  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16109  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15802  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15802  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15602  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15602  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15506  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15506  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15509  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15509  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16006  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16006  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16416  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16416  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15706  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15706  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16312  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16312  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15907  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15907  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15706  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15706  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16400  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16400  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "3891  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3891  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "16205  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16205  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "3869  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3869  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "16308  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16308  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15702  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15702  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15702  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15702  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15803  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15803  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16217  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16217  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15903  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15903  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15810  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15810  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16412  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16412  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16120  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16120  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16412  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16412  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16400  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16400  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15907  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15907  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "0  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "0  DELREY AVE, CLEVELAND, OH, 4"
+          },
+          {
+            "name": "16412  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16412  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15714  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15714  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16400  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16400  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16201  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16201  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16309  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16309  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16405  STOCKBRIDGE AVE, CLEVELAND,44128-2",
+            "code": "16405  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "16321  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "16321  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15707  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15707  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15610  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15610  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15506  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15506  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16205  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16205  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15515  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15515  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15512  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15512  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16000  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16000  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "3897  E 155 ST, CLEVELAND, OH, 44128-2",
+            "code": "3897  E 155 ST, CLEVELAND, OH,"
+          },
+          {
+            "name": "16303  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "16303  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16404  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16404  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15700  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15700  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15614  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15614  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15907  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15907  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15715  STOCKBRIDGE AVE, CLEVELAND, 44128-2",
+            "code": "15715  STOCKBRIDGE AVE, CLEVELA"
+          },
+          {
+            "name": "15802  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "15802  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15915  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15915  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15514  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15514  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15911  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15911  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15709  BILTMORE AVE, CLEVELAND, OH, 44128-2",
+            "code": "15709  BILTMORE AVE, CLEVELAND,"
+          },
+          {
+            "name": "15602  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15602  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15806  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15806  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15603  DELREY AVE, CLEVELAND, OH, 44128-2",
+            "code": "15603  DELREY AVE, CLEVELAND, O"
+          },
+          {
+            "name": "15914  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15914  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "16404  WALDEN AVE, CLEVELAND, OH, 44128-2",
+            "code": "16404  WALDEN AVE, CLEVELAND, O"
+          },
+          {
+            "name": "16409  GLENDALE AVE, CLEVELAND, OH, 44128-2",
+            "code": "16409  GLENDALE AVE, CLEVELAND,"
+          },
+          {
+            "name": "16113  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "16113  TALFORD AVE, CLEVELAND,"
+          },
+          {
+            "name": "15906  TALFORD AVE, CLEVELAND, OH, 44128-2",
+            "code": "15906  TALFORD AVE, CLEVELAND,"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "how_long_have_you_lived_in_your",
+      "type": "esriFieldTypeString",
+      "alias": "How long have you lived in your home",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_how_long_have_you_lived_in_your",
+        "codedValues": [
+          {
+            "name": "0-3",
+            "code": "0-3"
+          },
+          {
+            "name": "4-10",
+            "code": "4-10"
+          },
+          {
+            "name": "10-20",
+            "code": "10-20"
+          },
+          {
+            "name": "20+",
+            "code": "20+"
+          },
+          {
+            "name": "0-3 Years",
+            "code": "0-3 Years"
+          },
+          {
+            "name": "4-10 Years",
+            "code": "4-10 Years"
+          },
+          {
+            "name": "10-20 Years",
+            "code": "10-20 Years"
+          },
+          {
+            "name": "20+ Years",
+            "code": "20+ Years"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "what_drew_you_here_originally",
+      "type": "esriFieldTypeString",
+      "alias": "What drew you here originally?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "what_has_changed_over_time",
+      "type": "esriFieldTypeString",
+      "alias": "In your experience, how has the neighborhood changed physically and socially since you've lived here?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "what_has_changed_over_the_last",
+      "type": "esriFieldTypeString",
+      "alias": "What has changed over the last 20 years?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "why_do_you_value_what_has_chang",
+      "type": "esriFieldTypeString",
+      "alias": "Do you value what has changed?  Why?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "what_makes_a_neighborhood_great",
+      "type": "esriFieldTypeString",
+      "alias": "What makes a neighborhood \"great\"?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "five_years_from_now_what_would",
+      "type": "esriFieldTypeString",
+      "alias": "Five years from now, what would make you proudest to be a member of this community?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "how_do_we_want_to_define_this_c",
+      "type": "esriFieldTypeString",
+      "alias": "How do we want to define this community for the next generation?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "are_there_other_community_value",
+      "type": "esriFieldTypeString",
+      "alias": "Are there other Community Values you'd like to share?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "untitled_question_14",
+      "type": "esriFieldTypeString",
+      "alias": "Untitled question 14",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "do_you_have_any_suggestions_on",
+      "type": "esriFieldTypeString",
+      "alias": "Do you have any suggestions on how you'd like to be engaged in the future? Please fill in preference information.",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_do_you_have_any_suggestions_on",
+        "codedValues": [
+          {
+            "name": "Email",
+            "code": "Email"
+          },
+          {
+            "name": "Phone",
+            "code": "Phone"
+          },
+          {
+            "name": "U. S. Mail",
+            "code": "U. S. Mail"
+          },
+          {
+            "name": "Social Media",
+            "code": "Social Media"
+          },
+          {
+            "name": "In person",
+            "code": "In person"
+          },
+          {
+            "name": "Other",
+            "code": "other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "do_you_have_any_suggestions_on_",
+      "type": "esriFieldTypeString",
+      "alias": "Other - Do you have any suggestions on how you'd like to be engaged in the future? Please fill in preference information.",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "enter_contact_info",
+      "type": "esriFieldTypeString",
+      "alias": "Enter contact info",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "field_18",
+      "type": "esriFieldTypeString",
+      "alias": "Do you currently use the gracemount site?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_field_18",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "Yes"
+          },
+          {
+            "name": "No",
+            "code": "No"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "for_what_types_of_activities_do",
+      "type": "esriFieldTypeString",
+      "alias": "For what types of activities do you use the site currently?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "comments",
+      "type": "esriFieldTypeString",
+      "alias": "Comments?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "what_are_you_community_values",
+      "type": "esriFieldTypeString",
+      "alias": "What are your community values?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "what_neighborhood_amenities_do",
+      "type": "esriFieldTypeString",
+      "alias": "What neighborhood amenities do you currently utilize on a regular basis?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "field_25",
+      "type": "esriFieldTypeString",
+      "alias": "In what ways can new investments help support these community values?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "field_25_other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - In what ways can new investments help support these community values?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "untitled_question_28",
+      "type": "esriFieldTypeDate",
+      "alias": "Untitled question 28",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "untitled_question_22_other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - What are your community values?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "survey123_b80edeafa9154da0ba87bc23872dbe18_SURVEY_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__survey12__5242E6321EBC8E5C",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 1000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Create,Editing"
+}

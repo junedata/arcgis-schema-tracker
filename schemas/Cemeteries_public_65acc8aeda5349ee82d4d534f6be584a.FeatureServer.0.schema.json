@@ -1,0 +1,655 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Cemeteries",
+  "type": "Feature Layer",
+  "serviceItemId": "d1fc3cb80d5a4628b406318f7ed3d741",
+  "cacheMaxAge": 300,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "name",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758125986718,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -9109133.669055017,
+    "ymin": 5066585.673102195,
+    "xmax": -9074447.6664,
+    "ymax": 5107611.462916443,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+          38,
+          115,
+          0,
+          63
+        ],
+        "outline": {
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "color": [
+            38,
+            115,
+            0,
+            255
+          ],
+          "width": 4
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "labelExpressionInfo": {
+          "expression": "$feature.facilityid",
+          "title": "Custom"
+        },
+        "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+        "multiPart": "labelLargest",
+        "allowOverrun": true,
+        "deconflictionStrategy": "dynamic",
+        "repeatLabel": false,
+        "stackLabel": true,
+        "stackAlignment": "dynamic",
+        "removeDuplicates": "none",
+        "stackRowLength": 24,
+        "useCodedValues": true,
+        "maxScale": "NaN",
+        "minScale": "NaN",
+        "name": "Cemeteries",
+        "priority": -1,
+        "symbol": {
+          "type": "esriTS",
+          "color": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "backgroundColor": null,
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "verticalAlignment": "bottom",
+          "horizontalAlignment": "left",
+          "rightToLeft": false,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "kerning": true,
+          "haloColor": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "haloSize": 1,
+          "font": {
+            "family": "AvenirNext LT Pro Medium",
+            "size": 16,
+            "style": "normal",
+            "weight": "bold",
+            "decoration": "none"
+          }
+        }
+      }
+    ]
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "GlobalID",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "facilityid",
+      "type": "esriFieldTypeString",
+      "alias": "Facility ID",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Three-letter facility code, i.e. the cemetery facility\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "name",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of the cemetery\",\"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "fulladdr",
+      "type": "esriFieldTypeString",
+      "alias": "Full Address",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Address of City cemetery facility\",\"fieldValueType\":\"locationOrPlaceName\"}"
+    },
+    {
+      "name": "municipality",
+      "type": "esriFieldTypeString",
+      "alias": "Municipality",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "zip",
+      "type": "esriFieldTypeString",
+      "alias": "Zip Code",
+      "sqlType": "sqlTypeOther",
+      "length": 5,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "operhours",
+      "type": "esriFieldTypeString",
+      "alias": "Operational Hours",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Operating hours for visitation\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "pocphone",
+      "type": "esriFieldTypeString",
+      "alias": "Contact Phone",
+      "sqlType": "sqlTypeOther",
+      "length": 15,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "earliest",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Earliest Burial",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Year of earliest burial on file for this cemetery\",\"fieldValueType\":\"dateAndTime\"}"
+    },
+    {
+      "name": "notes",
+      "type": "esriFieldTypeString",
+      "alias": "Narrative",
+      "sqlType": "sqlTypeOther",
+      "length": 4000,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Background about this facility\",\"fieldValueType\":\"description\"}"
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "numgraves",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Gravesites",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "status",
+      "type": "esriFieldTypeString",
+      "alias": "Status",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cemeteries_status_7433ce30-3f62-486b-894e-f66439ab82ff",
+        "codedValues": [
+          {
+            "name": "Selling Lots",
+            "code": "Active"
+          },
+          {
+            "name": "Not Selling Lots",
+            "code": "Inactive"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Whether or not a City cemetery is selling lots\",\"fieldValueType\":\"typeOrCategory\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__Cemeteri__F4B70D8546AAD911",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "FDO_GlobalID",
+      "fields": "GlobalID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Cemeteries_65acc8aeda5349ee82d4d534f6be584a_CEMETERIES_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Cemeteries",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "notes": null,
+          "facilityid": null,
+          "name": null,
+          "fulladdr": null,
+          "municipality": null,
+          "zip": null,
+          "agency": null,
+          "agencyurl": null,
+          "ownedby": null,
+          "maintby": null,
+          "operhours": null,
+          "pocname": null,
+          "pocphone": null,
+          "pocemail": null,
+          "numgraves": null,
+          "earliest": null,
+          "veteran": null,
+          "historic": null,
+          "imageurl": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

@@ -1,0 +1,1082 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "survey",
+  "type": "Feature Layer",
+  "serviceItemId": "001b205156df4a82beacaed46b03bc50",
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "CreationDate",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": false,
+    "allowOthersToDelete": false,
+    "allowOthersToUpdate": false,
+    "allowAnonymousToQuery": false,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1756320281040,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -14999999.99999442,
+    "ymin": -1e-08,
+    "xmax": 1e-08,
+    "ymax": 6499999.999996737,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                199,
+                182,
+                255
+              ],
+              "toColor": [
+                252,
+                199,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                252,
+                180,
+                255
+              ],
+              "toColor": [
+                179,
+                252,
+                180,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                182,
+                185,
+                252,
+                255
+              ],
+              "toColor": [
+                182,
+                185,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                192,
+                245,
+                252,
+                255
+              ],
+              "toColor": [
+                192,
+                245,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                182,
+                228,
+                255
+              ],
+              "toColor": [
+                252,
+                182,
+                228,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                248,
+                184,
+                255
+              ],
+              "toColor": [
+                252,
+                248,
+                184,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                210,
+                252,
+                217,
+                255
+              ],
+              "toColor": [
+                210,
+                252,
+                217,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                215,
+                222,
+                252,
+                255
+              ],
+              "toColor": [
+                215,
+                222,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                212,
+                231,
+                255
+              ],
+              "toColor": [
+                252,
+                212,
+                231,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                231,
+                184,
+                252,
+                255
+              ],
+              "toColor": [
+                231,
+                184,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                227,
+                189,
+                255
+              ],
+              "toColor": [
+                252,
+                227,
+                189,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                219,
+                252,
+                189,
+                255
+              ],
+              "toColor": [
+                219,
+                252,
+                189,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                187,
+                203,
+                255
+              ],
+              "toColor": [
+                252,
+                187,
+                203,
+                255
+              ]
+            }
+          ]
+        }
+      },
+      "type": "uniqueValue",
+      "field1": "status",
+      "fieldDelimiter": ",",
+      "uniqueValueInfos": [
+        {
+          "value": "Submitted",
+          "symbol": {
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriPMS",
+            "url": "18957009-7ca0-45af-950a-10b4c267ea99",
+            "imageData": "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",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 15
+          },
+          "label": "Submitted"
+        },
+        {
+          "value": "Received",
+          "symbol": {
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriPMS",
+            "url": "52befd11-6b52-410a-91e5-3e43445bf1bb",
+            "imageData": "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",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 15
+          },
+          "label": "Received"
+        },
+        {
+          "value": "In Progress",
+          "symbol": {
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriPMS",
+            "url": "dd66e8c0-d4ec-4adb-930e-a2705544cc59",
+            "imageData": "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",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 15
+          },
+          "label": "In Progress"
+        },
+        {
+          "value": "Completed",
+          "label": "Completed",
+          "symbol": {
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriPMS",
+            "url": "aa836292-51e3-441f-9018-85d4668d9a59",
+            "imageData": "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",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 15
+          }
+        }
+      ]
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "propagateVisibleFields": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "status",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "pocfirstname",
+      "type": "esriFieldTypeString",
+      "alias": "First Name",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "poclastname",
+      "type": "esriFieldTypeString",
+      "alias": "Last Name",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "pocphone",
+      "type": "esriFieldTypeString",
+      "alias": "Phone Number",
+      "sqlType": "sqlTypeOther",
+      "length": 15,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "pocemail",
+      "type": "esriFieldTypeString",
+      "alias": "Email",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "address",
+      "type": "esriFieldTypeString",
+      "alias": "Property Address",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "accountid",
+      "type": "esriFieldTypeString",
+      "alias": "Account Number",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "occupancytype",
+      "type": "esriFieldTypeString",
+      "alias": "Are you the homeowner?",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_occupancytype",
+        "codedValues": [
+          {
+            "name": "Owner",
+            "code": "Owner"
+          },
+          {
+            "name": "Renter / Tenant",
+            "code": "Renter"
+          },
+          {
+            "name": "Yes",
+            "code": "Yes"
+          },
+          {
+            "name": "No",
+            "code": "No"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "custmaterial",
+      "type": "esriFieldTypeString",
+      "alias": "Water Service Line Material",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_custmaterial",
+        "codedValues": [
+          {
+            "name": "Unknown",
+            "code": "0"
+          },
+          {
+            "name": "Lead",
+            "code": "109"
+          },
+          {
+            "name": "Copper",
+            "code": "84"
+          },
+          {
+            "name": "Plastic",
+            "code": "94"
+          },
+          {
+            "name": "Galvanized",
+            "code": "89"
+          },
+          {
+            "name": "Other",
+            "code": "111"
+          },
+          {
+            "name": "Copper",
+            "code": "Copper"
+          },
+          {
+            "name": "Lead",
+            "code": "Lead"
+          },
+          {
+            "name": "Galvanized",
+            "code": "Galvanized"
+          },
+          {
+            "name": "Plastic",
+            "code": "Plastic"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "custinstalldate",
+      "type": "esriFieldTypeDate",
+      "alias": "Water Service Line Install Date",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "infosource",
+      "type": "esriFieldTypeString",
+      "alias": "Source of Information",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_infosource",
+        "codedValues": [
+          {
+            "name": "Visual Inspection",
+            "code": "Visual Inspection"
+          },
+          {
+            "name": "Lead Test Kit",
+            "code": "Lead Test Kit"
+          },
+          {
+            "name": "Plumbing Records",
+            "code": "Plumbing Records"
+          },
+          {
+            "name": "Scratch Test",
+            "code": "Scratch Test"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "status",
+      "type": "esriFieldTypeString",
+      "alias": "Status",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_status_1367023b-dcb4-4bb1-85a2-bc148d420328",
+        "codedValues": [
+          {
+            "name": "Submitted",
+            "code": "Submitted"
+          },
+          {
+            "name": "Received",
+            "code": "Received"
+          },
+          {
+            "name": "In Progress",
+            "code": "In Progress"
+          },
+          {
+            "name": "Completed",
+            "code": "Completed"
+          }
+        ]
+      },
+      "defaultValue": "Submitted"
+    },
+    {
+      "name": "resolutiondt",
+      "type": "esriFieldTypeDate",
+      "alias": "Completed On",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "custmaterial_other",
+      "type": "esriFieldTypeString",
+      "alias": "Other - Water Service Line Material",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "survey123_32d89d51b0f441319e5a56224b8319e7_SURVEY_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__survey12__5242E63241FF47DB",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": "Submitted",
+      "name": "Submitted",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Submitted",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "status": "Submitted",
+              "pocfirstname": null,
+              "poclastname": null,
+              "pocphone": null,
+              "pocemail": null,
+              "address": null,
+              "accountid": null,
+              "occupancytype": null,
+              "custmaterial": null,
+              "custinstalldate": null,
+              "infosource": null,
+              "resolutiondt": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Received",
+      "name": "Received",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Received",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "status": "Received",
+              "pocfirstname": null,
+              "poclastname": null,
+              "pocphone": null,
+              "pocemail": null,
+              "address": null,
+              "accountid": null,
+              "occupancytype": null,
+              "custmaterial": null,
+              "custinstalldate": null,
+              "infosource": null,
+              "resolutiondt": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "In Progress",
+      "name": "In Progress",
+      "domains": {},
+      "templates": [
+        {
+          "name": "In Progress",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "status": "In Progress",
+              "pocfirstname": null,
+              "poclastname": null,
+              "pocphone": null,
+              "pocemail": null,
+              "address": null,
+              "accountid": null,
+              "occupancytype": null,
+              "custmaterial": null,
+              "custinstalldate": null,
+              "infosource": null,
+              "resolutiondt": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Completed",
+      "name": "Completed",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Completed",
+          "description": "Completed",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "status": "Completed",
+              "pocfirstname": null,
+              "poclastname": null,
+              "pocphone": null,
+              "pocemail": null,
+              "address": null,
+              "accountid": null,
+              "occupancytype": null,
+              "custmaterial": null,
+              "custinstalldate": null,
+              "infosource": null,
+              "resolutiondt": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 1000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Create,Editing"
+}

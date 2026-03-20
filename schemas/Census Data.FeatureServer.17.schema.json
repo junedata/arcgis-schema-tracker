@@ -1,0 +1,1516 @@
+{
+  "currentVersion": 12,
+  "id": 17,
+  "name": "Housing Units in Structure",
+  "type": "Feature Layer",
+  "serviceItemId": "89c639f534684dbaab9218d2227580ba",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "This layer shows housing units in structure by tenure (owner or renter).&nbsp;This is shown by tract, county, and state boundaries.&nbsp;This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis.&nbsp;&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This layer is symbolized by the percent of housing units that are single-family detached homes.&nbsp;To see the full list of attributes available in this service, go to the &amp;quot;Data&amp;quot; tab, and choose &amp;quot;Fields&amp;quot; at the top right.&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Current Vintage&lt;/b&gt;:&nbsp;&lt;span style=\"font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;2019-2023&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ACS Table(s)&lt;/b&gt;: B25024, B25032 (Not all lines of ACS table B25032 are available in this layer.)&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data downloaded from&lt;/b&gt;:&nbsp;&lt;a&gt;Census Bureau's API for American Community Survey&lt;/a&gt;&nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;The United States Census Bureau's American Community Survey (ACS):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;About the Survey&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Geography &amp;amp; ACS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Technical Documentation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;News &amp;amp; Updates&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;This ready-to-use layer can be used within ArcGIS Pro, ArcGIS Online, its configurable apps, dashboards, Story Maps, custom apps, and mobile apps. Data can also be exported for offline workflows. For more information about ACS layers, visit the&nbsp;&lt;a&gt;FAQ&lt;/a&gt;. Please cite the Census and ACS when using this data.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Data Note from the Census:&lt;/b&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error. The value shown here is the 90 percent margin of error. The margin of error can be interpreted as providing a 90 percent probability that the interval defined by the estimate minus the margin of error and the estimate plus the margin of error (the lower and upper confidence bounds) contains the true value. In addition to sampling variability, the ACS estimates are subject to nonsampling error (for a discussion of nonsampling variability, see&nbsp;&lt;a&gt;Accuracy of the Data&lt;/a&gt;).&nbsp; The effect of nonsampling error is not represented in these tables.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data Processing Notes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This layer is updated automatically when the most current vintage of ACS data is released each year, usually in December. The layer always contains the latest available ACS 5-year estimates. It is updated annually within days of the Census Bureau's release schedule.&nbsp;&lt;a&gt;Click here&lt;/a&gt;&nbsp;to learn more about ACS data releases.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Boundaries come from the &lt;/span&gt;&lt;a&gt;&lt;span&gt;&lt;span&gt;US Census TIGER geodatabases&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span&gt; specifically, the National Sub-State Geography Database (named tlgdb_(year)_&lt;/span&gt;&lt;span&gt;a_us_substategeo.gdb&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt;. Boundaries are updated at the same time as the data updates (annually), and the boundary vintage appropriately matches the data vintage &lt;/span&gt;&lt;/span&gt;&lt;a&gt;&lt;span&gt;&lt;span&gt;as specified by the Census&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span&gt;. These are Census boundaries with water and/or coastlines &lt;/span&gt;&lt;span&gt;erased &lt;/span&gt;&lt;span&gt;for cartographic &lt;/span&gt;&lt;span&gt;and mapping &lt;/span&gt;&lt;span&gt;purposes. For census tracts, the water cutouts are derived from a subset of the&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;a&gt;2020 Areal Hydrography boundaries offered by TIGER&lt;/a&gt;. Water bodies and rivers which are 50 million square meters or larger (mid to large sized water bodies)&lt;/span&gt;&lt;span&gt; are erased from the tract level boundaries&lt;/span&gt;&lt;span&gt;, a&lt;/span&gt;&lt;span&gt;s well as&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;additional &lt;/span&gt;&lt;span&gt;important &lt;/span&gt;&lt;span&gt;features&lt;/span&gt;&lt;span&gt;. For state and county boundaries, the water and coastlines are derived from the coastlines of the &lt;/span&gt;&lt;span&gt;2022 &lt;/span&gt;&lt;span&gt;500k &lt;/span&gt;&lt;/span&gt;&lt;a&gt;&lt;span&gt;&lt;span&gt;TIGER Cartographic Boundary Shapefiles&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt; These are erased to more accurately portray the coastlines and Great Lakes.&lt;/span&gt;&lt;span&gt; The original AWATER and ALAND fields are still available as attributes within the data table (units are square meters).&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;The States layer contains 52 records - all US states, Washington D.C., and Puerto Rico&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Census tracts with no population that occur in areas of water, such as oceans, are removed from this data service (Census Tracts beginning with 99).&lt;/li&gt;&lt;li&gt;Percentages and derived counts, and associated margins of error, are calculated values (that can be identified by the &amp;quot;_calc_&amp;quot; stub in the field name), and abide by the specifications&nbsp;&lt;a&gt;defined by the American Community Survey&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Field alias names were created based on the Table Shells file available from the&nbsp;&lt;a&gt;American Community Survey Summary File Documentation page&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Negative values (e.g., -4444...) have been set to null, with the exception of -5555... which has been set to zero.&nbsp;These negative values exist in the raw API data to indicate the following situations:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;Either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The median falls in the lowest interval of an open-ended distribution, or in the upper interval of an open-ended distribution. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;The estimate is controlled. A statistical test for sampling variability is not appropriate.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The data for this geographic area cannot be displayed because the number of sample cases is too small.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758912812184,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": null,
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "colorInfo",
+          "field": "B25024_calc_pctSFDE",
+          "valueExpression": null,
+          "stops": [
+            {
+              "value": 34,
+              "color": [
+                255,
+                236,
+                153,
+                255
+              ],
+              "label": "< 34%"
+            },
+            {
+              "value": 48,
+              "color": [
+                204,
+                190,
+                106,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 62,
+              "color": [
+                121,
+                154,
+                150,
+                255
+              ],
+              "label": "62% - national average"
+            },
+            {
+              "value": 75,
+              "color": [
+                61,
+                109,
+                162,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 89,
+              "color": [
+                58,
+                77,
+                107,
+                255
+              ],
+              "label": "> 89%"
+            }
+          ]
+        }
+      ],
+      "authoringInfo": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "minSliderValue": 0,
+            "maxSliderValue": 100,
+            "theme": "high-to-low"
+          }
+        ]
+      },
+      "type": "classBreaks",
+      "field": "B25024_calc_pctSFDE",
+      "minValue": -9007199254740991,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "color": [
+              170,
+              170,
+              170,
+              255
+            ],
+            "outline": {
+              "color": [
+                133,
+                133,
+                133,
+                36
+              ],
+              "width": 0.75,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "type": "esriSFS",
+            "style": "esriSFSSolid"
+          },
+          "classMaxValue": 9007199254740991
+        }
+      ],
+      "defaultSymbol": {
+        "color": [
+          214,
+          214,
+          214,
+          255
+        ],
+        "outline": {
+          "color": null,
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSNull"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "defaultLabel": "No Value"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"An ObjectID is a unique, not null integer field used to uniquely identify rows in tables in a geographical table.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "Geographic Identifier - FIPS Code",
+      "sqlType": "sqlTypeOther",
+      "length": 11,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Geographic Identifier, or GEOID is the numeric code used to uniquely identify all administrative/legal and statistical geographic areas for which the Census Bureau tabulates data.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "ALAND",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Land (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of land in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "AWATER",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Water (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of water in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of this geographical area\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"State in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"County in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "B25024_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Housing Units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. \", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total housing units - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Total Housing Units (90% confidence). A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. \", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 1 unit in structure, detached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Mobile homes to which one or more permanent rooms have been added or built also are included.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 1 unit in structure, detached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 1 unit in structure, detached (90% confidence). This is a 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Mobile homes to which one or more permanent rooms have been added or built also are included.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 1 unit in structure, attached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 1 unit in structure, attached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 1 unit in structure, attached (90% confidence). This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 2 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 2 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 2 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 2 units in structure (90% confidence). These are units in structures containing 2 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 3 or 4 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 3 or 4 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 3 or 4 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 3 or 4 units in structure (90% confidence). These are units in structures containing 3 or 4 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 5 to 9 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 5 to 9 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_006M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 5 to 9 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 5 to 9 units in structure (90% confidence). These are units in structures containing 5 to 9 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_007E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 10 to 19 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 10 to 19 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_007M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 10 to 19 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 10 to 19 units in structure (90% confidence). These are units in structures containing 10 to 19 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_008E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 20 to 49 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 20 to 49 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_008M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 20 to 49 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 20 to 49 units in structure (90% confidence). These are units in structures containing 20 to 49 apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_009E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Housing units with 50 or more units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 50 or more apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Housing units with 50 or more units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Housing units with 50 or more units in structure (90% confidence). These are units in structures containing 50 or more apartments.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Mobile homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Vacant mobile homes are included provided they are intended for occupancy on the site where they stand. Vacant mobile homes on dealers' sales lots, at the factory, or in storage yards are excluded from the housing inventory.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Mobile homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Mobile home (90% confidence). Vacant mobile homes are included provided they are intended for occupancy on the site where they stand. Vacant mobile homes on dealers' sales lots, at the factory, or in storage yards are excluded from the housing inventory.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_011E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Boat, RV, van, etc.",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Boat, RV, van, etc. - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Boat, RV, van, etc. (90% confidence). This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for. Mobile homes occupied by owners with installment loan balances also are included in this category.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-Occupied Housing Units (90% confidence). A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for. Mobile homes occupied by owners with installment loan balances also are included in this category.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 1 unit in structure, detached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Mobile homes to which one or more permanent rooms have been added or built also are included. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 1 unit in structure, detached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 1 unit in structure, detached (90% confidence). This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 1 unit in structure, attached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof.  A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 1 unit in structure, attached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 1 unit in structure, attached (90% confidence). This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof.  A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 2 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 2 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 2 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 2 units in structure (90% confidence). These are units in structures containing 2 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 3 or 4 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 3 or 4 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_006M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 3 or 4 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 3 or 4 units in structure (90% confidence). These are units in structures containing 3 or 4 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_007E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 5 to 9 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 5 to 9 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_007M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 5 to 9 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 5 to 9 units in structure (90% confidence). These are units in structures containing 5 to 9 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_008E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 10 to 19 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 10 to 19 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_008M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 10 to 19 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 10 to 19 units in structure (90% confidence). These are units in structures containing 10 to 19 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_009E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 20 to 49 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 20 to 49 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 20 to 49 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 20 to 49 units in structure (90% confidence). These are units in structures containing 20 to 49 apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied housing units with 50 or more units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 50 or more apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied housing units with 50 or more units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied housing units with 50 or more units in structure (90% confidence). These are units in structures containing 50 or more apartments. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_011E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied Mobile homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for. Mobile homes occupied by owners with installment loan balances also are included in this category.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied Mobile homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied Mobile homes (90% confidence). A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for. Mobile homes occupied by owners with installment loan balances also are included in this category.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_012E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Owner-occupied Boat, RV, van, etc.",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_012M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Owner-occupied Boat, RV, van, etc. - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Owner-occupied Boat, RV, van, etc. (90% confidence). This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. A housing unit is owner-occupied if the owner or co-owner lives in the unit, even if it is mortgaged or not fully paid for.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_013E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_013M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units (90% confidence). All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_014E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 1 unit in structure, detached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Mobile homes to which one or more permanent rooms have been added or built also are included.  All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_014M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 1 unit in structure, detached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 1 unit in structure, detached (90% confidence). This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_015E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 1 unit in structure, attached",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_015M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 1 unit in structure, attached - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 1 unit in structure, attached (90% confidence). This is a 1-unit structure that has one or more walls extending from ground to roof separating it from adjoining structures. In row houses (sometimes called townhouses), double houses, or houses attached to nonresidential structures, each house is a separate, attached structure if the dividing or common wall goes from ground to roof. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_016E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 2 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 2 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_016M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 2 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 2 units in structure (90% confidence). These are units in structures containing 2 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_017E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 3 or 4 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 3 or 4 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_017M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 3 or 4 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 3 or 4 units in structure (90% confidence). These are units in structures containing 3 or 4 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_018E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 5 to 9 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 5 to 9 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_018M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 5 to 9 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 5 to 9 units in structure (90% confidence). These are units in structures containing 5 to 9 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_019E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 10 to 19 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 10 to 19 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_019M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 10 to 19 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 10 to 19 units in structure (90% confidence). These are units in structures containing 10 to 19 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_020E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 20 to 49 units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 20 to 49 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_020M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 20 to 49 units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 20 to 49 units in structure (90% confidence). These are units in structures containing 20 to 49 apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_021E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied housing units with 50 or more units in structure",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are units in structures containing 50 or more apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_021M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied housing units with 50 or more units in structure - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied housing units with 50 or more units in structure (90% confidence). These are units in structures containing 50 or more apartments. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_022E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied Mobile homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_022M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied Mobile homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied Mobile homes (90% confidence). All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_023E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Renter-occupied Boat, RV, van, etc.",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_023M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Renter-occupied Boat, RV, van, etc. - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Renter-occupied Boat, RV, van, etc. (90% confidence). This category is for any living quarters occupied as a housing unit that does not fit the previous categories. Examples that fit this category are houseboats, railroad cars, campers, and vans. Recreational vehicles, boats, vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25024_calc_pctSFDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of housing units that are single-family detached homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. Esri calculated field: round(100.0 * B25024_002E / B25024_001E,1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25024_calc_pctSFDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of housing units that are single-family detached homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of housing units that are single-family detached homes (90% confidence). 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. Esri calculated field: (100.0/B25024_001E)*(sqrt((B25024_002M)^2-1.0*((B25024_002E / B25024_001E)^2)*(B25024_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25024_calc_pctMHE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of housing units that are mobile homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Vacant mobile homes are included provided they are intended for occupancy on the site where they stand. Vacant mobile homes on dealers' sales lots, at the factory, or in storage yards are excluded from the housing inventory. A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. Esri calculated field: round(100.0 * B25024_010E / B25024_001E,1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25024_calc_pctMHM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of housing units that are mobile homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of housing units that are mobile homes (90% confidence). Vacant mobile homes are included provided they are intended for occupancy on the site where they stand. Vacant mobile homes on dealers' sales lots, at the factory, or in storage yards are excluded from the housing inventory. A housing unit may be a house, an apartment, a mobile home, or rooms which have direct access from outside the building or through a common hall. Boats, recreational vehicles (RVs), vans, tents, railroad cars, and the like are included only if they are occupied as someone's current place of residence. Esri calculated field: (100.0/B25024_001E)*(sqrt((B25024_010M)^2-1.0*((B25024_010E / B25024_001E)^2)*(B25024_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25032_calc_numOSFDE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Count of occupied single-family detached homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"A housing unit is classified as occupied if it is the current place of residence of the person or group of people living in it at the time of interview, or if the occupants are only temporarily absent from the residence for two months or less, that is, away on vacation or a business trip. 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Esri calculated field: B25032_003E + B25032_014E\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_calc_numOSFDM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Count of occupied single-family detached homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Count of occupied single-family detached homes (90% confidence). A housing unit is classified as occupied if it is the current place of residence of the person or group of people living in it at the time of interview, or if the occupants are only temporarily absent from the residence for two months or less, that is, away on vacation or a business trip. 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Esri calculated field: sqrt(B25032_003M^2 + B25032_014M^2)\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_calc_pctOSFDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of occupied single-family detached homes that are rented",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied. 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Esri calculated field: round(100.0*B25032_014E / B25032_calc_numOSFDE,1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25032_calc_pctOSFDM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of occupied single-family detached homes that are rented - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of occupied single-family detached homes that are rented (90% confidence). All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied. 1-unit structure detached from any other house, that is, with open space on all four sides. Such structures are considered detached even if they have an adjoining shed or garage. A one-family house that contains a business is considered detached as long as the building has open space on all four sides. Esri calculated field: (100.0/B25032_calc_numOSFDE)*(sqrt((B25032_014M)^2-1.0*((B25032_014E / B25032_calc_numOSFDE)^2)*(B25032_calc_numOSFDM)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25032_calc_numOMHE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Count of occupied mobile homes",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"A housing unit is classified as occupied if it is the current place of residence of the person or group of people living in it at the time of interview, or if the occupants are only temporarily absent from the residence for two months or less, that is, away on vacation or a business trip. Esri calculated field: B25032_011E + B25032_022E\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_calc_numOMHM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Count of occupied mobile homes - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Count of occupied mobile homes (90% confidence). A housing unit is classified as occupied if it is the current place of residence of the person or group of people living in it at the time of interview, or if the occupants are only temporarily absent from the residence for two months or less, that is, away on vacation or a business trip. Esri calculated field: sqrt(B25032_011M^2 + B25032_022M^2)\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B25032_calc_pctOMHE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of occupied mobile homes that are rented",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied. Esri calculated field: round(100.0 * B25032_022E / B25032_calc_numOMHE,1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B25032_calc_pctOMHM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of occupied mobile homes that are rented - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of occupied mobile homes that are rented (90% confidence). All occupied housing units which are not owner-occupied, whether they are rented or occupied without payment of rent, are classified as renter-occupied. Esri calculated field: (100.0/B25032_calc_numOMHE)*(sqrt((B25032_022M)^2-1.0*((B25032_022E / B25032_calc_numOMHE)^2)*(B25032_calc_numOMHM)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "Year",
+      "type": "esriFieldTypeString",
+      "alias": "Year",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACEFP",
+      "type": "esriFieldTypeString",
+      "alias": "Place FIPS",
+      "sqlType": "sqlTypeOther",
+      "length": 7,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The FIPS Code corresponding to the census designated place in which each census tract resides.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "PLACENAME",
+      "type": "esriFieldTypeString",
+      "alias": "Place Name",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The name of the census designated place in which the census tract falls.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeString",
+      "alias": "WARD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "type": "esriFieldTypeString",
+      "alias": "NEIGHBORHOOD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Census_Data_TRACT16_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__Census_D__F4B70D859B24E947",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Tract",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "B25032_calc_pctOMHE": null,
+          "B25032_calc_pctOMHM": null,
+          "GEOID": null,
+          "ALAND": null,
+          "AWATER": null,
+          "NAME": null,
+          "State": null,
+          "County": null,
+          "B25024_001E": null,
+          "B25024_001M": null,
+          "B25024_002E": null,
+          "B25024_002M": null,
+          "B25024_003E": null,
+          "B25024_003M": null,
+          "B25024_004E": null,
+          "B25024_004M": null,
+          "B25024_005E": null,
+          "B25024_005M": null,
+          "B25024_006E": null,
+          "B25024_006M": null,
+          "B25024_007E": null,
+          "B25024_007M": null,
+          "B25024_008E": null,
+          "B25024_008M": null,
+          "B25024_009E": null,
+          "B25024_009M": null,
+          "B25024_010E": null,
+          "B25024_010M": null,
+          "B25024_011E": null,
+          "B25024_011M": null,
+          "B25032_002E": null,
+          "B25032_002M": null,
+          "B25032_003E": null,
+          "B25032_003M": null,
+          "B25032_004E": null,
+          "B25032_004M": null,
+          "B25032_005E": null,
+          "B25032_005M": null,
+          "B25032_006E": null,
+          "B25032_006M": null,
+          "B25032_007E": null,
+          "B25032_007M": null,
+          "B25032_008E": null,
+          "B25032_008M": null,
+          "B25032_009E": null,
+          "B25032_009M": null,
+          "B25032_010E": null,
+          "B25032_010M": null,
+          "B25032_011E": null,
+          "B25032_011M": null,
+          "B25032_012E": null,
+          "B25032_012M": null,
+          "B25032_013E": null,
+          "B25032_013M": null,
+          "B25032_014E": null,
+          "B25032_014M": null,
+          "B25032_015E": null,
+          "B25032_015M": null,
+          "B25032_016E": null,
+          "B25032_016M": null,
+          "B25032_017E": null,
+          "B25032_017M": null,
+          "B25032_018E": null,
+          "B25032_018M": null,
+          "B25032_019E": null,
+          "B25032_019M": null,
+          "B25032_020E": null,
+          "B25032_020M": null,
+          "B25032_021E": null,
+          "B25032_021M": null,
+          "B25032_022E": null,
+          "B25032_022M": null,
+          "B25032_023E": null,
+          "B25032_023M": null,
+          "B25024_calc_pctSFDE": null,
+          "B25024_calc_pctSFDM": null,
+          "B25024_calc_pctMHE": null,
+          "B25024_calc_pctMHM": null,
+          "B25032_calc_numOSFDE": null,
+          "B25032_calc_numOSFDM": null,
+          "B25032_calc_pctOSFDE": null,
+          "B25032_calc_pctOSFDM": null,
+          "B25032_calc_numOMHE": null,
+          "B25032_calc_numOMHM": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

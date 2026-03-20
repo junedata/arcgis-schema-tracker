@@ -1,0 +1,2514 @@
+{
+  "currentVersion": 12,
+  "id": 5,
+  "name": "Zoning",
+  "type": "Feature Layer",
+  "serviceItemId": "74ea2fd993d14dc5a77c7a5e0cffcb61",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "ZONE_CODE",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1763637489419,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriFeet"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2138853.1968963444,
+    "ymin": 628738.1028034985,
+    "xmax": 2233225.2758683413,
+    "ymax": 705609.3348875046,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "ZONE_USE",
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "label": "Downtown Residential",
+              "description": "Downtown Residential",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  137,
+                  68,
+                  68,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    52,
+                    52,
+                    52,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Downtown Residential"
+                ]
+              ]
+            },
+            {
+              "label": "General Industry",
+              "description": "General Industry",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  194,
+                  158,
+                  215,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "General Industry"
+                ]
+              ]
+            },
+            {
+              "label": "General Retail Business",
+              "description": "General Retail Business",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  124,
+                  107,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "General Retail Business"
+                ]
+              ]
+            },
+            {
+              "label": "Institutional-Research District",
+              "description": "Institutional-Research District",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  78,
+                  78,
+                  78,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    52,
+                    52,
+                    52,
+                    255
+                  ],
+                  "width": 1.8
+                }
+              },
+              "values": [
+                [
+                  "Institutional-Research District"
+                ]
+              ]
+            },
+            {
+              "label": "Limited Multi-Family",
+              "description": "Limited Multi-Family",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  137,
+                  112,
+                  68,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    52,
+                    52,
+                    52,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Limited Multi-Family"
+                ]
+              ]
+            },
+            {
+              "label": "Limited One Family",
+              "description": "Limited One Family",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  255,
+                  115,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    168,
+                    168,
+                    0,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Limited One Family"
+                ]
+              ]
+            },
+            {
+              "label": "Limited Retail Business",
+              "description": "Limited Retail Business",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  190,
+                  190,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    115,
+                    0,
+                    0,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Limited Retail Business"
+                ]
+              ]
+            },
+            {
+              "label": "Local Retail Business",
+              "description": "Local Retail Business",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  190,
+                  190,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Local Retail Business"
+                ]
+              ]
+            },
+            {
+              "label": "Midtown Mixed-Use District",
+              "description": "Midtown Mixed-Use District",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  247,
+                  165,
+                  0,
+                  255
+                ],
+                "outline": null
+              },
+              "values": [
+                [
+                  "Midtown Mixed-Use District"
+                ]
+              ]
+            },
+            {
+              "label": "Multi-Family",
+              "description": "Multi-Family",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  137,
+                  112,
+                  68,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Multi-Family"
+                ]
+              ]
+            },
+            {
+              "label": "One Family",
+              "description": "One Family",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  255,
+                  115,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "One Family"
+                ]
+              ]
+            },
+            {
+              "label": "Open Space Recreation",
+              "description": "Open Space Recreation",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  211,
+                  255,
+                  190,
+                  255
+                ],
+                "outline": null
+              },
+              "values": [
+                [
+                  "Open Space Recreation"
+                ]
+              ]
+            },
+            {
+              "label": "Parking District",
+              "description": "Parking District",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  130,
+                  130,
+                  130,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Parking District"
+                ]
+              ]
+            },
+            {
+              "label": "Residence Office",
+              "description": "Residence Office",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  190,
+                  232,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    52,
+                    52,
+                    52,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Residence Office"
+                ]
+              ]
+            },
+            {
+              "label": "Residence-Industry",
+              "description": "Residence-Industry",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  227,
+                  179,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    52,
+                    52,
+                    52,
+                    255
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Residence-Industry"
+                ]
+              ]
+            },
+            {
+              "label": "Semi Industry",
+              "description": "Semi Industry",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  215,
+                  239,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Semi-Industry"
+                ]
+              ]
+            },
+            {
+              "label": "Semi Industry",
+              "description": "Semi Industry",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  215,
+                  239,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Semi-Industry"
+                ]
+              ]
+            },
+            {
+              "label": "Shopping Center",
+              "description": "Shopping Center",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  0,
+                  197,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Shopping Center"
+                ]
+              ]
+            },
+            {
+              "label": "Townhouse",
+              "description": "Townhouse",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  138,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Townhouse"
+                ]
+              ]
+            },
+            {
+              "label": "Two Family",
+              "description": "Two Family",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  227,
+                  110,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Two Family"
+                ]
+              ]
+            },
+            {
+              "label": "University (College) Retail",
+              "description": "University (College) Retail",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  115,
+                  223,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "University (College) Retail"
+                ]
+              ]
+            },
+            {
+              "label": "Unrestricted Industry",
+              "description": "Unrestricted Industry",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  182,
+                  219,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Unrestricted Industry"
+                ]
+              ]
+            },
+            {
+              "label": "Urban Garden District",
+              "description": "Urban Garden District",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  56,
+                  168,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "width": 1.25
+                }
+              },
+              "values": [
+                [
+                  "Urban Garden District"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              68,
+              68,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                52,
+                52,
+                52,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Downtown Residential",
+          "label": "Downtown Residential"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              194,
+              158,
+              215,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "General Industry",
+          "label": "General Industry"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              124,
+              107,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "General Retail Business",
+          "label": "General Retail Business"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              78,
+              78,
+              78,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                52,
+                52,
+                52,
+                255
+              ],
+              "width": 1.8
+            }
+          },
+          "value": "Institutional-Research District",
+          "label": "Institutional-Research District"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              112,
+              68,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                52,
+                52,
+                52,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Limited Multi-Family",
+          "label": "Limited Multi-Family"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              255,
+              115,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                168,
+                168,
+                0,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Limited One Family",
+          "label": "Limited One Family"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              190,
+              190,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                115,
+                0,
+                0,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Limited Retail Business",
+          "label": "Limited Retail Business"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              190,
+              190,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Local Retail Business",
+          "label": "Local Retail Business"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              247,
+              165,
+              0,
+              255
+            ],
+            "outline": null
+          },
+          "value": "Midtown Mixed-Use District",
+          "label": "Midtown Mixed-Use District"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              112,
+              68,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Multi-Family",
+          "label": "Multi-Family"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              255,
+              115,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "One Family",
+          "label": "One Family"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              211,
+              255,
+              190,
+              255
+            ],
+            "outline": null
+          },
+          "value": "Open Space Recreation",
+          "label": "Open Space Recreation"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              130,
+              130,
+              130,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Parking District",
+          "label": "Parking District"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              190,
+              232,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                52,
+                52,
+                52,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Residence Office",
+          "label": "Residence Office"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              252,
+              227,
+              179,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                52,
+                52,
+                52,
+                255
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Residence-Industry",
+          "label": "Residence-Industry"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              215,
+              239,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Semi-Industry",
+          "label": "Semi Industry"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              215,
+              239,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Semi-Industry",
+          "label": "Semi Industry"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              0,
+              197,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Shopping Center",
+          "label": "Shopping Center"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              138,
+              0,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Townhouse",
+          "label": "Townhouse"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              227,
+              110,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Two Family",
+          "label": "Two Family"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              115,
+              223,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "University (College) Retail",
+          "label": "University (College) Retail"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              182,
+              219,
+              252,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Unrestricted Industry",
+          "label": "Unrestricted Industry"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              56,
+              168,
+              0,
+              255
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "width": 1.25
+            }
+          },
+          "value": "Urban Garden District",
+          "label": "Urban Garden District"
+        }
+      ],
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 45,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "ZONE_USE",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ZONE_CODE",
+      "type": "esriFieldTypeString",
+      "alias": "ZONE_CODE",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ZONE_DIST",
+      "type": "esriFieldTypeString",
+      "alias": "ZONE_DIST",
+      "sqlType": "sqlTypeOther",
+      "length": 4,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ZONE_HGT",
+      "type": "esriFieldTypeString",
+      "alias": "ZONE_HGT",
+      "sqlType": "sqlTypeOther",
+      "length": 2,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ZONE_USE",
+      "type": "esriFieldTypeString",
+      "alias": "ZONE_USE",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ORD_NO_1",
+      "type": "esriFieldTypeString",
+      "alias": "ORD_NO_1",
+      "sqlType": "sqlTypeOther",
+      "length": 254,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "RuleID",
+      "type": "esriFieldTypeInteger",
+      "alias": "RuleID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Planning_Zoning_Rep_3_Rules",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Representation rules",
+        "codedValues": [
+          {
+            "name": "<all other values>",
+            "code": 1
+          },
+          {
+            "name": "Downtown Residential",
+            "code": 2
+          },
+          {
+            "name": "General Industry",
+            "code": 3
+          },
+          {
+            "name": "General Retail Business",
+            "code": 4
+          },
+          {
+            "name": "Institutional-Research District",
+            "code": 5
+          },
+          {
+            "name": "Limited Multi-Family",
+            "code": 6
+          },
+          {
+            "name": "Limited One Family",
+            "code": 7
+          },
+          {
+            "name": "Limited Retail Business",
+            "code": 8
+          },
+          {
+            "name": "Local Retail Business",
+            "code": 9
+          },
+          {
+            "name": "Midtown Mixed-Use District",
+            "code": 10
+          },
+          {
+            "name": "Multi-Family",
+            "code": 11
+          },
+          {
+            "name": "One Family",
+            "code": 12
+          },
+          {
+            "name": "Open Space Recreation",
+            "code": 13
+          },
+          {
+            "name": "Parking District",
+            "code": 14
+          },
+          {
+            "name": "Residence Office",
+            "code": 15
+          },
+          {
+            "name": "Residence-Industry",
+            "code": 16
+          },
+          {
+            "name": "Semi-Industry",
+            "code": 17
+          },
+          {
+            "name": "Shopping Center",
+            "code": 18
+          },
+          {
+            "name": "Townhouse",
+            "code": 19
+          },
+          {
+            "name": "Two Family",
+            "code": 20
+          },
+          {
+            "name": "University (College) Retail",
+            "code": 21
+          },
+          {
+            "name": "Unrestricted Industry",
+            "code": 22
+          },
+          {
+            "name": "Urban Garden District",
+            "code": 23
+          },
+          {
+            "name": "Free Representation",
+            "code": -1
+          }
+        ]
+      },
+      "defaultValue": -1
+    },
+    {
+      "name": "Override",
+      "type": "esriFieldTypeBlob",
+      "alias": "Override",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "created_user",
+      "type": "esriFieldTypeString",
+      "alias": "created_user",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "created_date",
+      "type": "esriFieldTypeDate",
+      "alias": "created_date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "last_edited_user",
+      "type": "esriFieldTypeString",
+      "alias": "last_edited_user",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "last_edited_date",
+      "type": "esriFieldTypeDate",
+      "alias": "last_edited_date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "SECTION_LINK",
+      "type": "esriFieldTypeString",
+      "alias": "SECTION_LINK",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__ZONING_Z__F4B70D85F1D2BEFB",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.ZONING_ZONING2_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": "Downtown Residential",
+      "name": "Downtown Residential",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Downtown Residential",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Downtown Residential",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "General Industry",
+      "name": "General Industry",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "General Industry",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "General Industry",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "General Retail Business",
+      "name": "General Retail Business",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "General Retail Business",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "General Retail Business",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Institutional-Research District",
+      "name": "Institutional-Research District",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Institutional-Research District",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Institutional-Research District",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Limited Multi-Family",
+      "name": "Limited Multi-Family",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Limited Multi-Family",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Limited Multi-Family",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Limited One Family",
+      "name": "Limited One Family",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Limited One Family",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Limited One Family",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Limited Retail Business",
+      "name": "Limited Retail Business",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Limited Retail Business",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Limited Retail Business",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Local Retail Business",
+      "name": "Local Retail Business",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Local Retail Business",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Local Retail Business",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Midtown Mixed-Use District",
+      "name": "Midtown Mixed-Use District",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Midtown Mixed-Use District",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Midtown Mixed-Use District",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Multi-Family",
+      "name": "Multi-Family",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Multi-Family",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Multi-Family",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "One Family",
+      "name": "One Family",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "One Family",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "One Family",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Open Space Recreation",
+      "name": "Open Space Recreation",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Open Space Recreation",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Open Space Recreation",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Parking District",
+      "name": "Parking District",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Parking District",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Parking District",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Residence Office",
+      "name": "Residence Office",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Residence Office",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Residence Office",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Residence-Industry",
+      "name": "Residence-Industry",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Residence-Industry",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Residence-Industry",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Semi-Industry",
+      "name": "Semi Industry",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Semi-Industry",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Semi-Industry",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Shopping Center",
+      "name": "Shopping Center",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Shopping Center",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Shopping Center",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Townhouse",
+      "name": "Townhouse",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Townhouse",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Townhouse",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Two Family",
+      "name": "Two Family",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Two Family",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Two Family",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "University (College) Retail",
+      "name": "University (College) Retail",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "University (College) Retail",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "University (College) Retail",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Unrestricted Industry",
+      "name": "Unrestricted Industry",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Unrestricted Industry",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Unrestricted Industry",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Urban Garden District",
+      "name": "Urban Garden District",
+      "domains": {
+        "RuleID": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Urban Garden District",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "prototype": {
+            "attributes": {
+              "last_edited_date": null,
+              "SECTION_LINK": null,
+              "ZONE_CODE": null,
+              "ZONE_DIST": null,
+              "ZONE_HGT": null,
+              "ZONE_USE": "Urban Garden District",
+              "ORD_NO_1": null,
+              "RuleID": -1,
+              "Override": null,
+              "created_user": null,
+              "created_date": null,
+              "last_edited_user": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

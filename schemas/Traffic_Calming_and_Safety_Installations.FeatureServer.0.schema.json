@@ -1,0 +1,472 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Street Features",
+  "type": "Feature Layer",
+  "serviceItemId": "29c5cca661e444d6aaaa26325fa633d4",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "OBJECTID",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true,
+    "allowOthersToDelete": true,
+    "allowOthersToUpdate": true,
+    "allowAnonymousToQuery": true,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1773952162928,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -118963472.03290574,
+    "ymin": -96373453.00261487,
+    "xmax": 122900472.03290574,
+    "ymax": 81799962.2515829,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+          38,
+          147,
+          147,
+          255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "width": 0.7
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": true,
+  "enableZDefaults": true,
+  "zDefault": 0,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Type",
+      "type": "esriFieldTypeString",
+      "alias": "Type",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Street Features_Type_c365452b-31ab-47a7-8070-600528f7f9d2",
+        "codedValues": [
+          {
+            "name": "Speed Table (formed asphalt)",
+            "code": "Speed Table (formed asphalt)"
+          },
+          {
+            "name": "Speed Table",
+            "code": "Speed Table"
+          },
+          {
+            "name": "Curb Extension",
+            "code": "Curb Extension"
+          },
+          {
+            "name": "Pedestrian Refuge Island",
+            "code": "Pedestrian Refuge Island"
+          },
+          {
+            "name": "Speed Table (modular)",
+            "code": "Speed Table (modular)"
+          },
+          {
+            "name": "Mini-roundabout",
+            "code": "Mini-roundabout"
+          },
+          {
+            "name": "Roundabout",
+            "code": "Roundabout"
+          },
+          {
+            "name": "Spped Table",
+            "code": "Spped Table"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Speed table, Curb extension, Pedestrian Regue Island, Mini-roundabout, Roundabout.\\nSee summary and description above for more detailed definitions. Additional subtypes present for certain measures.\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Year_Installed",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Year Installed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Year of installation\",\"fieldValueType\":\"dateAndTime\"}"
+    },
+    {
+      "name": "Status",
+      "type": "esriFieldTypeString",
+      "alias": "Status",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Street Features_Status_18653918-5af5-46ce-8704-a84b22c6e23e",
+        "codedValues": [
+          {
+            "name": "In Progress",
+            "code": "In Progress"
+          },
+          {
+            "name": "Recommended",
+            "code": "Recommended"
+          },
+          {
+            "name": "Existing",
+            "code": "Existing"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Existing means physically present now\\nIn Progress is currently being installed\\nRecommended is planned\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Street",
+      "type": "esriFieldTypeString",
+      "alias": "Street",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of street\",\"fieldValueType\":\"nameOrTitle\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__STREET_F__F4B70D856299F405",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.STREET_FEATURES_STREET_FEATURES_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Type_Index",
+      "fields": "Type",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Type_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Status_Index",
+      "fields": "Status",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Status_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Year_Installed_Index",
+      "fields": "Year_Installed",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Year_Installed_Index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Street Features",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "prototype": {
+        "attributes": {
+          "Status": null,
+          "Notes": null,
+          "Street": null,
+          "CrossSt1": null,
+          "CrossSt2": null,
+          "Address": null,
+          "Ward": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract",
+  "viewDefinitionQuery": "Status = 'Existing'",
+  "definitionQuery": "Status = 'Existing'"
+}

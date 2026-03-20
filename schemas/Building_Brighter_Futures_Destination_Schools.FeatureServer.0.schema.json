@@ -1,0 +1,913 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Schools",
+  "type": "Feature Layer",
+  "serviceItemId": "49ba283d967a47298802c146842422b6",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "School_Name",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1769547368190,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2151249.1251883805,
+    "ymin": 641995.363034308,
+    "xmax": 2228668.2718589753,
+    "ymax": 701137.3815610558,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "Plan_Status",
+      "uniqueValueGroups": [
+        {
+          "heading": "Plan Status",
+          "classes": [
+            {
+              "label": "Transitioning",
+              "description": "Transitioning",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f8d310fa3aaf0d48295e750bf2325ce1",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABD0lEQVQ4jcWUsXKCQBRFT2bo7J3B0j7VWtibcvkN/IzsJ9jCB+QDom36FKGit7Swt89ccAMqG0EykzvDDOzA4bx9DyL+ONF/Ab+A2fkYDUwB0zrPxwAN4HgWByjzbCwwZWpiVuIA+x2cDrpYPwI0FXDpmpXlK3ysfdnFUKBjamBumxWVXuZwLGS5GAJMAXth5/OSwdtC9gmw7QPUaKSVTdvOR9a1adYXaJnMzE9nuyLzMo+7xii6ulWlZJWZTEKZxDX008lyBxxCwLoRfkx+izq+3/oGJV1AE2xEEOrgPbHnZ4tr4O2Y3IvfmtYYeaA6azkWsHnqD2wiw8rSA7WpesPdv0kgev6mZC10fk5D8g1YBkLe7iSeJQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 15,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Transitioning"
+                ]
+              ]
+            },
+            {
+              "label": "Welcoming",
+              "description": "Welcoming",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "a861e31d6e95721cc157ca315fbc6a1d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADBklEQVRIidVXwW4SURS9j9IKTUyBuBB2yErbjQ5+gNG4goVpCwPGhS7oXxj1L2Br0hkKLAx1Y3TVphsZNwKuAFewMeLKmcaUZ860Q4ZhhpkipPEkhM6b13feu/e+ew5+ukL4/ytySZJi3Lcq+BiL4nnE+YCzUf9pJqMshVySpBhbWUsRpwInLqwHA/p4MBAkVVNJVTWSylVixBRiVBIz26WFkMsHtQJIw6GQEA6HKJGIUyQcnpr3czik4fCX0Gy1i1K5WmSM7bltwj/zxHKlzjlPJW7F6X7y3sxNYkP4YG6z9Y30TciVdE7cTV+aXJIr9UgkktravE2xmJ5ezzj/n5t0dHySksu1hpjdTnomlzwSs2cDEuKrVHy+oX+bgSg8fvSQPnz8JEhytZgTd/ZcyeWDWgGh9npipfeHki9/UOHBOhVfbEy8CwYD+gbe1d8X9svVw3x2p+5IjqpGcSFvXkONE796cp1Sd6/ZvscGtjbv0NdWu0hEzuRsZS2FqnYrLjMab264zkEUm612FFE134DJsONKhUO0DCCa3e73AhFNk+udi7iAe2xXWE5wesffTqYN63a6PcE8NiZHy0Tnsmsgi4Cx7n65mjYKb0xu9GonmE+C07o9OxWfpp1GbXOOXr1MYH1NO6UpcqgTRMIJ1tO4PXuB3/gDsgh1WiYgPiM2UqbIoceQRUywK7p/zXm/fz7mOzsb2DcZYgpkcRkVr2qavr6Yy/VtyWEEIIVoCIvMOdLZ6fT09c3jE+RofTAC0GO0xEWhPxjAaChidtJc+K0T4UBweugxwj9PFZvrADX0ufGFONFr6xy/dUA/vVxJwwhADq1t8jIA8dHxCTSjlBcn5dTRTMD6wIHACGAD6EzzEqu/1cOcuDtlJGbaKFgfOBAYAeix1xpAcSHHCDVO7ETsaiBhfeBAYASgx7gFTu4V9xjXCVWN4kKO7UJthqt1vlCgOowA9NiQRaTC0AKEGBj7dktVz01u4MKBlAxZhDoZIoGWic5lbiBL+62WtxjBeXGlPxT/Aixsfn1YBPJRAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 23,
+                "height": 23,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Welcoming"
+                ]
+              ]
+            },
+            {
+              "label": "No Change",
+              "description": "No Change",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "b6c0d5ed0cf1b4ed15e434332bf13d65",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADT0lEQVRIidVXv2/TQBR+lxhEN8JEnKkNfwEOS1UYkGByupSmsdidPyPOn9HsJT9KBpSwgMSAEEvjTiCm0M3e6m6tVCmHPjdn2edzkqYtiCdd4ovv7rt77933vWj0D037r8A7nY7O8vdNPHM+1cNvYi5nU+9trebeOvhBv2/kKW8QJ5sTNzjnszcs+mQ8R+96733GaUj8smVZlndj8G5/YE85dzjxoq4X6VGhQLr+OPwWdn5+QZ7v02RyUjwNApvYPbvTO2xZe7vOSuAH/b6RmzKHc24+2Vincnk9ARi3tbUHVMaYjXU6DQL68fMXeZ7f7PYGZn1vp3It8IMZMDFmvtjaJJxYZb7vU7GYfIcNYo7n+fT123ej2xuMszagqX5cBth1XapUKmQYBtm2Hba4Yd7rVy/p0+cvRqd7OLTqu9WF4N3+wIar5wHLm2g0GtRut1ObgBeeVZ7S0fjYxLr12k47ExzuRnIhxssAxw0eQJMNeTCZnCAX9okoGzxPeQNZjeRa1sRpVcDCnm9t0ofhR5JPryVGcbLFdboO+DxgcRuwZhCcISbtFDiYCwSiAkY80VS2vb2dynjHccg0QxKMDN48Gh8bwBEEFIGDMsFcIJCsayWSaTgchn2AxPt4j988L01uhcLDCIdmp09l+zyXN5vN6BmAqn6Wh1TrauLhSiSuuPouTYhRAnyRwZUgFZlk5L7K5YL/s09OzGWzQchO2XRdp2q1Grk4q49NKMEvziMcSoGzqQdZhDqBGG475kFwFuGQDI5CAHoMWcwCv4mB5RgxN15wJGKOQgB6DFmUsxOxLJVKC/uqmGM9NOKUiImWGMUvWygEoMcQFlir1YriKC+c1R+NRuG9F2HBepzI57lpNrdbluWhAkEhAD0G1WJBtEUUKm9CsN7k90mo7TnGnLpU42nyRJQ+qEBQCECP9/chRqsZQI/Gx7jco/rem1QmaqpJqDxQgaAQgB6vkoA4MYCRZJxfNlRjtKzJ2AAqEBQCyFTIour+yxar4cITAzirktXmLYTSBxqMQgB6jBsAdYJIiNsAUgKB4B7PioYwucIYK1y9NHjogSvxb2MT0GPIYtZYuBjXCVktJ9dK4PIm/vo/ForZLH5z3Xln4LdpfwDjrP0m4cJgfwAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 23,
+                "height": 23,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "No Change"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f8d310fa3aaf0d48295e750bf2325ce1",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABD0lEQVQ4jcWUsXKCQBRFT2bo7J3B0j7VWtibcvkN/IzsJ9jCB+QDom36FKGit7Swt89ccAMqG0EykzvDDOzA4bx9DyL+ONF/Ab+A2fkYDUwB0zrPxwAN4HgWByjzbCwwZWpiVuIA+x2cDrpYPwI0FXDpmpXlK3ysfdnFUKBjamBumxWVXuZwLGS5GAJMAXth5/OSwdtC9gmw7QPUaKSVTdvOR9a1adYXaJnMzE9nuyLzMo+7xii6ulWlZJWZTEKZxDX008lyBxxCwLoRfkx+izq+3/oGJV1AE2xEEOrgPbHnZ4tr4O2Y3IvfmtYYeaA6azkWsHnqD2wiw8rSA7WpesPdv0kgev6mZC10fk5D8g1YBkLe7iSeJQAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 13,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Transitioning",
+          "label": "Transitioning",
+          "description": "Transitioning"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "a861e31d6e95721cc157ca315fbc6a1d",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADBklEQVRIidVXwW4SURS9j9IKTUyBuBB2yErbjQ5+gNG4goVpCwPGhS7oXxj1L2Br0hkKLAx1Y3TVphsZNwKuAFewMeLKmcaUZ860Q4ZhhpkipPEkhM6b13feu/e+ew5+ukL4/ytySZJi3Lcq+BiL4nnE+YCzUf9pJqMshVySpBhbWUsRpwInLqwHA/p4MBAkVVNJVTWSylVixBRiVBIz26WFkMsHtQJIw6GQEA6HKJGIUyQcnpr3czik4fCX0Gy1i1K5WmSM7bltwj/zxHKlzjlPJW7F6X7y3sxNYkP4YG6z9Y30TciVdE7cTV+aXJIr9UgkktravE2xmJ5ezzj/n5t0dHySksu1hpjdTnomlzwSs2cDEuKrVHy+oX+bgSg8fvSQPnz8JEhytZgTd/ZcyeWDWgGh9npipfeHki9/UOHBOhVfbEy8CwYD+gbe1d8X9svVw3x2p+5IjqpGcSFvXkONE796cp1Sd6/ZvscGtjbv0NdWu0hEzuRsZS2FqnYrLjMab264zkEUm612FFE134DJsONKhUO0DCCa3e73AhFNk+udi7iAe2xXWE5wesffTqYN63a6PcE8NiZHy0Tnsmsgi4Cx7n65mjYKb0xu9GonmE+C07o9OxWfpp1GbXOOXr1MYH1NO6UpcqgTRMIJ1tO4PXuB3/gDsgh1WiYgPiM2UqbIoceQRUywK7p/zXm/fz7mOzsb2DcZYgpkcRkVr2qavr6Yy/VtyWEEIIVoCIvMOdLZ6fT09c3jE+RofTAC0GO0xEWhPxjAaChidtJc+K0T4UBweugxwj9PFZvrADX0ufGFONFr6xy/dUA/vVxJwwhADq1t8jIA8dHxCTSjlBcn5dTRTMD6wIHACGAD6EzzEqu/1cOcuDtlJGbaKFgfOBAYAeix1xpAcSHHCDVO7ETsaiBhfeBAYASgx7gFTu4V9xjXCVWN4kKO7UJthqt1vlCgOowA9NiQRaTC0AKEGBj7dktVz01u4MKBlAxZhDoZIoGWic5lbiBL+62WtxjBeXGlPxT/Aixsfn1YBPJRAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 23,
+            "height": 23,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Welcoming",
+          "label": "Welcoming",
+          "description": "Welcoming"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "b6c0d5ed0cf1b4ed15e434332bf13d65",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADT0lEQVRIidVXv2/TQBR+lxhEN8JEnKkNfwEOS1UYkGByupSmsdidPyPOn9HsJT9KBpSwgMSAEEvjTiCm0M3e6m6tVCmHPjdn2edzkqYtiCdd4ovv7rt77933vWj0D037r8A7nY7O8vdNPHM+1cNvYi5nU+9trebeOvhBv2/kKW8QJ5sTNzjnszcs+mQ8R+96733GaUj8smVZlndj8G5/YE85dzjxoq4X6VGhQLr+OPwWdn5+QZ7v02RyUjwNApvYPbvTO2xZe7vOSuAH/b6RmzKHc24+2Vincnk9ARi3tbUHVMaYjXU6DQL68fMXeZ7f7PYGZn1vp3It8IMZMDFmvtjaJJxYZb7vU7GYfIcNYo7n+fT123ej2xuMszagqX5cBth1XapUKmQYBtm2Hba4Yd7rVy/p0+cvRqd7OLTqu9WF4N3+wIar5wHLm2g0GtRut1ObgBeeVZ7S0fjYxLr12k47ExzuRnIhxssAxw0eQJMNeTCZnCAX9okoGzxPeQNZjeRa1sRpVcDCnm9t0ofhR5JPryVGcbLFdboO+DxgcRuwZhCcISbtFDiYCwSiAkY80VS2vb2dynjHccg0QxKMDN48Gh8bwBEEFIGDMsFcIJCsayWSaTgchn2AxPt4j988L01uhcLDCIdmp09l+zyXN5vN6BmAqn6Wh1TrauLhSiSuuPouTYhRAnyRwZUgFZlk5L7K5YL/s09OzGWzQchO2XRdp2q1Grk4q49NKMEvziMcSoGzqQdZhDqBGG475kFwFuGQDI5CAHoMWcwCv4mB5RgxN15wJGKOQgB6DFmUsxOxLJVKC/uqmGM9NOKUiImWGMUvWygEoMcQFlir1YriKC+c1R+NRuG9F2HBepzI57lpNrdbluWhAkEhAD0G1WJBtEUUKm9CsN7k90mo7TnGnLpU42nyRJQ+qEBQCECP9/chRqsZQI/Gx7jco/rem1QmaqpJqDxQgaAQgB6vkoA4MYCRZJxfNlRjtKzJ2AAqEBQCyFTIour+yxar4cITAzirktXmLYTSBxqMQgB6jBsAdYJIiNsAUgKB4B7PioYwucIYK1y9NHjogSvxb2MT0GPIYtZYuBjXCVktJ9dK4PIm/vo/ForZLH5z3Xln4LdpfwDjrP0m4cJgfwAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 23,
+            "height": 23,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "No Change",
+          "label": "No Change"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                219,
+                212,
+                255
+              ],
+              "toColor": [
+                252,
+                219,
+                212,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                187,
+                252,
+                190,
+                255
+              ],
+              "toColor": [
+                187,
+                252,
+                190,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                227,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                227,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                184,
+                242,
+                252,
+                255
+              ],
+              "toColor": [
+                184,
+                242,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                243,
+                189,
+                255
+              ],
+              "toColor": [
+                252,
+                243,
+                189,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                187,
+                217,
+                255
+              ],
+              "toColor": [
+                252,
+                187,
+                217,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                194,
+                207,
+                252,
+                255
+              ],
+              "toColor": [
+                194,
+                207,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                215,
+                252,
+                225,
+                255
+              ],
+              "toColor": [
+                215,
+                252,
+                225,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                184,
+                182,
+                255
+              ],
+              "toColor": [
+                252,
+                184,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                245,
+                210,
+                252,
+                255
+              ],
+              "toColor": [
+                245,
+                210,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                200,
+                189,
+                252,
+                255
+              ],
+              "toColor": [
+                200,
+                189,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                229,
+                252,
+                187,
+                255
+              ],
+              "toColor": [
+                229,
+                252,
+                187,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                216,
+                184,
+                255
+              ],
+              "toColor": [
+                252,
+                216,
+                184,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "labelExpressionInfo": {
+          "expression": "$feature.School_Name",
+          "title": "Custom"
+        },
+        "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+        "deconflictionStrategy": "dynamic",
+        "stackLabel": true,
+        "stackAlignment": "textSymbol",
+        "removeDuplicates": "none",
+        "stackRowLength": 24,
+        "where": "OD_Type IN ('Origin')",
+        "useCodedValues": true,
+        "maxScale": 0,
+        "minScale": 50000,
+        "name": "Transitioning",
+        "priority": 0,
+        "symbol": {
+          "type": "esriTS",
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "backgroundColor": null,
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "verticalAlignment": "bottom",
+          "horizontalAlignment": "left",
+          "rightToLeft": false,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "kerning": true,
+          "haloColor": [
+            255,
+            255,
+            255,
+            126
+          ],
+          "haloSize": 1,
+          "font": {
+            "family": "Arial",
+            "size": 7,
+            "style": "normal",
+            "weight": "normal",
+            "decoration": "none"
+          }
+        }
+      },
+      {
+        "labelExpressionInfo": {
+          "expression": "$feature.School_Name",
+          "title": "Custom"
+        },
+        "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+        "deconflictionStrategy": "dynamic",
+        "stackLabel": true,
+        "stackAlignment": "textSymbol",
+        "removeDuplicates": "none",
+        "stackRowLength": 24,
+        "where": "Plan_Status = 'Welcoming' And OD_Type = 'Destination'",
+        "useCodedValues": true,
+        "maxScale": 0,
+        "minScale": 0,
+        "name": "Welcoming",
+        "priority": 0,
+        "symbol": {
+          "type": "esriTS",
+          "color": [
+            0,
+            77,
+            168,
+            255
+          ],
+          "backgroundColor": null,
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "verticalAlignment": "bottom",
+          "horizontalAlignment": "left",
+          "rightToLeft": false,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "kerning": true,
+          "haloColor": [
+            255,
+            255,
+            255,
+            126
+          ],
+          "haloSize": 2,
+          "font": {
+            "family": "Arial Narrow",
+            "size": 9,
+            "style": "normal",
+            "weight": "bold",
+            "decoration": "none"
+          }
+        }
+      }
+    ]
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "Plan_Status",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "School_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "School ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "School_Name",
+      "type": "esriFieldTypeString",
+      "alias": "School Name",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Plan_Status",
+      "type": "esriFieldTypeString",
+      "alias": "Plan Status",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "School_Type",
+      "type": "esriFieldTypeString",
+      "alias": "School Type",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Plan_Type",
+      "type": "esriFieldTypeString",
+      "alias": "Plan Type",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Prior_School_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Prior School Name",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "street",
+      "type": "esriFieldTypeString",
+      "alias": "Street Address",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Lat",
+      "type": "esriFieldTypeDouble",
+      "alias": "Lat",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Lon",
+      "type": "esriFieldTypeDouble",
+      "alias": "Lon",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__BUILDING__F4B70D85225032B3",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.BUILDING_BRIGHTER_FUTURES_SCHOOLS_PLAN_SCHOOLS2_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": "Transitioning",
+      "name": "Transitioning",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Transitioning",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "Lon": null,
+              "NoChange_Flag": null,
+              "School_ID": null,
+              "School_Name": null,
+              "Plan_Status": "Transitioning",
+              "OD_Type": null,
+              "Destination_ID": null,
+              "School_Type": null,
+              "Plan_Type": null,
+              "Prior_School_Name": null,
+              "Future_Location_Current_Name": null,
+              "Future_Location_Future_Name": null,
+              "Join_Quality": null,
+              "Join_School_Name": null,
+              "street": null,
+              "Lat": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Welcoming",
+      "name": "Welcoming",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Welcoming",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "Lon": null,
+              "NoChange_Flag": null,
+              "School_ID": null,
+              "School_Name": null,
+              "Plan_Status": "Welcoming",
+              "OD_Type": null,
+              "Destination_ID": null,
+              "School_Type": null,
+              "Plan_Type": null,
+              "Prior_School_Name": null,
+              "Future_Location_Current_Name": null,
+              "Future_Location_Future_Name": null,
+              "Join_Quality": null,
+              "Join_School_Name": null,
+              "street": null,
+              "Lat": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "No Change",
+      "name": "No Change",
+      "domains": {},
+      "templates": [
+        {
+          "name": "No Change",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "Lon": null,
+              "NoChange_Flag": null,
+              "School_ID": null,
+              "School_Name": null,
+              "Plan_Status": "No Change",
+              "OD_Type": null,
+              "Destination_ID": null,
+              "School_Type": null,
+              "Plan_Type": null,
+              "Prior_School_Name": null,
+              "Future_Location_Current_Name": null,
+              "Future_Location_Future_Name": null,
+              "Join_Quality": null,
+              "Join_School_Name": null,
+              "street": null,
+              "Lat": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query",
+  "viewDefinitionQuery": "OD_Type = 'Destination'",
+  "definitionQuery": "OD_Type = 'Destination'"
+}

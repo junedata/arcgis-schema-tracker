@@ -1,0 +1,1049 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "survey",
+  "type": "Feature Layer",
+  "serviceItemId": "20dfae11f5314fafa628043f63daee70",
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": false,
+    "allowOthersToDelete": false,
+    "allowOthersToUpdate": false,
+    "allowAnonymousToQuery": true,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1723123082934,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "label": "Survey Point",
+      "symbol": {
+        "angle": 0,
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "width": 1
+        },
+        "size": 8,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "propagateVisibleFields": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "submission_date",
+      "type": "esriFieldTypeDate",
+      "alias": "Date of Submission",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "project_name",
+      "type": "esriFieldTypeString",
+      "alias": "Project Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "project_address",
+      "type": "esriFieldTypeString",
+      "alias": "Project Address",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "project_ward",
+      "type": "esriFieldTypeString",
+      "alias": "Project Ward",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_project_ward",
+        "codedValues": [
+          {
+            "name": "1",
+            "code": "1"
+          },
+          {
+            "name": "2",
+            "code": "2"
+          },
+          {
+            "name": "3",
+            "code": "3"
+          },
+          {
+            "name": "4",
+            "code": "4"
+          },
+          {
+            "name": "5",
+            "code": "5"
+          },
+          {
+            "name": "6",
+            "code": "6"
+          },
+          {
+            "name": "7",
+            "code": "7"
+          },
+          {
+            "name": "8",
+            "code": "8"
+          },
+          {
+            "name": "9",
+            "code": "9"
+          },
+          {
+            "name": "10",
+            "code": "10"
+          },
+          {
+            "name": "11",
+            "code": "11"
+          },
+          {
+            "name": "12",
+            "code": "12"
+          },
+          {
+            "name": "13",
+            "code": "13"
+          },
+          {
+            "name": "14",
+            "code": "14"
+          },
+          {
+            "name": "15",
+            "code": "15"
+          },
+          {
+            "name": "16",
+            "code": "16"
+          },
+          {
+            "name": "17",
+            "code": "17"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "responsible_parties",
+      "type": "esriFieldTypeString",
+      "alias": "Responsible Parties",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "project_type",
+      "type": "esriFieldTypeString",
+      "alias": "Project Characteristics",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_project_type",
+        "codedValues": [
+          {
+            "name": "New Construction",
+            "code": "New Construction"
+          },
+          {
+            "name": "Change of Use/Expansion",
+            "code": "Change of Use/Expansion"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "existing_use",
+      "type": "esriFieldTypeString",
+      "alias": "What is the existing use of the property?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "proposed_use",
+      "type": "esriFieldTypeString",
+      "alias": "What is the proposed use for this project?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "work_description",
+      "type": "esriFieldTypeString",
+      "alias": "Description of Proposed Work",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "team_goals",
+      "type": "esriFieldTypeString",
+      "alias": "What are the project team's goals?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TDM_alignment",
+      "type": "esriFieldTypeString",
+      "alias": "How does this align or not align with City Planning's Transportation Demand Management goals?",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "dwelling_units",
+      "type": "esriFieldTypeString",
+      "alias": "How many dwelling units will this project include?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_dwelling_units",
+        "codedValues": [
+          {
+            "name": "None, this is not a residential use",
+            "code": "None, this is not a residential"
+          },
+          {
+            "name": "10 - 20 units",
+            "code": "10 - 20 units"
+          },
+          {
+            "name": "21 - 30 units",
+            "code": "21 - 30 units"
+          },
+          {
+            "name": "31 - 40 units",
+            "code": "31 - 40 units"
+          },
+          {
+            "name": "More than 40 units",
+            "code": "More than 40 units"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "retail_sqft",
+      "type": "esriFieldTypeString",
+      "alias": "How many square feet of retail space will this project include?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_retail_sqft",
+        "codedValues": [
+          {
+            "name": "None, this is not a retail use",
+            "code": "None, this is not a retail use"
+          },
+          {
+            "name": "5,000 - 10,000 sq. ft.",
+            "code": "5,000 - 10,000 sq. ft."
+          },
+          {
+            "name": "10,001 - 15,000 sq. ft.",
+            "code": "10,001 - 15,000 sq. ft."
+          },
+          {
+            "name": "15,001 - 20,000 sq. ft.",
+            "code": "15,001 - 20,000 sq. ft."
+          },
+          {
+            "name": "20,001 - 50,000 sq. ft.",
+            "code": "20,001 - 50,000 sq. ft."
+          },
+          {
+            "name": "More than 50,000 sq. ft.",
+            "code": "More than 50,000 sq. ft."
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "employees",
+      "type": "esriFieldTypeString",
+      "alias": "How many on-site employees will this project need?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_employees",
+        "codedValues": [
+          {
+            "name": "10 - 20 employees",
+            "code": "10 - 20 employees"
+          },
+          {
+            "name": "21 - 30 employees",
+            "code": "21 - 30 employees"
+          },
+          {
+            "name": "31 - 40 employees",
+            "code": "31 - 40 employees"
+          },
+          {
+            "name": "More than 40 employees",
+            "code": "More than 40 employees"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "applicability_tier",
+      "type": "esriFieldTypeString",
+      "alias": "Based on the applicability chart above, what tier of applicability does this project fall under?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_applicability_tier",
+        "codedValues": [
+          {
+            "name": "Tier 1",
+            "code": "Tier 1"
+          },
+          {
+            "name": "Tier 2",
+            "code": "Tier 2"
+          },
+          {
+            "name": "Tier 3",
+            "code": "Tier 3"
+          },
+          {
+            "name": "Tier 4",
+            "code": "Tier 4"
+          },
+          {
+            "name": "Tier 5",
+            "code": "Tier 5"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "total_project_points",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Project Points",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "point_threshold_satisfaction",
+      "type": "esriFieldTypeString",
+      "alias": "Does your TDM plan meet the threshold number of required points based on the applicability tier?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_point_threshold_satisfaction",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "Yes"
+          },
+          {
+            "name": "No, I need more help picking appropriate menu strategies for this project",
+            "code": "No, I need more help picking ap"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "selection_reasoning",
+      "type": "esriFieldTypeString",
+      "alias": "Describe why you chose your TDM strategy selections:",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "implementation_plan",
+      "type": "esriFieldTypeString",
+      "alias": "Describe your plan to implement your programmatic menu items, such as subsidizing transit passes for tenants or employees:",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "monitoring_plan",
+      "type": "esriFieldTypeString",
+      "alias": "Describe your plan to monitor and maintain any physical menu items, such as an aging bike fleet or bike repair station:",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "verification",
+      "type": "esriFieldTypeString",
+      "alias": "Verify your submission includes each of these items:",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "project_neighborhood",
+      "type": "esriFieldTypeString",
+      "alias": "Project Neighborhood",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_project_neighborhood",
+        "codedValues": [
+          {
+            "name": "Hopkins",
+            "code": "Hopkins"
+          },
+          {
+            "name": "Kamm's",
+            "code": "Kamm's"
+          },
+          {
+            "name": "Jefferson",
+            "code": "Jefferson"
+          },
+          {
+            "name": "Bellaire Puritas",
+            "code": "Bellaire Puritas"
+          },
+          {
+            "name": "West Boulevard",
+            "code": "West Boulevard"
+          },
+          {
+            "name": "Cudell",
+            "code": "Cudell"
+          },
+          {
+            "name": "Edgewater",
+            "code": "Edgewater"
+          },
+          {
+            "name": "Detroit Shoreway",
+            "code": "Detroit Shoreway"
+          },
+          {
+            "name": "Stockyards",
+            "code": "Stockyards"
+          },
+          {
+            "name": "Old Brooklyn",
+            "code": "Old Brooklyn"
+          },
+          {
+            "name": "Ohio City",
+            "code": "Ohio City"
+          },
+          {
+            "name": "Clark Fulton",
+            "code": "Clark Fulton"
+          },
+          {
+            "name": "Brooklyn Centre",
+            "code": "Brooklyn Centre"
+          },
+          {
+            "name": "Tremont",
+            "code": "Tremont"
+          },
+          {
+            "name": "Downtown",
+            "code": "Downtown"
+          },
+          {
+            "name": "Central",
+            "code": "Central"
+          },
+          {
+            "name": "Goodrich Kirtland Park",
+            "code": "Goodrich Kirtland Park"
+          },
+          {
+            "name": "Broadway Slavic Village",
+            "code": "Broadway Slavic Village"
+          },
+          {
+            "name": "St. Clair Superior",
+            "code": "St. Clair Superior"
+          },
+          {
+            "name": "Hough",
+            "code": "Hough"
+          },
+          {
+            "name": "Fairfax",
+            "code": "Fairfax"
+          },
+          {
+            "name": "Buckeye Woodhill",
+            "code": "Buckeye Woodhill"
+          },
+          {
+            "name": "Kinsman",
+            "code": "Kinsman"
+          },
+          {
+            "name": "Union Miles",
+            "code": "Union Miles"
+          },
+          {
+            "name": "Lee Seville",
+            "code": "Lee Seville"
+          },
+          {
+            "name": "Lee Harvard",
+            "code": "Lee Harvard"
+          },
+          {
+            "name": "Mount Pleasant",
+            "code": "Mount Pleasant"
+          },
+          {
+            "name": "Buckeye Shaker Square",
+            "code": "Buckeye Shaker Square"
+          },
+          {
+            "name": "University",
+            "code": "University"
+          },
+          {
+            "name": "Glenville",
+            "code": "Glenville"
+          },
+          {
+            "name": "Cuyahoga Valley",
+            "code": "Cuyahoga Valley"
+          },
+          {
+            "name": "Euclid Green",
+            "code": "Euclid Green"
+          },
+          {
+            "name": "Collinwood Nottingham",
+            "code": "Collinwood Nottingham"
+          },
+          {
+            "name": "North Shore Collinwood",
+            "code": "North Shore Collinwood"
+          }
+        ]
+      },
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "survey123_b63defd61d5e499ab2b0e1390504fa0a_SURVEY_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__survey12__5242E6325E50925A",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 1000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Create,Editing"
+}

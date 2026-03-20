@@ -1,0 +1,1093 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "Feedback_Submissions",
+  "type": "Feature Layer",
+  "serviceItemId": "9303a8782a564ad293bf9ab0f31110a9",
+  "sourceSchemaChangesAllowed": true,
+  "hasViews": true,
+  "displayField": "objectid",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true,
+    "allowOthersToDelete": true,
+    "allowOthersToUpdate": true,
+    "allowAnonymousToQuery": false,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1772491067787,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "description": "Survey Data Locations",
+      "label": "Cleveland Open Data Portal Feedback Form",
+      "symbol": {
+        "angle": 0,
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "width": 1
+        },
+        "size": 8,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "propagateVisibleFields": true,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeGUID",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "user_type",
+      "type": "esriFieldTypeString",
+      "alias": "Which of the following best describe you?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "other_user_type",
+      "type": "esriFieldTypeString",
+      "alias": "Please specify what kind of user you are:",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "agency",
+      "type": "esriFieldTypeString",
+      "alias": "What type of government or public sector agency do you work for?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_agency",
+        "codedValues": [
+          {
+            "name": "Local Government",
+            "code": "local"
+          },
+          {
+            "name": "Regional Government/Agency",
+            "code": "regional"
+          },
+          {
+            "name": "State Government/Agency",
+            "code": "state"
+          },
+          {
+            "name": "Federal Government/Agency",
+            "code": "federal"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "local",
+      "type": "esriFieldTypeString",
+      "alias": "What local government/agency do you work for?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_local",
+        "codedValues": [
+          {
+            "name": "City of Cleveland",
+            "code": "city_of_cleveland"
+          },
+          {
+            "name": "Local government in Cuyahoga County",
+            "code": "cuyahoga_county"
+          },
+          {
+            "name": "Local government in Ohio",
+            "code": "local_ohio"
+          },
+          {
+            "name": "Local government elsewhere in the U.S.",
+            "code": "other_local"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "other_local",
+      "type": "esriFieldTypeString",
+      "alias": "Please enter the name of local government you work for:",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "regional",
+      "type": "esriFieldTypeString",
+      "alias": "What regional agency do you work in?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_regional",
+        "codedValues": [
+          {
+            "name": "Cuyahoga County",
+            "code": "cuyahoga_county"
+          },
+          {
+            "name": "Greater Cleveland Regional Transit Authority",
+            "code": "greater_cleveland_regional_transit_authority"
+          },
+          {
+            "name": "Cuyahoga Metropolitan Housing Authority (CMHA)",
+            "code": "cuyahoga_metropolitan_housing_authority"
+          },
+          {
+            "name": "County Department of Job and Family Services",
+            "code": "county_dept_of_job_and_family_services"
+          },
+          {
+            "name": "Child Support Enforcement Agency",
+            "code": "child_support_enforcement_agency"
+          },
+          {
+            "name": "Public Children Services Agency",
+            "code": "public_children_services_agency"
+          },
+          {
+            "name": "OhioMeansJob Center",
+            "code": "ohiomeansjob_center"
+          },
+          {
+            "name": "Northeast Ohio Regional Sewer District",
+            "code": "northeast_oh_regional_sewer_district"
+          },
+          {
+            "name": "Other",
+            "code": "other_regional"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "state",
+      "type": "esriFieldTypeString",
+      "alias": "What state agency do you work in?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_state",
+        "codedValues": [
+          {
+            "name": "Adjutant General",
+            "code": "adjutant_general"
+          },
+          {
+            "name": "Department of Administrative Services",
+            "code": "dept_of_administrative_services"
+          },
+          {
+            "name": "Department of Aging",
+            "code": "dept_of_aging"
+          },
+          {
+            "name": "Department of Agriculture",
+            "code": "dept_of_agriculture"
+          },
+          {
+            "name": "Board of Regents",
+            "code": "board_of_regents"
+          },
+          {
+            "name": "Office of Budget and Management",
+            "code": "office_of_budget_and_management"
+          },
+          {
+            "name": "Department of Commerce",
+            "code": "dept_of_commerce"
+          },
+          {
+            "name": "Department of Development",
+            "code": "dept_of_development"
+          },
+          {
+            "name": "Environmental Protection Agency",
+            "code": "environmental_protection_agency"
+          },
+          {
+            "name": "Department of Education & Workforce",
+            "code": "dept_of_education_and_workforce"
+          },
+          {
+            "name": "Department of Health",
+            "code": "dept_of_health"
+          },
+          {
+            "name": "Department of Insurance",
+            "code": "dept_of_insurance"
+          },
+          {
+            "name": "Department of Job and Family Services",
+            "code": "dept_of_job_and_family_services"
+          },
+          {
+            "name": "Department of Developmental Disabilities",
+            "code": "dept_of_developmental_disabilities"
+          },
+          {
+            "name": "Department of Natural Resources",
+            "code": "dept_of_natural_resources"
+          },
+          {
+            "name": "Opportunities for Ohioans with Disabilities",
+            "code": "opportunities_for_ohioans_with_disabilities"
+          },
+          {
+            "name": "Department of Public Safety",
+            "code": "dept_of_public_safety"
+          },
+          {
+            "name": "Department of Rehabilitation and Correction",
+            "code": "dept_of_rehabilitation_and_correction"
+          },
+          {
+            "name": "Department of Taxation",
+            "code": "dept_of_taxation"
+          },
+          {
+            "name": "Department of Transportation",
+            "code": "dept_of_transportation"
+          },
+          {
+            "name": "Bureau of Workers' Compensation",
+            "code": "bureau_of_workers_compensation"
+          },
+          {
+            "name": "Department of Youth Services",
+            "code": "dept_of_youth_services"
+          },
+          {
+            "name": "Other",
+            "code": "other_state"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "federal",
+      "type": "esriFieldTypeString",
+      "alias": "What federal agency do you work in?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_federal",
+        "codedValues": [
+          {
+            "name": "Federal Government",
+            "code": "federal_government"
+          },
+          {
+            "name": "Federal Reserve Bank of Cleveland",
+            "code": "federal_reserve_bank_of_cleveland"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "nonprofit",
+      "type": "esriFieldTypeString",
+      "alias": "What type of nonprofit?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_nonprofit",
+        "codedValues": [
+          {
+            "name": "Community Development Corporation(CDC)",
+            "code": "community_development"
+          },
+          {
+            "name": "Foundation",
+            "code": "foundation"
+          },
+          {
+            "name": "Research/ Think Tank",
+            "code": "research_think_tank"
+          },
+          {
+            "name": "Housing/Support",
+            "code": "housing_support"
+          },
+          {
+            "name": "Religious Institution",
+            "code": "religious_inst"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "explain_nonprofit",
+      "type": "esriFieldTypeString",
+      "alias": "Please provide the name of your organization:",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "zip_home",
+      "type": "esriFieldTypeString",
+      "alias": "What is your home ZIP code?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "usage_of_portal",
+      "type": "esriFieldTypeString",
+      "alias": "Why are you visiting the Cleveland Open Data Portal?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "looking_for",
+      "type": "esriFieldTypeString",
+      "alias": "Did you find what you are looking for?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_looking_for",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "yes"
+          },
+          {
+            "name": "No",
+            "code": "no"
+          },
+          {
+            "name": "I have not started looking",
+            "code": "still_looking"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "what_look_for",
+      "type": "esriFieldTypeString",
+      "alias": "What were you looking for that wasn't available?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "how_usage",
+      "type": "esriFieldTypeString",
+      "alias": "How are you using the portal?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "other_usage",
+      "type": "esriFieldTypeString",
+      "alias": "Please explain the other ways you were interacting with the Open Data Portal:",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ease_of_use",
+      "type": "esriFieldTypeString",
+      "alias": "How would you rate the ease of your navigation of the Open Portal?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_ease_of_use",
+        "codedValues": [
+          {
+            "name": "<b>1<b>",
+            "code": "1"
+          },
+          {
+            "name": "<b>2<b>",
+            "code": "2"
+          },
+          {
+            "name": "<b>3<b>",
+            "code": "3"
+          },
+          {
+            "name": "<b>4<b>",
+            "code": "4"
+          },
+          {
+            "name": "<b>5<b>",
+            "code": "5"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "improvement",
+      "type": "esriFieldTypeString",
+      "alias": "Please tell us how we can improve:",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "last_remarks",
+      "type": "esriFieldTypeString",
+      "alias": "Is there anything else you would like to share about Cleveland Open Data?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "answer_personal",
+      "type": "esriFieldTypeString",
+      "alias": "Would you like to share some additional information about yourself?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_answer_personal",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "yes"
+          },
+          {
+            "name": "No",
+            "code": "no"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "gender",
+      "type": "esriFieldTypeString",
+      "alias": "What is your gender?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_gender",
+        "codedValues": [
+          {
+            "name": "Male",
+            "code": "male"
+          },
+          {
+            "name": "Female",
+            "code": "female"
+          },
+          {
+            "name": "Non-binary",
+            "code": "non_binary"
+          },
+          {
+            "name": "Prefer to self-describe",
+            "code": "other_gender"
+          },
+          {
+            "name": "Prefer not to say",
+            "code": "prefer_not_to_say"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "other_gender",
+      "type": "esriFieldTypeString",
+      "alias": "How do you self-describe?",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "education_level",
+      "type": "esriFieldTypeString",
+      "alias": "What is the highest degree or level of education you have completed?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_education_level",
+        "codedValues": [
+          {
+            "name": "Some High School",
+            "code": "some_high_school"
+          },
+          {
+            "name": "High School",
+            "code": "high_school"
+          },
+          {
+            "name": "Associates",
+            "code": "associates"
+          },
+          {
+            "name": "Some College",
+            "code": "some_college"
+          },
+          {
+            "name": "Bachelor's Degree",
+            "code": "bachelors_degree"
+          },
+          {
+            "name": "Master's Degree",
+            "code": "master_degree"
+          },
+          {
+            "name": "Ph.D. or Equal",
+            "code": "phd_higher"
+          },
+          {
+            "name": "Trade School",
+            "code": "trade_school"
+          },
+          {
+            "name": "Prefer not to say",
+            "code": "prefer_no_education"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "age",
+      "type": "esriFieldTypeString",
+      "alias": "What is your age?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_age",
+        "codedValues": [
+          {
+            "name": "Under 18",
+            "code": "0_18"
+          },
+          {
+            "name": "18-24",
+            "code": "18_24"
+          },
+          {
+            "name": "25-34",
+            "code": "25_34"
+          },
+          {
+            "name": "35-44",
+            "code": "35_44"
+          },
+          {
+            "name": "45-54",
+            "code": "45_54"
+          },
+          {
+            "name": "55-64",
+            "code": "55_64"
+          },
+          {
+            "name": "65+",
+            "code": "65_up"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "first_name",
+      "type": "esriFieldTypeString",
+      "alias": "First Name",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "last_name",
+      "type": "esriFieldTypeString",
+      "alias": "Last Name",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "email",
+      "type": "esriFieldTypeString",
+      "alias": "E-Mail",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__service___5242E632C1F12BC1",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "service_7c246345f06b4ac8821d6c7c376d2374_FEEDBACK_SUBMISSIONS_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {}
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 1000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Create,Editing"
+}

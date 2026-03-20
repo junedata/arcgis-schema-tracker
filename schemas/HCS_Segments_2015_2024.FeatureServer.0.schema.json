@@ -1,0 +1,577 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "HCS_Segments_2016_2025",
+  "type": "Feature Layer",
+  "serviceItemId": "0a419966213d4945a9d5c417686448f0",
+  "cacheMaxAge": 30,
+  "displayField": "",
+  "description": "&lt;p&gt;&lt;span style=\"background-color:rgb(255,255,255); color:rgb(20,20,20); font-family:&amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;&lt;span style=\"display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;\"&gt;This dashboard presents a comprehensive overview of Cleveland’s High Crash Segments from 2016 to 2025. High Crash Segments are defined as one-mile roadway sections where 10 or more serious injury or fatal crashes occurred within a five-year period. &lt;/span&gt;&lt;/span&gt;&lt;span style=\"background-color:rgb(255,255,255); color:rgb(74,74,74); font-family:&amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;&lt;span style=\"display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;\"&gt;These segments highlight some of the most dangerous parts of the city’s street network.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Crash data is obtained from ODOT:&amp;nbsp;&lt;a style=\"border:0px solid currentcolor; box-sizing:border-box; color:rgb(0, 97, 155); font-family:inherit; line-height:1.5; text-decoration:none;\" target=\"_blank\" href=\"https://gis.dot.state.oh.us/tims/CrashAnalytics/Login\"&gt;GCAT | ODOT TIMS (state.oh.us)&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Update Frequency&lt;/strong&gt;&lt;br&gt;&lt;span style=\"background-color:rgb(255,255,255); color:rgb(74,74,74); font-family:inherit; font-size:16px;\"&gt;&lt;span style=\"border:0px solid currentcolor; box-sizing:border-box; display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;\"&gt;Updated annually for the most recent 10-year period.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Contact&lt;/strong&gt;&lt;br&gt;&lt;span style=\"background-color:rgb(255,255,255); color:rgb(74,74,74); font-family:inherit; font-size:16px;\"&gt;&lt;span style=\"border:0px solid currentcolor; box-sizing:border-box; display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;\"&gt;Cameron Roberts, Vision Zero Coordinator&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;a style=\"background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(0, 97, 155); font-family:inherit; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration:none; text-indent:0px; text-transform:none; word-spacing:0px;\" href=\"mailto:croberts5@clevelandohio.gov\" target=\"_blank\"&gt;croberts5@clevelandohio.gov&lt;/a&gt;&lt;/p&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1773778258143,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolyline",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -9104372.3259,
+    "ymin": 5076718.250299998,
+    "xmax": -9077404.377,
+    "ymax": 5097779.485799998,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [
+          165,
+          83,
+          183,
+          255
+        ],
+        "width": 1
+      }
+    },
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeNone",
+  "hasMetadata": true,
+  "hasM": true,
+  "allowUpdateWithoutMValues": true,
+  "hasZ": true,
+  "enableZDefaults": true,
+  "zDefault": 0,
+  "objectIdField": "FID",
+  "uniqueIdField": {
+    "name": "FID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "actualType": "int",
+      "alias": "FID",
+      "sqlType": "sqlTypeInteger",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Common_Nam",
+      "type": "esriFieldTypeString",
+      "actualType": "nvarchar",
+      "alias": "Common Name",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NFLID",
+      "type": "esriFieldTypeString",
+      "actualType": "nvarchar",
+      "alias": "NFLID",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Begin_Log",
+      "type": "esriFieldTypeInteger",
+      "actualType": "int",
+      "alias": "Begin Log",
+      "sqlType": "sqlTypeInteger",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "End_Log",
+      "type": "esriFieldTypeInteger",
+      "actualType": "int",
+      "alias": "End Log",
+      "sqlType": "sqlTypeInteger",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "actualType": "float",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeFloat",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FSI_2016_2020",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2016_2020",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "FSI_2017_2021",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2017_2021",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "FSI_2018_2022",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2018_2022",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "FSI_2019_2023",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2019_2023",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "FSI_2020_2024",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2020_2024",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "FSI_Total",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_Total",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "HCS_Score",
+      "type": "esriFieldTypeInteger",
+      "alias": "HCS_Score",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "Rank",
+      "type": "esriFieldTypeInteger",
+      "alias": "Rank",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "HCS_2016_2020",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2016_2020",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "HCS_2017_2021",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2017_2021",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "HCS_2018_2022",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2018_2022",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "HCS_2019_2023",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2019_2023",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "HCS_2020_2024",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2020_2024",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "FSI_2021_2025",
+      "type": "esriFieldTypeInteger",
+      "alias": "FSI_2021_2025",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "HCS_2021_2025",
+      "type": "esriFieldTypeString",
+      "alias": "HCS_2021_2025",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "PK__HCS_SEGM__C1BEA5A2402EBFC3",
+      "fields": "FID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "HCS_SEGMENTS_2015_2024_HCS_SEGMENTS_2015_2024_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolLine",
+      "prototype": {
+        "attributes": {
+          "Common_Nam": null,
+          "NFLID": null,
+          "Begin_Log": null,
+          "End_Log": null,
+          "FSI_2015_2019": null,
+          "FSI_2016_2020": null,
+          "FSI_2017_2021": null,
+          "FSI_2018_2022": null,
+          "FSI_2019_2023": null,
+          "FSI_2020_2024": null,
+          "FSI_Total": null,
+          "HCS_Score": null,
+          "Rank": null,
+          "HCS_2015_2019": null,
+          "HCS_2016_2020": null,
+          "HCS_2017_2021": null,
+          "HCS_2018_2022": null,
+          "HCS_2019_2023": null,
+          "HCS_2020_2024": null,
+          "FSI_2021_2025": null,
+          "HCS_2021_2025": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

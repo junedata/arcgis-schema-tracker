@@ -1,0 +1,1300 @@
+{
+  "currentVersion": 12,
+  "id": 15,
+  "name": "Transportation Type",
+  "type": "Feature Layer",
+  "serviceItemId": "89c639f534684dbaab9218d2227580ba",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "This layer shows workers' place of residence by mode of commute.&nbsp;This is shown by tract, county, and state boundaries.&nbsp;This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis. &nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This layer is symbolized by the percentage of workers who drove alone. To see the full list of attributes available in this service, go to the &amp;quot;Data&amp;quot; tab, and choose &amp;quot;Fields&amp;quot; at the top right.&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Current Vintage&lt;/b&gt;:&nbsp;&lt;span style=\"font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;2019-2023&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ACS Table(s)&lt;/b&gt;: B08301&nbsp;(Not all lines of this ACS table are available in this feature layer.)&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data downloaded from&lt;/b&gt;:&nbsp;&lt;a&gt;Census Bureau's API for American Community Survey&lt;/a&gt;&nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;The United States Census Bureau's American Community Survey (ACS):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;About the Survey&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Geography &amp;amp; ACS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Technical Documentation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;News &amp;amp; Updates&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;This ready-to-use layer can be used within ArcGIS Pro, ArcGIS Online, its configurable apps, dashboards, Story Maps, custom apps, and mobile apps. Data can also be exported for offline workflows. For more information about ACS layers, visit the&nbsp;&lt;a&gt;FAQ&lt;/a&gt;. Please cite the Census and ACS when using this data.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Data Note from the Census:&lt;/b&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error. The value shown here is the 90 percent margin of error. The margin of error can be interpreted as providing a 90 percent probability that the interval defined by the estimate minus the margin of error and the estimate plus the margin of error (the lower and upper confidence bounds) contains the true value. In addition to sampling variability, the ACS estimates are subject to nonsampling error (for a discussion of nonsampling variability, see&nbsp;&lt;a&gt;Accuracy of the Data&lt;/a&gt;).&nbsp; The effect of nonsampling error is not represented in these tables.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data Processing Notes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This layer is updated automatically when the most current vintage of ACS data is released each year, usually in December. The layer always contains the latest available ACS 5-year estimates. It is updated annually within days of the Census Bureau's release schedule.&nbsp;&lt;a&gt;Click here&lt;/a&gt;&nbsp;to learn more about ACS data releases.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Boundaries come from the&nbsp;&lt;a&gt;US Census TIGER geodatabases,&lt;/a&gt;&nbsp;specifically, the National Sub-State Geography Database (named tlgdb_(year)_a_us_substategeo.gdb). Boundaries are updated at the same time as the data updates (annually), and the boundary vintage appropriately matches the data vintage&nbsp;&lt;a&gt;as specified by the Census&lt;/a&gt;. These are Census boundaries with water and/or coastlines erased for cartographic and mapping purposes. For census tracts, the water cutouts are derived from a subset of the&nbsp;&lt;a&gt;2020 Areal Hydrography boundaries offered by TIGER&lt;/a&gt;. Water bodies and rivers which are 50 million square meters or larger (mid to large sized water bodies) are erased from the tract level boundaries, as well as additional important features. For state and county boundaries, the water and coastlines are derived from the coastlines of the 2022 500k&nbsp;&lt;a&gt;TIGER Cartographic Boundary Shapefiles&lt;/a&gt;. These are erased to more accurately portray the coastlines and Great Lakes. The original AWATER and ALAND fields are still available as attributes within the data table (units are square meters).&lt;/li&gt;&lt;li&gt;The States layer contains 52 records - all US states, Washington D.C., and Puerto Rico&lt;/li&gt;&lt;li&gt;Census tracts with no population that occur in areas of water, such as oceans, are removed from this data service (Census Tracts beginning with 99).&lt;/li&gt;&lt;li&gt;Percentages and derived counts, and associated margins of error, are calculated values (that can be identified by the &amp;quot;_calc_&amp;quot; stub in the field name), and abide by the specifications&nbsp;&lt;a&gt;defined by the American Community Survey&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Field alias names were created based on the Table Shells file available from the&nbsp;&lt;a&gt;American Community Survey Summary File Documentation page&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Negative values (e.g., -4444...) have been set to null, with the exception of -5555... which has been set to zero.&nbsp;These negative values exist in the raw API data to indicate the following situations:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;Either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The median falls in the lowest interval of an open-ended distribution, or in the upper interval of an open-ended distribution. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;The estimate is controlled. A statistical test for sampling variability is not appropriate.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The data for this geographic area cannot be displayed because the number of sample cases is too small.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758912803278,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": null,
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "colorInfo",
+          "field": "B08301_calc_pctDroveAloneE",
+          "valueExpression": null,
+          "stops": [
+            {
+              "value": 58,
+              "color": [
+                255,
+                252,
+                212,
+                255
+              ],
+              "label": "< 58%"
+            },
+            {
+              "value": 66,
+              "color": [
+                224,
+                178,
+                193,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 73,
+              "color": [
+                193,
+                104,
+                173,
+                255
+              ],
+              "label": "73% - national average"
+            },
+            {
+              "value": 81,
+              "color": [
+                123,
+                53,
+                120,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 89,
+              "color": [
+                53,
+                2,
+                66,
+                255
+              ],
+              "label": "> 89%"
+            }
+          ]
+        }
+      ],
+      "authoringInfo": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "minSliderValue": 0,
+            "maxSliderValue": 100,
+            "theme": "high-to-low"
+          }
+        ]
+      },
+      "type": "classBreaks",
+      "field": "B08301_calc_pctDroveAloneE",
+      "defaultSymbol": {
+        "color": [
+          214,
+          214,
+          214,
+          255
+        ],
+        "outline": {
+          "color": null,
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSNull"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "minValue": -9007199254740991,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "color": [
+              170,
+              170,
+              170,
+              255
+            ],
+            "outline": {
+              "color": [
+                173,
+                173,
+                173,
+                46
+              ],
+              "width": 0.375,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "type": "esriSFS",
+            "style": "esriSFSSolid"
+          },
+          "classMaxValue": 9007199254740991
+        }
+      ],
+      "defaultLabel": "No Value"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"An ObjectID is a unique, not null integer field used to uniquely identify rows in tables in a geographical table.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "Geographic Identifier - FIPS Code",
+      "sqlType": "sqlTypeOther",
+      "length": 11,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Geographic Identifier, or GEOID is the numeric code used to uniquely identify all administrative/legal and statistical geographic areas for which the Census Bureau tabulates data.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "ALAND",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Land (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of land in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "AWATER",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Water (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of water in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of this geographical area\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"State in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"County in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "B08301_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Workers 16 Years and Over",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Everyone 16 years and over (including members of the Armed Forces) who worked \\\"last week,\\\" that is, the calendar week preceding the date on which the respondents completed their questionnaires or were interviewed. This week is not the same for all respondents.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Workers 16 Years and Over - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Total Workers 16 Years and Over (90% confidence). Everyone 16 years and over (including members of the Armed Forces) who worked \\\"last week,\\\" that is, the calendar week preceding the date on which the respondents completed their questionnaires or were interviewed. This week is not the same for all respondents.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All Workers who commuted by car, truck, or van",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The sum of those who drove alone and those who carpooled. Includes workers who used a car (including company cars but excluding taxicabs), a truck of one-ton capacity or less, or a van. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All Workers who commuted by car, truck, or van - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for All Workers who commuted by car, truck, or van (90% confidence). The sum of those who drove alone and those who carpooled. Includes workers who used a car (including company cars but excluding taxicabs), a truck of one-ton capacity or less, or a van. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who drove alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes people who usually drove alone to work as well as people who were driven to work by someone who then drove back home or to a non-work destination. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who drove alone - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who drove alone (90% confidence). Includes people who usually drove alone to work as well as people who were driven to work by someone who then drove back home or to a non-work destination. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who carpooled",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who reported that two or more people usually rode to work in the vehicle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who carpooled - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who carpooled (90% confidence). Includes workers who reported that two or more people usually rode to work in the vehicle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All Workers who commuted by public transportation (excluding taxicab)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The sum of workers who commuted by bus or trolley bus; streetcar or trolley car (carro público in Puerto Rico); subway or elevated; railroad; and ferryboat. Taxicab is not included in public transportation. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All Workers who commuted by public transportation (excluding taxicab) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for All Workers who commuted by public transportation (excluding taxicab) (90% confidence). The sum of workers who commuted by bus or trolley bus; streetcar or trolley car (carro público in Puerto Rico); subway or elevated; railroad; and ferryboat. Taxicab is not included in public transportation.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_011E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by bus",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by bus - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by bus (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_012E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by subway or elevated rail",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_012M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by subway or elevated rail - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by subway or elevated rail (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_013E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by long-distance train or commuter rail",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_013M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by long-distance train or commuter rail - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by long-distance train or commuter rail (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_014E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by light rail, streetcar or trolley (carro público in Puerto Rico)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_014M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by light rail, streetcar or trolley (carro público in Puerto Rico) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by light rail, streetcar or trolley (carro público in Puerto Rico) (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_015E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by ferryboat",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_015M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by ferryboat - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by ferryboat (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_016E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by taxicab",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_016M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by taxicab - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by taxicab (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_017E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by motorcycle",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_017M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by motorcycle - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by motorcycle (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_018E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by bicycle",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_018M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by bicycle - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by bicycle (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_019E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by walking",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_019M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by walking - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by walking (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_020E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who commuted by other means",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes all modes of travel not identified separately. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_020M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who commuted by other means - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who commuted by other means (90% confidence). Includes all modes of travel not identified separately. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_021E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Workers who worked at home",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_021M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Workers who worked at home - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Workers who worked at home (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08301_calc_pctDroveAloneE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by driving alone",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes people who usually drove alone to work as well as people who were driven to work by someone who then drove back home or to a non-work destination. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_003E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctDroveAloneM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by driving alone - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by driving alone (90% confidence). Includes people who usually drove alone to work as well as people who were driven to work by someone who then drove back home or to a non-work destination. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_003M)^2-1.0*((B08301_003E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctCarpooledE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by carpooling",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who reported that two or more people usually rode to work in the vehicle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_004E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctCarpooledM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by carpooling - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by carpooling (90% confidence). Includes workers who reported that two or more people usually rode to work in the vehicle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_004M)^2-1.0*((B08301_004E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctPublicE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by public transportation",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by bus or trolley bus; streetcar or trolley car (carro público in Puerto Rico); subway or elevated; railroad; and ferryboat. Taxicab is not included in public transportation. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_010E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctPublicM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by public transportation - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by public transportation (90% confidence). Includes workers who commuted by bus or trolley bus; streetcar or trolley car (carro público in Puerto Rico); subway or elevated; railroad; and ferryboat. Taxicab is not included in public transportation. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: 100.0 * B08301_001E)*(sqrt((B08301_010M)^2-1.0*((B08301_010E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctBusE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by bus",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by bus. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_011E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctBusM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by bus - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by bus (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_011M)^2-1.0*((B08301_011E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctStreetcarE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by light rail, streetcar or trolley",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by streetcar or trolley car (carro público in Puerto Rico). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_012E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctStreetcarM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by light rail, streetcar or trolley - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by streetcar or trolley car (carro público in Puerto Rico) (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_012M)^2-1.0*((B08301_012E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctSubwayE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by subway or elevated rail",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by subway or elevated. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field:  round( 100.0 * B08301_013E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctSubwayM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by subway or elevated rail - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by subway or elevated (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_013M)^2-1.0*((B08301_013E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctRailE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by long-distance train or commuter rail",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by railroad. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_014E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctRailM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by long-distance train or commuter rail - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by railroad (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_014M)^2-1.0*((B08301_014E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctFerryE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by ferryboat",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by ferryboat. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_015E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctFerryM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by ferryboat - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by ferryboat (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_015M)^2-1.0*((B08301_015E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctTaxiE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by taxicab",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by taxicab. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_016E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctTaxiM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by taxicab - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by taxicab (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_016M)^2-1.0*((B08301_016E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctMotorcycleE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by motorcycle",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by motorcycle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_017E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctMotorcycleM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by motorcycle - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by motorcycle (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_017M)^2-1.0*((B08301_017E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctBicycleE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by bicycle",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by bicycle. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_018E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctBicycleM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by bicycle - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by bicycle (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_018M)^2-1.0*((B08301_018E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctWalkE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by walking",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who commuted by walking. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_019E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctWalkM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by walking - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by walking (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_019M)^2-1.0*((B08301_019E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctOtherE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by other means",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes all modes of travel not identified separately. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_020E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctOtherM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who commuted by other means - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who commuted by all other means of transportation not identified separately (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_020M)^2-1.0*((B08301_020E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctHomeE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who worked at home",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Includes workers who worked at home. People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: round( 100.0 * B08301_021E / B08301_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08301_calc_pctHomeM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of workers who worked at home - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for Percent of workers who worked at home (90% confidence). People who used different means of transportation on different days of the week were asked to specify the one they used most often, that is, the greatest number of days. People who used more than one means of transportation to get to work each day were asked to report the one used for the longest distance during the work trip. Esri calculated field: (100.0 * B08301_001E)*(sqrt((B08301_021M)^2-1.0*((B08301_021E / B08301_001E)^2)*(B08301_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "Year",
+      "type": "esriFieldTypeString",
+      "alias": "Year",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACEFP",
+      "type": "esriFieldTypeString",
+      "alias": "Place FIPS",
+      "sqlType": "sqlTypeOther",
+      "length": 7,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The FIPS Code corresponding to the census designated place in which each census tract resides.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "PLACENAME",
+      "type": "esriFieldTypeString",
+      "alias": "Place Name",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The name of the census designated place in which the census tract falls.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeString",
+      "alias": "WARD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "type": "esriFieldTypeString",
+      "alias": "NEIGHBORHOOD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Census_Data_TRACT14_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__Census_D__F4B70D85C3CCAB20",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Tract",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "B08301_calc_pctHomeE": null,
+          "B08301_calc_pctHomeM": null,
+          "GEOID": null,
+          "ALAND": null,
+          "AWATER": null,
+          "NAME": null,
+          "State": null,
+          "County": null,
+          "B08301_001E": null,
+          "B08301_001M": null,
+          "B08301_002E": null,
+          "B08301_002M": null,
+          "B08301_003E": null,
+          "B08301_003M": null,
+          "B08301_004E": null,
+          "B08301_004M": null,
+          "B08301_010E": null,
+          "B08301_010M": null,
+          "B08301_011E": null,
+          "B08301_011M": null,
+          "B08301_012E": null,
+          "B08301_012M": null,
+          "B08301_013E": null,
+          "B08301_013M": null,
+          "B08301_014E": null,
+          "B08301_014M": null,
+          "B08301_015E": null,
+          "B08301_015M": null,
+          "B08301_016E": null,
+          "B08301_016M": null,
+          "B08301_017E": null,
+          "B08301_017M": null,
+          "B08301_018E": null,
+          "B08301_018M": null,
+          "B08301_019E": null,
+          "B08301_019M": null,
+          "B08301_020E": null,
+          "B08301_020M": null,
+          "B08301_021E": null,
+          "B08301_021M": null,
+          "B08301_calc_pctDroveAloneE": null,
+          "B08301_calc_pctDroveAloneM": null,
+          "B08301_calc_pctCarpooledE": null,
+          "B08301_calc_pctCarpooledM": null,
+          "B08301_calc_pctPublicE": null,
+          "B08301_calc_pctPublicM": null,
+          "B08301_calc_pctBusE": null,
+          "B08301_calc_pctBusM": null,
+          "B08301_calc_pctStreetcarE": null,
+          "B08301_calc_pctStreetcarM": null,
+          "B08301_calc_pctSubwayE": null,
+          "B08301_calc_pctSubwayM": null,
+          "B08301_calc_pctRailE": null,
+          "B08301_calc_pctRailM": null,
+          "B08301_calc_pctFerryE": null,
+          "B08301_calc_pctFerryM": null,
+          "B08301_calc_pctTaxiE": null,
+          "B08301_calc_pctTaxiM": null,
+          "B08301_calc_pctMotorcycleE": null,
+          "B08301_calc_pctMotorcycleM": null,
+          "B08301_calc_pctBicycleE": null,
+          "B08301_calc_pctBicycleM": null,
+          "B08301_calc_pctWalkE": null,
+          "B08301_calc_pctWalkM": null,
+          "B08301_calc_pctOtherE": null,
+          "B08301_calc_pctOtherM": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

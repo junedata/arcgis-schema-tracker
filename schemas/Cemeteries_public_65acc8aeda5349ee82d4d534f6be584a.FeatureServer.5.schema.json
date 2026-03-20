@@ -1,0 +1,790 @@
+{
+  "currentVersion": 12,
+  "id": 5,
+  "name": "Burials",
+  "type": "Table",
+  "serviceItemId": "d1fc3cb80d5a4628b406318f7ed3d741",
+  "cacheMaxAge": 300,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "fullname",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758125986718,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [
+    {
+      "id": 0,
+      "name": "Gravesites",
+      "relatedTableId": 4,
+      "cardinality": "esriRelCardinalityOneToMany",
+      "role": "esriRelRoleDestination",
+      "keyField": "parentglobalid",
+      "composite": false
+    }
+  ],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsReturningQueryExtent": false,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    },
+    "fullTextSearchableFields": [
+      "fullname"
+    ]
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeNone",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "GlobalID",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Burial ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Unique identfier for this interment\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "firstname",
+      "type": "esriFieldTypeString",
+      "alias": "First Name",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "lastname",
+      "type": "esriFieldTypeString",
+      "alias": "Last Name",
+      "sqlType": "sqlTypeOther",
+      "length": 150,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "fullname",
+      "type": "esriFieldTypeString",
+      "alias": "Full Name",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "sex",
+      "type": "esriFieldTypeString",
+      "alias": "Reported Gender",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Sex",
+        "codedValues": [
+          {
+            "name": "Female",
+            "code": "Female"
+          },
+          {
+            "name": "Male",
+            "code": "Male"
+          },
+          {
+            "name": "Transgender",
+            "code": "Trans"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          },
+          {
+            "name": "Unknown",
+            "code": "Unknown"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "birthdate",
+      "type": "esriFieldTypeDate",
+      "alias": "Birth Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "deathdate",
+      "type": "esriFieldTypeDate",
+      "alias": "Death Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"dateAndTime\"}",
+      "precision": 1
+    },
+    {
+      "name": "age",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Age",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "burialdate",
+      "type": "esriFieldTypeDate",
+      "alias": "Burial Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "funeralhome",
+      "type": "esriFieldTypeString",
+      "alias": "Funeral Home",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "monumenttype",
+      "type": "esriFieldTypeString",
+      "alias": "Type of Monument",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "MonumentType",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "codedValues": [
+          {
+            "name": "Grave marker",
+            "code": "Grave marker"
+          },
+          {
+            "name": "Headstone",
+            "code": "Headstone"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          },
+          {
+            "name": "Unknown",
+            "code": "Unknown"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "veteran",
+      "type": "esriFieldTypeString",
+      "alias": "Veteran",
+      "sqlType": "sqlTypeOther",
+      "length": 5,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "YesNo",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "Yes"
+          },
+          {
+            "name": "No",
+            "code": "No"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "notes",
+      "type": "esriFieldTypeString",
+      "alias": "Narrative",
+      "sqlType": "sqlTypeOther",
+      "length": 4000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "gravesiteid",
+      "type": "esriFieldTypeString",
+      "alias": "Location ID",
+      "sqlType": "sqlTypeOther",
+      "length": 30,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The lot or tier that this individual is located. This is a unique code for every location in the cemetery.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "parentglobalid",
+      "type": "esriFieldTypeGUID",
+      "alias": "Parent Global ID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This value matches the GlobalID of the lot/tier that the person is located in. This is the field where that relationship is defined.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Section_Source",
+      "type": "esriFieldTypeString",
+      "alias": "Section Legacy",
+      "sqlType": "sqlTypeOther",
+      "length": 16,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"These are old section values from prior systems provided as reference. For official section information, see Section ID.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Lot_Source",
+      "type": "esriFieldTypeString",
+      "alias": "Lot Details",
+      "sqlType": "sqlTypeOther",
+      "length": 64,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"This includes extra details about the lot, such as whether it is in north 1/2 or south 1/2. These are not standard data that are used for locating the individual. They are used as additional details in popups to help people find the grave.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Tier_Source",
+      "type": "esriFieldTypeString",
+      "alias": "Tier Legacy",
+      "sqlType": "sqlTypeOther",
+      "length": 64,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Old tier values from prior system\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Grave_Source",
+      "type": "esriFieldTypeString",
+      "alias": "Grave Number",
+      "sqlType": "sqlTypeOther",
+      "length": 64,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The grave number within the specific lot\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "sectionid",
+      "type": "esriFieldTypeString",
+      "alias": "Section ID",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "lotid",
+      "type": "esriFieldTypeString",
+      "alias": "Lot Tier ID",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "facilityid",
+      "type": "esriFieldTypeString",
+      "alias": "Facility ID",
+      "sqlType": "sqlTypeOther",
+      "length": 3,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Burials_facilityid_da7ab7dd-9c77-434d-8fc0-a9b388a7f916",
+        "codedValues": [
+          {
+            "name": "Alger",
+            "code": "ALG"
+          },
+          {
+            "name": "Brookmere",
+            "code": "BRK"
+          },
+          {
+            "name": "Cleveland Memorial Gardens",
+            "code": "CMG"
+          },
+          {
+            "name": "Denison",
+            "code": "DEN"
+          },
+          {
+            "name": "Erie",
+            "code": "ERE"
+          },
+          {
+            "name": "Harvard Grove",
+            "code": "HAR"
+          },
+          {
+            "name": "Highland Park",
+            "code": "HLP"
+          },
+          {
+            "name": "Memorial Park Potter's Field",
+            "code": "HPF"
+          },
+          {
+            "name": "Monroe",
+            "code": "MON"
+          },
+          {
+            "name": "Scranton",
+            "code": "SCR"
+          },
+          {
+            "name": "West Park",
+            "code": "WEP"
+          },
+          {
+            "name": "Woodland",
+            "code": "WOD"
+          },
+          {
+            "name": "Disinterred",
+            "code": "DIS"
+          },
+          {
+            "name": "Missing Info",
+            "code": "XXX"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "source",
+      "type": "esriFieldTypeString",
+      "alias": "Source",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Burials_source_ff74cdc2-31eb-4a31-859e-5936e7e1f507",
+        "codedValues": [
+          {
+            "name": "City SharePoint Lists",
+            "code": "City SharePoint Lists"
+          },
+          {
+            "name": "Cemetery GIS Manager",
+            "code": "Cemetery GIS Manager"
+          },
+          {
+            "name": "East Cuyahoga County Genealogical Society",
+            "code": "East Cuyahoga County Genealogical Society"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "link",
+      "type": "esriFieldTypeString",
+      "alias": "Link",
+      "sqlType": "sqlTypeOther",
+      "length": 512,
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"For historic records, this link will be populated and route to the OHGenWeb scan image of the City's cemetery register book page that contains that person's entry.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Interment_Number",
+      "type": "esriFieldTypeInteger",
+      "alias": "Interment Number",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "isViewOverride": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Every cemetery has a running sequence of interment numbers in chronological order of burials specific to that cemetery. Highland Park and Potter's Field share a common pool of numbers.\",\"fieldValueType\":\"\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__Cemeteri__F4B70D85CA9AA5BB",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "FDO_GlobalID",
+      "fields": "GlobalID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "G16parentglobali",
+      "fields": "parentglobalid",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "gravesiteid",
+      "fields": "gravesiteid",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "FT_Cemeteries_65acc8aeda5349ee82d4d534f6be584a_BURIALS_fullname",
+      "fields": "fullname",
+      "description": "Layer settings",
+      "indexType": "FullText"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Burials",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {
+          "parentglobalid": null,
+          "firstname": null,
+          "lastname": null,
+          "fullname": null,
+          "sex": null,
+          "birthdate": null,
+          "deathdate": null,
+          "age": null,
+          "burialdate": null,
+          "funeralhome": null,
+          "monumenttype": null,
+          "veteran": null,
+          "notes": null,
+          "gravesiteid": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract",
+  "viewDefinitionQuery": "CreationDate NOT BETWEEN CURRENT_TIMESTAMP - 2 AND CURRENT_TIMESTAMP",
+  "definitionQuery": "CreationDate NOT BETWEEN CURRENT_TIMESTAMP - 2 AND CURRENT_TIMESTAMP"
+}

@@ -1,0 +1,1509 @@
+{
+  "currentVersion": 12,
+  "id": 0,
+  "name": "survey",
+  "type": "Feature Layer",
+  "serviceItemId": "e9a23cb560ee4f0cbf5559b6d40a2dd9",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true,
+    "allowOthersToDelete": true,
+    "allowOthersToUpdate": true,
+    "allowAnonymousToQuery": true,
+    "allowAnonymousToUpdate": false,
+    "allowAnonymousToDelete": false
+  },
+  "editFieldsInfo": {
+    "creationDateField": "CreationDate",
+    "creatorField": "Creator",
+    "editDateField": "EditDate",
+    "editorField": "Editor"
+  },
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1761228172502,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "supportsOBACForAnonymousUsers": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsQueryAttachments": true,
+    "supportsQueryAttachmentsCountOnly": true,
+    "supportsQueryAttachmentOrderByFields": true,
+    "supportsQueryAttachmentWithTypeWildcard": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAttachmentsWithReturnUrl": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    },
+    "fullTextSearchableFields": [
+      "phone_number"
+    ]
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "label": "Survey Point",
+      "symbol": {
+        "angle": 0,
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "width": 1
+        },
+        "size": 8,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": true,
+  "propagateVisibleFields": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    {
+      "name": "id",
+      "fieldName": "ATTACHMENTID",
+      "isEnabled": true
+    },
+    {
+      "name": "globalId",
+      "fieldName": "AttachmentGlobalID",
+      "isEnabled": true
+    },
+    {
+      "name": "name",
+      "fieldName": "ATT_NAME",
+      "isEnabled": true
+    },
+    {
+      "name": "size",
+      "fieldName": "DATA_SIZE",
+      "isEnabled": true
+    },
+    {
+      "name": "contentType",
+      "fieldName": "CONTENT_TYPE",
+      "isEnabled": true
+    },
+    {
+      "name": "keywords",
+      "fieldName": "Keywords",
+      "isEnabled": true
+    },
+    {
+      "name": "exifInfo",
+      "fieldName": "ExifInfo",
+      "isEnabled": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "globalid",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CreationDate",
+      "type": "esriFieldTypeDate",
+      "alias": "CreationDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Creator",
+      "type": "esriFieldTypeString",
+      "alias": "Creator",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "Editor",
+      "type": "esriFieldTypeString",
+      "alias": "Editor",
+      "sqlType": "sqlTypeOther",
+      "length": 128,
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "property_type",
+      "type": "esriFieldTypeString",
+      "alias": "Property Type",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_property_type",
+        "codedValues": [
+          {
+            "name": "Residential/Commercial",
+            "code": "Residential/Commercial"
+          },
+          {
+            "name": "Streetlight",
+            "code": "Streetlight"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "issue",
+      "type": "esriFieldTypeString",
+      "alias": "Issue",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_issue",
+        "codedValues": [
+          {
+            "name": "Power Out",
+            "code": "Power Out"
+          },
+          {
+            "name": "Wire Down/Sparking",
+            "code": "Wire Down/Sparking"
+          },
+          {
+            "name": "Power Flickering",
+            "code": "Power Flickering"
+          },
+          {
+            "name": "Low/Partial Power",
+            "code": "Low/Partial Power"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "address_or_intersection",
+      "type": "esriFieldTypeString",
+      "alias": "Address or Intersection",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "comments",
+      "type": "esriFieldTypeString",
+      "alias": "Comments",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "first_name",
+      "type": "esriFieldTypeString",
+      "alias": "First Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "last_name",
+      "type": "esriFieldTypeString",
+      "alias": "Last Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "phone_number",
+      "type": "esriFieldTypeString",
+      "alias": "Phone Number",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "email_address",
+      "type": "esriFieldTypeString",
+      "alias": "Email Address",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "can_we_call_if_we_have_any_furt",
+      "type": "esriFieldTypeString",
+      "alias": "Can we call if we have any further questions?",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_can_we_call_if_we_have_any_furt",
+        "codedValues": [
+          {
+            "name": "Yes",
+            "code": "Yes"
+          },
+          {
+            "name": "No",
+            "code": "No"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Shift",
+      "type": "esriFieldTypeString",
+      "alias": "Shift",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_Shift_37d59bdc-0a27-4535-8a7a-bf6f4145c582",
+        "codedValues": [
+          {
+            "name": "7:00-3:00",
+            "code": "7:00-3:00"
+          },
+          {
+            "name": "3:00-11:00",
+            "code": "3:00-11:00"
+          },
+          {
+            "name": "11:00-7:00",
+            "code": "11:00-7:00"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Dispatcher",
+      "type": "esriFieldTypeString",
+      "alias": "Dispatcher",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_Dispatcher_f805f9a2-2831-4ee9-8bbc-71d7642708ef",
+        "codedValues": [
+          {
+            "name": "Basch",
+            "code": "Basch"
+          },
+          {
+            "name": "Bruening",
+            "code": "Bruening"
+          },
+          {
+            "name": "Huffman",
+            "code": "Huffman"
+          },
+          {
+            "name": "Oliver",
+            "code": "Oliver"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Weather",
+      "type": "esriFieldTypeString",
+      "alias": "Weather",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_Weather_4f36b15c-7bd1-494e-8ad6-28fc8f0d197c",
+        "codedValues": [
+          {
+            "name": "Normal",
+            "code": "Normal"
+          },
+          {
+            "name": "Hot",
+            "code": "Hot"
+          },
+          {
+            "name": "Rain",
+            "code": "Rain"
+          },
+          {
+            "name": "Windy",
+            "code": "Windy"
+          },
+          {
+            "name": "Thunderstorms",
+            "code": "Thunderstorms"
+          },
+          {
+            "name": "Cold",
+            "code": "Cold"
+          },
+          {
+            "name": "Freezing Rain",
+            "code": "Freezing Rain"
+          },
+          {
+            "name": "Snow",
+            "code": "Snow"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "CrewAssigned",
+      "type": "esriFieldTypeString",
+      "alias": "Crew Assigned",
+      "sqlType": "sqlTypeOther",
+      "length": 5,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_CrewAssigned_ee7cc490-1b50-48b6-8e0a-a716b26eb3ae",
+        "codedValues": [
+          {
+            "name": "100",
+            "code": "100"
+          },
+          {
+            "name": "101",
+            "code": "101"
+          },
+          {
+            "name": "102",
+            "code": "102"
+          },
+          {
+            "name": "103",
+            "code": "103"
+          },
+          {
+            "name": "104",
+            "code": "104"
+          },
+          {
+            "name": "105",
+            "code": "105"
+          },
+          {
+            "name": "106",
+            "code": "106"
+          },
+          {
+            "name": "107",
+            "code": "107"
+          },
+          {
+            "name": "108",
+            "code": "108"
+          },
+          {
+            "name": "109",
+            "code": "109"
+          },
+          {
+            "name": "110",
+            "code": "110"
+          },
+          {
+            "name": "111",
+            "code": "111"
+          },
+          {
+            "name": "112",
+            "code": "112"
+          },
+          {
+            "name": "113",
+            "code": "113"
+          },
+          {
+            "name": "114",
+            "code": "114"
+          },
+          {
+            "name": "115",
+            "code": "115"
+          },
+          {
+            "name": "116",
+            "code": "116"
+          },
+          {
+            "name": "117",
+            "code": "117"
+          },
+          {
+            "name": "118",
+            "code": "118"
+          },
+          {
+            "name": "201",
+            "code": "201"
+          },
+          {
+            "name": "202",
+            "code": "202"
+          },
+          {
+            "name": "203",
+            "code": "203"
+          },
+          {
+            "name": "204",
+            "code": "204"
+          },
+          {
+            "name": "205",
+            "code": "205"
+          },
+          {
+            "name": "206",
+            "code": "206"
+          },
+          {
+            "name": "210",
+            "code": "210"
+          },
+          {
+            "name": "211",
+            "code": "211"
+          },
+          {
+            "name": "212",
+            "code": "212"
+          },
+          {
+            "name": "213",
+            "code": "213"
+          },
+          {
+            "name": "214",
+            "code": "214"
+          },
+          {
+            "name": "215",
+            "code": "215"
+          },
+          {
+            "name": "216",
+            "code": "216"
+          },
+          {
+            "name": "217",
+            "code": "217"
+          },
+          {
+            "name": "218",
+            "code": "218"
+          },
+          {
+            "name": "219",
+            "code": "219"
+          },
+          {
+            "name": "230",
+            "code": "230"
+          },
+          {
+            "name": "290",
+            "code": "290"
+          },
+          {
+            "name": "291",
+            "code": "291"
+          },
+          {
+            "name": "301",
+            "code": "301"
+          },
+          {
+            "name": "302",
+            "code": "302"
+          },
+          {
+            "name": "303",
+            "code": "303"
+          },
+          {
+            "name": "304",
+            "code": "304"
+          },
+          {
+            "name": "305",
+            "code": "305"
+          },
+          {
+            "name": "306",
+            "code": "306"
+          },
+          {
+            "name": "307",
+            "code": "307"
+          },
+          {
+            "name": "308",
+            "code": "308"
+          },
+          {
+            "name": "309",
+            "code": "309"
+          },
+          {
+            "name": "310",
+            "code": "310"
+          },
+          {
+            "name": "311",
+            "code": "311"
+          },
+          {
+            "name": "312",
+            "code": "312"
+          },
+          {
+            "name": "313",
+            "code": "313"
+          },
+          {
+            "name": "314",
+            "code": "314"
+          },
+          {
+            "name": "315",
+            "code": "315"
+          },
+          {
+            "name": "316",
+            "code": "316"
+          },
+          {
+            "name": "317",
+            "code": "317"
+          },
+          {
+            "name": "318",
+            "code": "318"
+          },
+          {
+            "name": "319",
+            "code": "319"
+          },
+          {
+            "name": "320",
+            "code": "320"
+          },
+          {
+            "name": "321",
+            "code": "321"
+          },
+          {
+            "name": "322",
+            "code": "322"
+          },
+          {
+            "name": "323",
+            "code": "323"
+          },
+          {
+            "name": "324",
+            "code": "324"
+          },
+          {
+            "name": "325",
+            "code": "325"
+          },
+          {
+            "name": "326",
+            "code": "326"
+          },
+          {
+            "name": "327",
+            "code": "327"
+          },
+          {
+            "name": "401",
+            "code": "401"
+          },
+          {
+            "name": "402",
+            "code": "402"
+          },
+          {
+            "name": "403",
+            "code": "403"
+          },
+          {
+            "name": "404",
+            "code": "404"
+          },
+          {
+            "name": "405",
+            "code": "405"
+          },
+          {
+            "name": "406",
+            "code": "406"
+          },
+          {
+            "name": "407",
+            "code": "407"
+          },
+          {
+            "name": "408",
+            "code": "408"
+          },
+          {
+            "name": "409",
+            "code": "409"
+          },
+          {
+            "name": "410",
+            "code": "410"
+          },
+          {
+            "name": "411",
+            "code": "411"
+          },
+          {
+            "name": "4112",
+            "code": "412"
+          },
+          {
+            "name": "413",
+            "code": "413"
+          },
+          {
+            "name": "414",
+            "code": "414"
+          },
+          {
+            "name": "415",
+            "code": "415"
+          },
+          {
+            "name": "416",
+            "code": "416"
+          },
+          {
+            "name": "417",
+            "code": "417"
+          },
+          {
+            "name": "418",
+            "code": "418"
+          },
+          {
+            "name": "419",
+            "code": "419"
+          },
+          {
+            "name": "420",
+            "code": "420"
+          },
+          {
+            "name": "421",
+            "code": "421"
+          },
+          {
+            "name": "422",
+            "code": "422"
+          },
+          {
+            "name": "423",
+            "code": "423"
+          },
+          {
+            "name": "424",
+            "code": "424"
+          },
+          {
+            "name": "425",
+            "code": "425"
+          },
+          {
+            "name": "426",
+            "code": "426"
+          },
+          {
+            "name": "427",
+            "code": "427"
+          },
+          {
+            "name": "428",
+            "code": "428"
+          },
+          {
+            "name": "429",
+            "code": "429"
+          },
+          {
+            "name": "430",
+            "code": "430"
+          },
+          {
+            "name": "431",
+            "code": "431"
+          },
+          {
+            "name": "432",
+            "code": "432"
+          },
+          {
+            "name": "433",
+            "code": "433"
+          },
+          {
+            "name": "434",
+            "code": "434"
+          },
+          {
+            "name": "435",
+            "code": "435"
+          },
+          {
+            "name": "436",
+            "code": "436"
+          },
+          {
+            "name": "437",
+            "code": "437"
+          },
+          {
+            "name": "438",
+            "code": "438"
+          },
+          {
+            "name": "439",
+            "code": "439"
+          },
+          {
+            "name": "440",
+            "code": "440"
+          },
+          {
+            "name": "441",
+            "code": "441"
+          },
+          {
+            "name": "442",
+            "code": "442"
+          },
+          {
+            "name": "443",
+            "code": "443"
+          },
+          {
+            "name": "444",
+            "code": "444"
+          },
+          {
+            "name": "445",
+            "code": "445"
+          },
+          {
+            "name": "501",
+            "code": "501"
+          },
+          {
+            "name": "502",
+            "code": "502"
+          },
+          {
+            "name": "503",
+            "code": "503"
+          },
+          {
+            "name": "504",
+            "code": "504"
+          },
+          {
+            "name": "505",
+            "code": "505"
+          },
+          {
+            "name": "506",
+            "code": "506"
+          },
+          {
+            "name": "507",
+            "code": "507"
+          },
+          {
+            "name": "508",
+            "code": "508"
+          },
+          {
+            "name": "509",
+            "code": "509"
+          },
+          {
+            "name": "510",
+            "code": "510"
+          },
+          {
+            "name": "511",
+            "code": "511"
+          },
+          {
+            "name": "512",
+            "code": "512"
+          },
+          {
+            "name": "513",
+            "code": "513"
+          },
+          {
+            "name": "514",
+            "code": "514"
+          },
+          {
+            "name": "515",
+            "code": "515"
+          },
+          {
+            "name": "516",
+            "code": "516"
+          },
+          {
+            "name": "517",
+            "code": "517"
+          },
+          {
+            "name": "518",
+            "code": "518"
+          },
+          {
+            "name": "519",
+            "code": "519"
+          },
+          {
+            "name": "520",
+            "code": "520"
+          },
+          {
+            "name": "521",
+            "code": "521"
+          },
+          {
+            "name": "601",
+            "code": "601"
+          },
+          {
+            "name": "602",
+            "code": "602"
+          },
+          {
+            "name": "603",
+            "code": "603"
+          },
+          {
+            "name": "605",
+            "code": "605"
+          },
+          {
+            "name": "606",
+            "code": "606"
+          },
+          {
+            "name": "607",
+            "code": "607"
+          },
+          {
+            "name": "608",
+            "code": "608"
+          },
+          {
+            "name": "609",
+            "code": "609"
+          },
+          {
+            "name": "610",
+            "code": "610"
+          },
+          {
+            "name": "611",
+            "code": "611"
+          },
+          {
+            "name": "612",
+            "code": "612"
+          },
+          {
+            "name": "613",
+            "code": "613"
+          },
+          {
+            "name": "614",
+            "code": "614"
+          },
+          {
+            "name": "615",
+            "code": "615"
+          },
+          {
+            "name": "616",
+            "code": "616"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "CrewInitials",
+      "type": "esriFieldTypeString",
+      "alias": "Crew Initials",
+      "sqlType": "sqlTypeOther",
+      "length": 10,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TimeCrewCalled",
+      "type": "esriFieldTypeTimeOnly",
+      "alias": "Time Crew Called",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DayCrewCalled",
+      "type": "esriFieldTypeDateOnly",
+      "alias": "Day Crew Called",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "WorkDone",
+      "type": "esriFieldTypeString",
+      "alias": "Work Done",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Foreman",
+      "type": "esriFieldTypeString",
+      "alias": "Foreman",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "survey_Foreman_e3c9801b-030c-4059-841a-4a692819fbfe",
+        "codedValues": [
+          {
+            "name": "Dozier",
+            "code": "Dozier"
+          },
+          {
+            "name": "Lemieux",
+            "code": "Lemieux"
+          },
+          {
+            "name": "Madison",
+            "code": "Madison"
+          },
+          {
+            "name": "Wilson",
+            "code": "Wilson"
+          },
+          {
+            "name": "Other",
+            "code": "Other"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "DayCrewCompleted",
+      "type": "esriFieldTypeDateOnly",
+      "alias": "Day Crew Completed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TimeCompleted",
+      "type": "esriFieldTypeTimeOnly",
+      "alias": "Time Completed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "status",
+      "type": "esriFieldTypeString",
+      "alias": "Status",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_status",
+        "codedValues": [
+          {
+            "name": "Open",
+            "code": "Open"
+          },
+          {
+            "name": "Dispatched",
+            "code": "Dispatched"
+          },
+          {
+            "name": "Closed",
+            "code": "Closed"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "duplicate",
+      "type": "esriFieldTypeString",
+      "alias": "Duplicate",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_duplicate",
+        "codedValues": [
+          {
+            "name": "No",
+            "code": "No"
+          },
+          {
+            "name": "Yes",
+            "code": "Yes"
+          }
+        ]
+      },
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "GlobalIDIndex",
+      "fields": "globalid",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "GlobalID index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "survey123_c529205f44864ef38a8adcf6491ee3a1_SURVEY_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__survey12__5242E632C9AB1427",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreationDateIndex",
+      "fields": "CreationDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CreationDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CreatorIndex",
+      "fields": "Creator",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Creator Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditDateIndex",
+      "fields": "EditDate",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "EditDate Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "EditorIndex",
+      "fields": "Editor",
+      "isAscending": false,
+      "isUnique": false,
+      "description": "Editor Field index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "IX_survey123_c529205f44864ef38a8adcf6491ee3a1_SURVEY_phone_number_ASC",
+      "fields": "phone_number",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "web map settings",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "FT_survey123_c529205f44864ef38a8adcf6491ee3a1_SURVEY_phone_number",
+      "fields": "phone_number",
+      "description": "web map settings",
+      "indexType": "FullText"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {
+          "Shift": null,
+          "Dispatcher": null,
+          "Weather": null,
+          "CrewAssigned": null,
+          "CrewInitials": null,
+          "TimeCrewCalled": null,
+          "DayCrewCalled": null,
+          "WorkDone": null,
+          "Foreman": null,
+          "DayCrewCompleted": null,
+          "TimeCompleted": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf,imageCollection",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

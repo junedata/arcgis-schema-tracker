@@ -1,0 +1,1348 @@
+{
+  "currentVersion": 12,
+  "id": 2,
+  "name": "Vehicle Availability",
+  "type": "Feature Layer",
+  "serviceItemId": "89c639f534684dbaab9218d2227580ba",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "This layer shows household size by number of vehicles available.&nbsp;This is shown by tract, county, and state boundaries.&nbsp;This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis. &nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;This layer is symbolized to show the percentage of households with no vehicle available.&nbsp;&lt;/span&gt;To see the full list of attributes available in this service, go to the &amp;quot;Data&amp;quot; tab, and choose &amp;quot;Fields&amp;quot; at the top right.&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Current Vintage&lt;/b&gt;:&nbsp;&lt;span style=\"font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;2019-2023&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ACS Table(s)&lt;/b&gt;: B08201 &lt;/div&gt;&lt;div&gt;&lt;b&gt;Data downloaded from&lt;/b&gt;:&nbsp;&lt;a&gt;Census Bureau's API for American Community Survey&lt;/a&gt;&nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;The United States Census Bureau's American Community Survey (ACS):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a&gt;About the Survey&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Geography &amp;amp; ACS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;Technical Documentation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;News &amp;amp; Updates&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;This ready-to-use layer can be used within ArcGIS Pro, ArcGIS Online, its configurable apps, dashboards, Story Maps, custom apps, and mobile apps. Data can also be exported for offline workflows. For more information about ACS layers, visit the&nbsp;&lt;a&gt;FAQ&lt;/a&gt;. Please cite the Census and ACS when using this data.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Data Note from the Census:&lt;/b&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error. The value shown here is the 90 percent margin of error. The margin of error can be interpreted as providing a 90 percent probability that the interval defined by the estimate minus the margin of error and the estimate plus the margin of error (the lower and upper confidence bounds) contains the true value. In addition to sampling variability, the ACS estimates are subject to nonsampling error (for a discussion of nonsampling variability, see&nbsp;&lt;a&gt;Accuracy of the Data&lt;/a&gt;).&nbsp; The effect of nonsampling error is not represented in these tables.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data Processing Notes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This layer is updated automatically when the most current vintage of ACS data is released each year, usually in December. The layer always contains the latest available ACS 5-year estimates. It is updated annually within days of the Census Bureau's release schedule.&nbsp;&lt;a&gt;Click here&lt;/a&gt;&nbsp;to learn more about ACS data releases.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Boundaries come from the&nbsp;&lt;a&gt;US Census TIGER geodatabases,&lt;/a&gt;&nbsp;specifically, the National Sub-State Geography Database (named tlgdb_(year)_a_us_substategeo.gdb). Boundaries are updated at the same time as the data updates (annually), and the boundary vintage appropriately matches the data vintage&nbsp;&lt;a&gt;as specified by the Census&lt;/a&gt;. These are Census boundaries with water and/or coastlines erased for cartographic and mapping purposes. For census tracts, the water cutouts are derived from a subset of the&nbsp;&lt;a&gt;2020 Areal Hydrography boundaries offered by TIGER&lt;/a&gt;. Water bodies and rivers which are 50 million square meters or larger (mid to large sized water bodies) are erased from the tract level boundaries, as well as additional important features. For state and county boundaries, the water and coastlines are derived from the coastlines of the 2022 500k&nbsp;&lt;a&gt;TIGER Cartographic Boundary Shapefiles&lt;/a&gt;. These are erased to more accurately portray the coastlines and Great Lakes. The original AWATER and ALAND fields are still available as attributes within the data table (units are square meters).&lt;/li&gt;&lt;li&gt;The States layer contains 52 records - all US states, Washington D.C., and Puerto Rico&lt;/li&gt;&lt;li&gt;Census tracts with no population that occur in areas of water, such as oceans, are removed from this data service (Census Tracts beginning with 99).&lt;/li&gt;&lt;li&gt;Percentages and derived counts, and associated margins of error, are calculated values (that can be identified by the &amp;quot;_calc_&amp;quot; stub in the field name), and abide by the specifications&nbsp;&lt;a&gt;defined by the American Community Survey&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Field alias names were created based on the Table Shells file available from the&nbsp;&lt;a&gt;American Community Survey Summary File Documentation page&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Negative values (e.g., -4444...) have been set to null, with the exception of -5555... which has been set to zero.&nbsp;These negative values exist in the raw API data to indicate the following situations:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;Either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The median falls in the lowest interval of an open-ended distribution, or in the upper interval of an open-ended distribution. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;The estimate is controlled. A statistical test for sampling variability is not appropriate.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The data for this geographic area cannot be displayed because the number of sample cases is too small.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758912730583,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": null,
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "colorInfo",
+          "field": "B08201_calc_pctNoVehE",
+          "valueExpression": null,
+          "stops": [
+            {
+              "value": 1,
+              "color": [
+                255,
+                233,
+                230,
+                255
+              ],
+              "label": "< 1%"
+            },
+            {
+              "value": 4,
+              "color": [
+                224,
+                185,
+                181,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 8,
+              "color": [
+                148,
+                136,
+                137,
+                255
+              ],
+              "label": "8% - national average"
+            },
+            {
+              "value": 14,
+              "color": [
+                99,
+                104,
+                122,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 20,
+              "color": [
+                72,
+                76,
+                89,
+                255
+              ],
+              "label": "> 20%"
+            }
+          ]
+        },
+        {
+          "type": "sizeInfo",
+          "target": "outline",
+          "expression": "view.scale",
+          "valueExpression": "$view.scale",
+          "stops": [
+            {
+              "size": 1.5,
+              "value": 37504
+            },
+            {
+              "size": 0.75,
+              "value": 117199
+            },
+            {
+              "size": 0.375,
+              "value": 468796
+            },
+            {
+              "size": 0,
+              "value": 937592
+            }
+          ]
+        }
+      ],
+      "authoringInfo": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "minSliderValue": 0,
+            "maxSliderValue": 100,
+            "theme": "high-to-low"
+          }
+        ]
+      },
+      "type": "classBreaks",
+      "field": "B08201_calc_pctNoVehE",
+      "minValue": -9007199254740991,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "color": [
+              170,
+              170,
+              170,
+              255
+            ],
+            "outline": {
+              "color": [
+                194,
+                194,
+                194,
+                64
+              ],
+              "width": 0.75,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "type": "esriSFS",
+            "style": "esriSFSSolid"
+          },
+          "classMaxValue": 9007199254740991
+        }
+      ],
+      "defaultSymbol": {
+        "color": [
+          214,
+          214,
+          214,
+          255
+        ],
+        "outline": {
+          "color": null,
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSNull"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "defaultLabel": "No Value"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"An ObjectID is a unique, not null integer field used to uniquely identify rows in tables in a geographical table.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "Geographic Identifier - FIPS Code",
+      "sqlType": "sqlTypeOther",
+      "length": 11,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Geographic Identifier, or GEOID is the numeric code used to uniquely identify all administrative/legal and statistical geographic areas for which the Census Bureau tabulates data.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "ALAND",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Land (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of land in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "AWATER",
+      "type": "esriFieldTypeDouble",
+      "alias": "Area of Water (Square Meters)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Current area of water in square meters within this geographical area\", \"fieldValueType\":\"measurement\"}"
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of this geographical area\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"State in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"County in which this geography resides\", \"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "B08201_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Total households, defined as occupied housing units.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Households - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for total households, defined as occupied housing units (90% confidence).\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Households with no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Households, defined as occupied housing units, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households with no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for households, defined as occupied housing units, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_003E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Households with 1 vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Households, defined as occupied housing units, with 1 vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_003M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households with 1 vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for households, defined as occupied housing units, with 1 vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Households with 2 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Households, defined as occupied housing units, with 2 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households with 2 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for households, defined as occupied housing units, with 2 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Households with 3 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Households, defined as occupied housing units, with 3 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households with 3 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for households, defined as occupied housing units, with 3 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Households with 4 or more vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Households, defined as occupied housing units, with 4 or more vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_006M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Households with 4 or more vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get upper and lower bounds for households, defined as occupied housing units, with 4 or more vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_007E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All 1-Person Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All 1-person households, defined as occupied housing units with only 1 person occupying the unit.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_007M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All 1-Person Households - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for all 1-person households, defined as occupied housing units with only 1 person occupying the unit (90% confidence).\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_008E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1-Person Households that have no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-person households, defined as occupied housing units with only 1 person occupying the unit, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_008M",
+      "type": "esriFieldTypeDouble",
+      "alias": "1-Person Households that have no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 1-person households, defined as occupied housing units with only 1 person occupying the unit, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_009E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1-Person Households that have 1 vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-person households, defined as occupied housing units with only 1 person occupying the unit, with 1 vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "1-Person Households that have 1 vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 1-person households, defined as occupied housing units with only 1 person occupying the unit, with 1 vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1-Person Households that have 2 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-person households, defined as occupied housing units with only 1 person occupying the unit, with 2 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "1-Person Households that have 2 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 1-person households, defined as occupied housing units with only 1 person occupying the unit, with 2 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_011E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1-Person Households that have 3 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-person households, defined as occupied housing units with only 1 person occupying the unit, with 3 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_011M",
+      "type": "esriFieldTypeDouble",
+      "alias": "1-Person Households that have 3 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 1-person households, defined as occupied housing units with only 1 person occupying the unit, with 3 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_012E",
+      "type": "esriFieldTypeInteger",
+      "alias": "1-Person Households that have 4 or more vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"1-person households, defined as occupied housing units with only 1 person occupying the unit, with 4 or more vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_012M",
+      "type": "esriFieldTypeDouble",
+      "alias": "1-Person Households that have 4 or more vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 1-person households, defined as occupied housing units with only 1 person occupying the unit, with 4 or more vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_013E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All 2-Person Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_013M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All 2-Person Households - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for all 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth (90% confidence).\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_014E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2-Person Households that have no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_014M",
+      "type": "esriFieldTypeDouble",
+      "alias": "2-Person Households that have no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_015E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2-Person Households that have 1 vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_015M",
+      "type": "esriFieldTypeDouble",
+      "alias": "2-Person Households that have 1 vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_016E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2-Person Households that have 2 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_016M",
+      "type": "esriFieldTypeDouble",
+      "alias": "2-Person Households that have 2 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_017E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2-Person Households that have 3 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_017M",
+      "type": "esriFieldTypeDouble",
+      "alias": "2-Person Households that have 3 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_018E",
+      "type": "esriFieldTypeInteger",
+      "alias": "2-Person Households that have 4 or more vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_018M",
+      "type": "esriFieldTypeDouble",
+      "alias": "2-Person Households that have 4 or more vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 2-person households, defined as occupied housing units with 2 people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_019E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All 3-Person Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_019M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All 3-Person Households - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for all 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth (90% confidence).\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_020E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3-Person Households that have no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_020M",
+      "type": "esriFieldTypeDouble",
+      "alias": "3-Person Households that have no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_021E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3-Person Households that have 1 vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_021M",
+      "type": "esriFieldTypeDouble",
+      "alias": "3-Person Households that have 1 vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_022E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3-Person Households that have 2 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_022M",
+      "type": "esriFieldTypeDouble",
+      "alias": "3-Person Households that have 2 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_023E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3-Person Households that have 3 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_023M",
+      "type": "esriFieldTypeDouble",
+      "alias": "3-Person Households that have 3 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_024E",
+      "type": "esriFieldTypeInteger",
+      "alias": "3-Person Households that have 4 or more vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_024M",
+      "type": "esriFieldTypeDouble",
+      "alias": "3-Person Households that have 4 or more vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 3-person households, defined as occupied housing units with 3 people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_025E",
+      "type": "esriFieldTypeInteger",
+      "alias": "All 4-Or-More-Person Households",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"All 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_025M",
+      "type": "esriFieldTypeDouble",
+      "alias": "All 4-Or-More-Person Households - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for all 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth (90% confidence).\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_026E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4-Or-More-Person Households that have no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_026M",
+      "type": "esriFieldTypeDouble",
+      "alias": "4-Or-More-Person Households that have no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_027E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4-Or-More-Person Households that have 1 vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_027M",
+      "type": "esriFieldTypeDouble",
+      "alias": "4-Or-More-Person Households that have 1 vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 1 vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_028E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4-Or-More-Person Households that have 2 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_028M",
+      "type": "esriFieldTypeDouble",
+      "alias": "4-Or-More-Person Households that have 2 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 2 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_029E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4-Or-More-Person Households that have 3 vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_029M",
+      "type": "esriFieldTypeDouble",
+      "alias": "4-Or-More-Person Households that have 3 vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 3 vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_030E",
+      "type": "esriFieldTypeInteger",
+      "alias": "4-Or-More-Person Households that have 4 or more vehicles available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_030M",
+      "type": "esriFieldTypeDouble",
+      "alias": "4-Or-More-Person Households that have 4 or more vehicles available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for 4-or-more-person households, defined as occupied housing units with 4 or more people occupying the unit including relatives, roommates, and so forth, with 4 or more vehicles available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded.\", \"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "B08201_calc_pctNoVehE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of households with no vehicle available",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Percent of households, defined as occupied housing units, with no vehicle available. Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded. Esri calculated field: round( 100.0 * B08201_002E / B08201_001E , 1)\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "B08201_calc_pctNoVehM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of households with no vehicle available - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Use this value to add and subtract to get the upper and lower bounds for percent of households, defined as occupied housing units, with no vehicle available (90% confidence). Vehicles include passenger cars, vans, and pickup or panel trucks kept at home and available for use of household members. Motorcycles, other recreational vehicles, dismantled or immobile vehicles, and vehicles used only for business purposes are excluded. Esri calculated field: (100.0 * B08201_001E)*(sqrt((B08201_002M)^2-1.0*((B08201_002E / B08201_001E)^2)*(B08201_001M)^2))\", \"fieldValueType\":\"percentageOrRatio\"}"
+    },
+    {
+      "name": "Year",
+      "type": "esriFieldTypeString",
+      "alias": "Year",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACEFP",
+      "type": "esriFieldTypeString",
+      "alias": "Place FIPS",
+      "sqlType": "sqlTypeOther",
+      "length": 7,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The FIPS Code corresponding to the census designated place in which each census tract resides.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "PLACENAME",
+      "type": "esriFieldTypeString",
+      "alias": "Place Name",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"The name of the census designated place in which the census tract falls.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeString",
+      "alias": "WARD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "type": "esriFieldTypeString",
+      "alias": "NEIGHBORHOOD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Census_Data_TRACT3_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__Census_D__F4B70D85F98BC5D6",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Tract",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "B08201_calc_pctNoVehE": null,
+          "B08201_calc_pctNoVehM": null,
+          "GEOID": null,
+          "ALAND": null,
+          "AWATER": null,
+          "NAME": null,
+          "State": null,
+          "County": null,
+          "B08201_001E": null,
+          "B08201_001M": null,
+          "B08201_002E": null,
+          "B08201_002M": null,
+          "B08201_003E": null,
+          "B08201_003M": null,
+          "B08201_004E": null,
+          "B08201_004M": null,
+          "B08201_005E": null,
+          "B08201_005M": null,
+          "B08201_006E": null,
+          "B08201_006M": null,
+          "B08201_007E": null,
+          "B08201_007M": null,
+          "B08201_008E": null,
+          "B08201_008M": null,
+          "B08201_009E": null,
+          "B08201_009M": null,
+          "B08201_010E": null,
+          "B08201_010M": null,
+          "B08201_011E": null,
+          "B08201_011M": null,
+          "B08201_012E": null,
+          "B08201_012M": null,
+          "B08201_013E": null,
+          "B08201_013M": null,
+          "B08201_014E": null,
+          "B08201_014M": null,
+          "B08201_015E": null,
+          "B08201_015M": null,
+          "B08201_016E": null,
+          "B08201_016M": null,
+          "B08201_017E": null,
+          "B08201_017M": null,
+          "B08201_018E": null,
+          "B08201_018M": null,
+          "B08201_019E": null,
+          "B08201_019M": null,
+          "B08201_020E": null,
+          "B08201_020M": null,
+          "B08201_021E": null,
+          "B08201_021M": null,
+          "B08201_022E": null,
+          "B08201_022M": null,
+          "B08201_023E": null,
+          "B08201_023M": null,
+          "B08201_024E": null,
+          "B08201_024M": null,
+          "B08201_025E": null,
+          "B08201_025M": null,
+          "B08201_026E": null,
+          "B08201_026M": null,
+          "B08201_027E": null,
+          "B08201_027M": null,
+          "B08201_028E": null,
+          "B08201_028M": null,
+          "B08201_029E": null,
+          "B08201_029M": null,
+          "B08201_030E": null,
+          "B08201_030M": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

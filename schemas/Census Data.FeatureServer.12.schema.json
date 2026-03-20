@@ -1,0 +1,1496 @@
+{
+  "currentVersion": 12,
+  "id": 12,
+  "name": "Health Insurance",
+  "type": "Feature Layer",
+  "serviceItemId": "89c639f534684dbaab9218d2227580ba",
+  "cacheMaxAge": 30,
+  "displayField": "NAME",
+  "description": "This layer shows health insurance coverage by type and by age group.&nbsp;This is shown by tract, county, and state boundaries.&nbsp;This service is updated annually to contain the most currently released American Community Survey (ACS) 5-year data, and contains estimates and margins of error. There are also additional calculated attributes related to this topic, which can be mapped or used within analysis. &nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This layer is symbolized to show the percent uninsured. To see the full list of attributes available in this service, go to the &amp;quot;Data&amp;quot; tab, and choose &amp;quot;Fields&amp;quot; at the top right.&nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Current Vintage&lt;/b&gt;:&nbsp;&lt;span style=\"font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;\"&gt;2019-2023&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ACS Table(s)&lt;/b&gt;: B27010 (Not all lines of this ACS table are available in this feature layer.)&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data downloaded from&lt;/b&gt;:&nbsp;&lt;a href=\"https://www.census.gov/data/developers/data-sets.html\" target=\"_blank\"&gt;Census Bureau's API for American Community Survey&lt;/a&gt;&nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;The United States Census Bureau's American Community Survey (ACS):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"https://www.census.gov/programs-surveys/acs/about.html\" target=\"_blank\"&gt;About the Survey&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"https://www.census.gov/programs-surveys/acs/geography-acs.html\" target=\"_blank\"&gt;Geography &amp;amp; ACS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"https://www.census.gov/programs-surveys/acs/technical-documentation.html\" target=\"_blank\"&gt;Technical Documentation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"https://www.census.gov/programs-surveys/acs/news.html\" target=\"_blank\"&gt;News &amp;amp; Updates&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;This ready-to-use layer can be used within ArcGIS Pro, ArcGIS Online, its configurable apps, dashboards, Story Maps, custom apps, and mobile apps. Data can also be exported for offline workflows. For more information about ACS layers, visit the&nbsp;&lt;a href=\"https://acs-hosted-feature-layers-faq-esri.hub.arcgis.com/\" target=\"_blank\"&gt;FAQ&lt;/a&gt;. Please cite the Census and ACS when using this data.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Data Note from the Census:&lt;/b&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error. The value shown here is the 90 percent margin of error. The margin of error can be interpreted as providing a 90 percent probability that the interval defined by the estimate minus the margin of error and the estimate plus the margin of error (the lower and upper confidence bounds) contains the true value. In addition to sampling variability, the ACS estimates are subject to nonsampling error (for a discussion of nonsampling variability, see&nbsp;&lt;a href=\"https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html\" target=\"_blank\"&gt;Accuracy of the Data&lt;/a&gt;).&nbsp; The effect of nonsampling error is not represented in these tables.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Data Processing Notes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This layer is updated automatically when the most current vintage of ACS data is released each year, usually in December. The layer always contains the latest available ACS 5-year estimates. It is updated annually within days of the Census Bureau's release schedule.&nbsp;&lt;a href=\"https://www.census.gov/programs-surveys/acs/news/data-releases.html\" target=\"_blank\"&gt;Click here&lt;/a&gt;&nbsp;to learn more about ACS data releases.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Boundaries come from the&nbsp;&lt;a href=\"https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.html\" style=\"color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;\"&gt;US Census TIGER geodatabases,&lt;/a&gt;&nbsp;specifically, the National Sub-State Geography Database (named tlgdb_(year)_a_us_substategeo.gdb). Boundaries are updated at the same time as the data updates (annually), and the boundary vintage appropriately matches the data vintage&nbsp;&lt;a href=\"https://www.census.gov/programs-surveys/acs/geography-acs/geography-boundaries-by-year.html\" style=\"color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;\"&gt;as specified by the Census&lt;/a&gt;. These are Census boundaries with water and/or coastlines erased for cartographic and mapping purposes. For census tracts, the water cutouts are derived from a subset of the&nbsp;&lt;a href=\"https://www2.census.gov/geo/tiger/TGRGDB20/tlgdb_2020_a_us_areawater.gdb.zip\" style=\"color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;\" target=\"_blank\"&gt;2020 Areal Hydrography boundaries offered by TIGER&lt;/a&gt;. Water bodies and rivers which are 50 million square meters or larger (mid to large sized water bodies) are erased from the tract level boundaries, as well as additional important features. For state and county boundaries, the water and coastlines are derived from the coastlines of the 2022 500k&nbsp;&lt;a href=\"https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html\" style=\"color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;\"&gt;TIGER Cartographic Boundary Shapefiles&lt;/a&gt;. These are erased to more accurately portray the coastlines and Great Lakes. The original AWATER and ALAND fields are still available as attributes within the data table (units are square meters).&lt;/li&gt;&lt;li&gt;The States layer contains 52 records - all US states, Washington D.C., and Puerto Rico&lt;/li&gt;&lt;li&gt;Census tracts with no population that occur in areas of water, such as oceans, are removed from this data service (Census Tracts beginning with 99).&lt;/li&gt;&lt;li&gt;Percentages and derived counts, and associated margins of error, are calculated values (that can be identified by the &amp;quot;_calc_&amp;quot; stub in the field name), and abide by the specifications&nbsp;&lt;a href=\"https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_general_handbook_2020_ch08.pdf\" style=\"color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;\" target=\"_blank\"&gt;defined by the American Community Survey&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Field alias names were created based on the Table Shells file available from the&nbsp;&lt;a href=\"https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html\" target=\"_blank\"&gt;American Community Survey Summary File Documentation page&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Negative values (e.g., -4444...) have been set to null, with the exception of -5555... which has been set to zero.&nbsp;These negative values exist in the raw API data to indicate the following situations:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;Either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The median falls in the lowest interval of an open-ended distribution, or in the upper interval of an open-ended distribution. A statistical test is not appropriate.&lt;/li&gt;&lt;li&gt;The estimate is controlled. A statistical test for sampling variability is not appropriate.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;The data for this geographic area cannot be displayed because the number of sample cases is too small.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758912779852,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolygon",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": null,
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "colorInfo",
+          "field": "B27010_calc_pctNoInsE",
+          "valueExpression": null,
+          "stops": [
+            {
+              "value": 1,
+              "color": [
+                255,
+                255,
+                178,
+                255
+              ],
+              "label": "< 1%"
+            },
+            {
+              "value": 5,
+              "color": [
+                254,
+                204,
+                92,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 9,
+              "color": [
+                253,
+                141,
+                60,
+                255
+              ],
+              "label": "9% - national average"
+            },
+            {
+              "value": 12,
+              "color": [
+                240,
+                59,
+                32,
+                255
+              ],
+              "label": null
+            },
+            {
+              "value": 16,
+              "color": [
+                189,
+                0,
+                38,
+                255
+              ],
+              "label": "> 16%"
+            }
+          ]
+        }
+      ],
+      "authoringInfo": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "minSliderValue": 0,
+            "maxSliderValue": 100,
+            "theme": "high-to-low"
+          }
+        ]
+      },
+      "type": "classBreaks",
+      "field": "B27010_calc_pctNoInsE",
+      "defaultSymbol": {
+        "color": [
+          214,
+          214,
+          214,
+          255
+        ],
+        "outline": {
+          "color": null,
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSNull"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "minValue": -9007199254740991,
+      "classBreakInfos": [
+        {
+          "symbol": {
+            "color": [
+              170,
+              170,
+              170,
+              255
+            ],
+            "outline": {
+              "color": [
+                194,
+                194,
+                194,
+                44
+              ],
+              "width": 0.375,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "type": "esriSFS",
+            "style": "esriSFSSolid"
+          },
+          "classMaxValue": 9007199254740991
+        }
+      ],
+      "defaultLabel": "No Value"
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "Object ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"An ObjectID is a unique, not null integer field used to uniquely identify rows in tables in a geographical table.\", \"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GEOID",
+      "type": "esriFieldTypeString",
+      "alias": "GEOID",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ALAND",
+      "type": "esriFieldTypeDouble",
+      "alias": "ALAND",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "AWATER",
+      "type": "esriFieldTypeDouble",
+      "alias": "AWATER",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "NAME",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_001E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Civilian Noninstitutionalized Population",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_001M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Civilian Noninstitutionalized Population - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_002E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population Under 19 Years (Civilian Noninstitutionalized)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_002M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Population Under 19 Years (Civilian Noninstitutionalized) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_004E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with employer-based health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_004M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with employer-based health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_005E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with direct-purchase health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_005M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with direct-purchase health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_006E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with Medicare coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_006M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with Medicare coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_007E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with Medicaid/means-tested public coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_007M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with Medicaid/means-tested public coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_008E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with TRICARE/military health coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_008M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with TRICARE/military health coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_009E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with VA Health Care only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_009M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with VA Health Care only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_010E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with two or more types of health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_010M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with two or more types of health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_017E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population Under 19 Years with no health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_017M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population Under 19 Years with no health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_018E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population 19 to 34 Years (Civilian Noninstitutionalized)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_018M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Population 19 to 34 Years (Civilian Noninstitutionalized) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_020E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with employer-based health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_020M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with employer-based health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_021E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with direct-purchase health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_021M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with direct-purchase health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_022E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with Medicare coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_022M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with Medicare coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_023E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with Medicaid/means-tested public coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_023M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with Medicaid/means-tested public coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_024E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with TRICARE/military health coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_024M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with TRICARE/military health coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_025E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with VA Health Care only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_025M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with VA Health Care only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_026E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with two or more types of health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_026M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with two or more types of health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_033E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 19 to 34 with no health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_033M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 19 to 34 with no health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_034E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population 35 to 64 Years (Civilian Noninstitutionalized)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_034M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Population 35 to 64 Years (Civilian Noninstitutionalized) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_036E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with employer-based health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_036M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with employer-based health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_037E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with direct-purchase health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_037M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with direct-purchase health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_038E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with Medicare coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_038M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with Medicare coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_039E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with Medicaid/means-tested public coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_039M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with Medicaid/means-tested public coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_040E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with TRICARE/military health coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_040M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with TRICARE/military health coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_041E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with VA Health Care only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_041M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with VA Health Care only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_042E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with two or more types of health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_042M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with two or more types of health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_050E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 35 to 64 with no health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_050M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 35 to 64 with no health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_051E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Population 65 Years and Over (Civilian Noninstitutionalized)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_051M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Population 65 Years and Over (Civilian Noninstitutionalized) - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_053E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with employer-based health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_053M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with employer-based health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_054E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with direct-purchase health insurance only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_054M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with direct-purchase health insurance only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_055E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with Medicare coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_055M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with Medicare coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_056E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with TRICARE/military health coverage only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_056M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with TRICARE/military health coverage only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_057E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with VA Health Care only",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_057M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with VA Health Care only - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_058E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with two or more types of health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_058M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with two or more types of health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_066E",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population 65 years and over with no health insurance coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_066M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Population 65 years and over with no health insurance coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_numNoInsE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_numNoInsM",
+      "type": "esriFieldTypeInteger",
+      "alias": "Population with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsM",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsLT19E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population Under 19 with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsLT19M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population Under 19 with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoIns19to34E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 19 to 34 with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoIns19to34M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 19 to 34 with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoIns35to64E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 35 to 64 with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoIns35to64M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 35 to 64 with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsGE65E",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 65 and over with No Health Insurance Coverage",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "B27010_calc_pctNoInsGE65M",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent of Population 65 and over with No Health Insurance Coverage - Margin of Error",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Year",
+      "type": "esriFieldTypeString",
+      "alias": "Year",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACEFP",
+      "type": "esriFieldTypeString",
+      "alias": "PLACEFP",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PLACENAME",
+      "type": "esriFieldTypeString",
+      "alias": "PLACENAME",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "WARD",
+      "type": "esriFieldTypeString",
+      "alias": "WARD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "type": "esriFieldTypeString",
+      "alias": "NEIGHBORHOOD",
+      "sqlType": "sqlTypeOther",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Shape__Area_Index",
+      "fields": "Shape__Area",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "Census_Data_TRACT11_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Shape Index",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "PK__Census_D__F4B70D85C7E18CBC",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "clustered, unique, primary key",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "Tract",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPolygon",
+      "prototype": {
+        "attributes": {
+          "B27010_calc_pctNoInsGE65E": null,
+          "B27010_calc_pctNoInsGE65M": null,
+          "GEOID": null,
+          "ALAND": null,
+          "AWATER": null,
+          "NAME": null,
+          "State": null,
+          "County": null,
+          "B27010_001E": null,
+          "B27010_001M": null,
+          "B27010_002E": null,
+          "B27010_002M": null,
+          "B27010_004E": null,
+          "B27010_004M": null,
+          "B27010_005E": null,
+          "B27010_005M": null,
+          "B27010_006E": null,
+          "B27010_006M": null,
+          "B27010_007E": null,
+          "B27010_007M": null,
+          "B27010_008E": null,
+          "B27010_008M": null,
+          "B27010_009E": null,
+          "B27010_009M": null,
+          "B27010_010E": null,
+          "B27010_010M": null,
+          "B27010_017E": null,
+          "B27010_017M": null,
+          "B27010_018E": null,
+          "B27010_018M": null,
+          "B27010_020E": null,
+          "B27010_020M": null,
+          "B27010_021E": null,
+          "B27010_021M": null,
+          "B27010_022E": null,
+          "B27010_022M": null,
+          "B27010_023E": null,
+          "B27010_023M": null,
+          "B27010_024E": null,
+          "B27010_024M": null,
+          "B27010_025E": null,
+          "B27010_025M": null,
+          "B27010_026E": null,
+          "B27010_026M": null,
+          "B27010_033E": null,
+          "B27010_033M": null,
+          "B27010_034E": null,
+          "B27010_034M": null,
+          "B27010_036E": null,
+          "B27010_036M": null,
+          "B27010_037E": null,
+          "B27010_037M": null,
+          "B27010_038E": null,
+          "B27010_038M": null,
+          "B27010_039E": null,
+          "B27010_039M": null,
+          "B27010_040E": null,
+          "B27010_040M": null,
+          "B27010_041E": null,
+          "B27010_041M": null,
+          "B27010_042E": null,
+          "B27010_042M": null,
+          "B27010_050E": null,
+          "B27010_050M": null,
+          "B27010_051E": null,
+          "B27010_051M": null,
+          "B27010_053E": null,
+          "B27010_053M": null,
+          "B27010_054E": null,
+          "B27010_054M": null,
+          "B27010_055E": null,
+          "B27010_055M": null,
+          "B27010_056E": null,
+          "B27010_056M": null,
+          "B27010_057E": null,
+          "B27010_057M": null,
+          "B27010_058E": null,
+          "B27010_058M": null,
+          "B27010_066E": null,
+          "B27010_066M": null,
+          "B27010_calc_numNoInsE": null,
+          "B27010_calc_numNoInsM": null,
+          "B27010_calc_pctNoInsE": null,
+          "B27010_calc_pctNoInsM": null,
+          "B27010_calc_pctNoInsLT19E": null,
+          "B27010_calc_pctNoInsLT19M": null,
+          "B27010_calc_pctNoIns19to34E": null,
+          "B27010_calc_pctNoIns19to34M": null,
+          "B27010_calc_pctNoIns35to64E": null,
+          "B27010_calc_pctNoIns35to64M": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

@@ -1,0 +1,3285 @@
+{
+  "currentVersion": 12,
+  "id": 62,
+  "name": "Cleveland All Crashes (2012 to Present)",
+  "type": "Feature Layer",
+  "serviceItemId": "44239d50c4f448dc9789ff4f7739e524",
+  "cacheMaxAge": 30,
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "CRASH_REPORT_LINK",
+  "description": "",
+  "copyrightText": "Ohio Department of Public Safety, Ohio Department of Transportation",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1771521271350,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": -81.88939984008802,
+    "ymin": 41.278177821596955,
+    "xmax": 34592127.189496726,
+    "ymax": 31845377.282358915,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "CRASH_SEVERITY_CD",
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "7b9d46beb7294f9f2940a2d94a262808",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA1klEQVQ4jbWSMQrCMBSGvyGlUASX2k1x8ABeQGcXwaUX8GBeQBDv4AXcHBwdhOpSkIC4yCsppCGt1eI/JPnDe3/e//IU9Ygcrn1BqiY53sMuNOQBtxTWQN5WIBjDLDHkAne5+6aCCkKIOwk0QZm9b14IahpYxrhNzUUg2sJmBHNTaoHSf3k+wsnOPsMhhUVRQQ8GQyvZB1tQcHUs/AwlyxPIPryYNQjoFSydxvXFc2IlT2HiTONLuDIk902ZA21Zr1qgA/4moOWfnXrFc2uBXIbEFfVFvgHpoCcXIdKe+AAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 12,
+            "height": 12,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "1",
+          "label": "1 - Fatal"
+        },
+        {
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              230,
+              0,
+              0,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0
+            }
+          },
+          "value": "2",
+          "label": "2 - Serious Injury"
+        },
+        {
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              230,
+              152,
+              0,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0
+            }
+          },
+          "value": "3",
+          "label": "3 - Minor Injury"
+        },
+        {
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              255,
+              255,
+              115,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0
+            }
+          },
+          "value": "4",
+          "label": "4 - Possible Injury"
+        },
+        {
+          "symbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [
+              178,
+              178,
+              178,
+              255
+            ],
+            "size": 4,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0
+            }
+          },
+          "value": "5",
+          "label": "5 - Property Damage Only"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                212,
+                252,
+                241,
+                255
+              ],
+              "toColor": [
+                212,
+                252,
+                241,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                244,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                244,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                195,
+                179,
+                255
+              ],
+              "toColor": [
+                252,
+                195,
+                179,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                182,
+                209,
+                252,
+                255
+              ],
+              "toColor": [
+                182,
+                209,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                185,
+                252,
+                182,
+                255
+              ],
+              "toColor": [
+                185,
+                252,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                251,
+                184,
+                255
+              ],
+              "toColor": [
+                252,
+                251,
+                184,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                212,
+                236,
+                255
+              ],
+              "toColor": [
+                252,
+                212,
+                236,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                240,
+                215,
+                255
+              ],
+              "toColor": [
+                252,
+                240,
+                215,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                191,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                191,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                221,
+                252,
+                207,
+                255
+              ],
+              "toColor": [
+                221,
+                252,
+                207,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                234,
+                252,
+                255
+              ],
+              "toColor": [
+                179,
+                234,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                179,
+                199,
+                255
+              ],
+              "toColor": [
+                252,
+                179,
+                199,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                182,
+                252,
+                215,
+                255
+              ],
+              "toColor": [
+                182,
+                252,
+                215,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "viewSourceHasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "CRASH_SEVERITY_CD",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DOCUMENT_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "DOCUMENT_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"uniqueIdentifier\"}"
+    },
+    {
+      "name": "CRASH_YR",
+      "type": "esriFieldTypeDouble",
+      "alias": "CRASH_YR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CRASH_MONTH_YEAR",
+      "type": "esriFieldTypeString",
+      "alias": "CRASH_MONTH_YEAR",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DISTRICT_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "DISTRICT_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NLFID",
+      "type": "esriFieldTypeString",
+      "alias": "NLFID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NLF_JUR_CD",
+      "type": "esriFieldTypeString",
+      "alias": "NLF_JUR_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NLF_COUNTY_CD",
+      "type": "esriFieldTypeString",
+      "alias": "NLF_COUNTY_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "COUNTY_LOG_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "COUNTY_LOG_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_LATITUDE_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODOT_LATITUDE_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_LONGITUDE_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODOT_LONGITUDE_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_FIPS_CD",
+      "type": "esriFieldTypeInteger",
+      "alias": "ODOT_FIPS_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "AREA_CODE",
+      "type": "esriFieldTypeInteger",
+      "alias": "AREA_CODE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CRASH_DATE",
+      "type": "esriFieldTypeString",
+      "alias": "CRASH_DATE",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CRASH_SEVERITY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "CRASH_SEVERITY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "CRASH_TYPE_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "CRASH_TYPE_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_CRASH_TYPE_CD_47c934eb-0f00-4dd3-a9c4-92217de7c206",
+        "codedValues": [
+          {
+            "name": "Rear End",
+            "code": 2
+          },
+          {
+            "name": "Sideswipe - Passing",
+            "code": 5
+          },
+          {
+            "name": "Angle",
+            "code": 6
+          },
+          {
+            "name": "Fixed Object",
+            "code": 13
+          },
+          {
+            "name": "Parked Vehicle",
+            "code": 7
+          },
+          {
+            "name": "Backing",
+            "code": 3
+          },
+          {
+            "name": "Left Turn",
+            "code": 18
+          },
+          {
+            "name": "Right Turn",
+            "code": 19
+          },
+          {
+            "name": "Head On",
+            "code": 1
+          },
+          {
+            "name": "Pedestrian",
+            "code": 8
+          },
+          {
+            "name": "Unknown",
+            "code": 0
+          },
+          {
+            "name": "Pedalcycles",
+            "code": 11
+          },
+          {
+            "name": "Other Non-Collision",
+            "code": 17
+          },
+          {
+            "name": "Sideswipe - Meeting",
+            "code": 4
+          },
+          {
+            "name": "Animal",
+            "code": 9
+          },
+          {
+            "name": "Overturning",
+            "code": 16
+          },
+          {
+            "name": "Other Object",
+            "code": 14
+          },
+          {
+            "name": "Train",
+            "code": 10
+          },
+          {
+            "name": "Other Non-Vehicle",
+            "code": 12
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "DAY_IN_WEEK_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "DAY_IN_WEEK_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_DAY_IN_WEEK_CD_c0bcd65d-0ed8-48b6-8a44-94eba3174b5a",
+        "codedValues": [
+          {
+            "name": "Friday",
+            "code": 6
+          },
+          {
+            "name": "Thursday",
+            "code": 5
+          },
+          {
+            "name": "Wednesday",
+            "code": 4
+          },
+          {
+            "name": "Tuesday",
+            "code": 3
+          },
+          {
+            "name": "Saturday",
+            "code": 7
+          },
+          {
+            "name": "Monday",
+            "code": 2
+          },
+          {
+            "name": "Sunday",
+            "code": 1
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "DISTRACTED_DRIVER_IND",
+      "type": "esriFieldTypeString",
+      "alias": "DISTRACTED_DRIVER_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FACILITY_TYPE_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "FACILITY_TYPE_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FHWA_RDWY_DEPARTURE_IND",
+      "type": "esriFieldTypeString",
+      "alias": "FHWA_RDWY_DEPARTURE_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FREEWAY_IND",
+      "type": "esriFieldTypeString",
+      "alias": "FREEWAY_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FUNCTIONAL_CLASS_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "FUNCTIONAL_CLASS_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_FUNCTIONAL_CLASS_CD_043b6b80-0fc2-43e7-9356-bcb8ad153cbc",
+        "codedValues": [
+          {
+            "name": "Minor Arterial Roads",
+            "code": 4
+          },
+          {
+            "name": "Other Principal Arterial Roads",
+            "code": 3
+          },
+          {
+            "name": "Interstate Route",
+            "code": 1
+          },
+          {
+            "name": "Major Collector Roads",
+            "code": 5
+          },
+          {
+            "name": "Local Roads",
+            "code": 7
+          },
+          {
+            "name": "Other Freeways or Expressways",
+            "code": 2
+          },
+          {
+            "name": "Minor Collector Roads",
+            "code": 6
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "HOUR_OF_CRASH",
+      "type": "esriFieldTypeDouble",
+      "alias": "HOUR_OF_CRASH",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INCAPAC_INJURIES_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "INCAPAC_INJURIES_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTERCHANGE_ID",
+      "type": "esriFieldTypeDouble",
+      "alias": "INTERCHANGE_ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTERSECTION_ID_CURRENT",
+      "type": "esriFieldTypeString",
+      "alias": "INTERSECTION_ID_CURRENT",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTERSECTION_LEG_ID",
+      "type": "esriFieldTypeString",
+      "alias": "INTERSECTION_LEG_ID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INTERSTATE_IND",
+      "type": "esriFieldTypeString",
+      "alias": "INTERSTATE_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INV_LOG_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "INV_LOG_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "INV_NLFID",
+      "type": "esriFieldTypeString",
+      "alias": "INV_NLFID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "IS_COMMERCIAL_RELATED",
+      "type": "esriFieldTypeString",
+      "alias": "IS_COMMERCIAL_RELATED",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LIGHT_COND_PRIMARY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "LIGHT_COND_PRIMARY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_LIGHT_COND_PRIMARY_CD_3fee7592-50c4-41f0-a468-5c8b15424312",
+        "codedValues": [
+          {
+            "name": "Daylight",
+            "code": 1
+          },
+          {
+            "name": "Dark - Lighted Roadway",
+            "code": 3
+          },
+          {
+            "name": "Dawn/Dusk",
+            "code": 2
+          },
+          {
+            "name": "Other / Unknown",
+            "code": 9
+          },
+          {
+            "name": "Dark - Roadway Not Lighted",
+            "code": 4
+          },
+          {
+            "name": "Dark - Unknown Roadway Lighting",
+            "code": 5
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "LOCAL_REPORT_NUMBER_ID",
+      "type": "esriFieldTypeString",
+      "alias": "LOCAL_REPORT_NUMBER_ID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "MAINTENANCE_AUTHORITY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "MAINTENANCE_AUTHORITY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "MONTH_OF_CRASH",
+      "type": "esriFieldTypeDouble",
+      "alias": "MONTH_OF_CRASH",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NHS_CD",
+      "type": "esriFieldTypeString",
+      "alias": "NHS_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NO_INJURY_REPORTED_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "NO_INJURY_REPORTED_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NON_INCAPAC_INJURIES_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "NON_INCAPAC_INJURIES_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "NUMBER_OF_UNITS_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "NUMBER_OF_UNITS_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_CITY_VILLAGE_TWP_NME",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_CITY_VILLAGE_TWP_NME",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_CRASH_LOCATION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODOT_CRASH_LOCATION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_DIR_FROM_REF_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_DIR_FROM_REF_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_DIV_UNDIV_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_DIV_UNDIV_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_INTERSECTION_REL_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_INTERSECTION_REL_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_LANES_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODOT_LANES_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_MAINTAINED_HWY_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_MAINTAINED_HWY_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_MILES_FROM_REF_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODOT_MILES_FROM_REF_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_REF_ROUTE_PREFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_REF_ROUTE_PREFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODOT_YOUNG_DRIVER_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODOT_YOUNG_DRIVER_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_ADDRESS_REFERENCE",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_ADDRESS_REFERENCE",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_ALCOHOL_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_ALCOHOL_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_CITY_VILLAGE_TWP_NME",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_CITY_VILLAGE_TWP_NME",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_DRUG_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_DRUG_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_DIR_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_DIR_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_IN_WORK_ZONE_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODPS_LOC_IN_WORK_ZONE_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROAD_DIRECTION_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_ROAD_DIRECTION_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROAD_NME",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_ROAD_NME",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROAD_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_ROAD_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROUTE_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "ODPS_LOC_ROUTE_ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROUTE_PREFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_ROUTE_PREFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_LOC_ROUTE_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_LOC_ROUTE_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_MILEPOST_REFERENCE",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODPS_MILEPOST_REFERENCE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_MOTORCYCLE_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_MOTORCYCLE_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_DIR_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_DIR_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_DIRECTION_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_DIRECTION_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_GIVEN",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_GIVEN",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_POINT_USED_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODPS_REF_POINT_USED_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_ROUTE_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "ODPS_REF_ROUTE_ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_ROUTE_PREFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_ROUTE_PREFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_ROUTE_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_ROUTE_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_REF_SUFFIX_CD",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_REF_SUFFIX_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_SCHOOL_ZONE_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_SCHOOL_ZONE_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_SENIOR_DRIVER_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_SENIOR_DRIVER_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_SPEED_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_SPEED_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_TOTAL_FATALITIES_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODPS_TOTAL_FATALITIES_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_TYPE_OF_WORK_ZONE_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ODPS_TYPE_OF_WORK_ZONE_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ODPS_WORK_ZONE_IND",
+      "type": "esriFieldTypeString",
+      "alias": "ODPS_WORK_ZONE_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "OPER_ACCESS_CONTROL_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "OPER_ACCESS_CONTROL_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "POSSIBLE_INJURIES_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "POSSIBLE_INJURIES_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "ROAD_COND_PRIMARY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ROAD_COND_PRIMARY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_ROAD_COND_PRIMARY_CD_beae1393-0d5d-43a0-af3a-681660fc4ea1",
+        "codedValues": [
+          {
+            "name": "Dry",
+            "code": 1
+          },
+          {
+            "name": "Wet",
+            "code": 2
+          },
+          {
+            "name": "Snow",
+            "code": 3
+          },
+          {
+            "name": "Other / Unknown",
+            "code": 9
+          },
+          {
+            "name": "Ice",
+            "code": 4
+          },
+          {
+            "name": "Slush",
+            "code": 7
+          },
+          {
+            "name": "Water (Standing, Moving)",
+            "code": 6
+          },
+          {
+            "name": "Sand, Mud, Dirt, Oil, Gravel",
+            "code": 5
+          },
+          {
+            "name": "Data Not Provided",
+            "code": 0
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "ROAD_CONTOUR_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "ROAD_CONTOUR_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SA_RAMP_ID",
+      "type": "esriFieldTypeString",
+      "alias": "SA_RAMP_ID",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SA_SEGMENT_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "SA_SEGMENT_ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SECONDARY_CRASH",
+      "type": "esriFieldTypeString",
+      "alias": "SECONDARY_CRASH",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "STATE_TRUE_LOG_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "STATE_TRUE_LOG_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_AGE_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_AGE_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_AT_FAULT_IND",
+      "type": "esriFieldTypeString",
+      "alias": "U1_AT_FAULT_IND",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_CONT_CIR_PRIMARY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_CONT_CIR_PRIMARY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_DIRECTION_FROM_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_DIRECTION_FROM_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_DIRECTION_TO_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_DIRECTION_TO_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_DISTRACTED_BY_1_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_DISTRACTED_BY_1_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_GENDER_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U1_GENDER_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_IS_ALCOHOL_SUSPECTED",
+      "type": "esriFieldTypeString",
+      "alias": "U1_IS_ALCOHOL_SUSPECTED",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_IS_MARIJUANA_SUSPECTED",
+      "type": "esriFieldTypeString",
+      "alias": "U1_IS_MARIJUANA_SUSPECTED",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_IS_OTHER_DRUG_SUSPECTED",
+      "type": "esriFieldTypeString",
+      "alias": "U1_IS_OTHER_DRUG_SUSPECTED",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_NON_MOTORIST_LOC_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_NON_MOTORIST_LOC_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_NUMBER_OF_THRU_LANES",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_NUMBER_OF_THRU_LANES",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_OBJECT_STRUCK",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_OBJECT_STRUCK",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_ODPS_UNIT_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_ODPS_UNIT_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_OPERATINGIN_AUTONOMOUS_MODE",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_OPERATINGIN_AUTONOMOUS_MODE",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_POSTED_SPEED_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_POSTED_SPEED_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_PRECRASH_ACTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_PRECRASH_ACTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_1_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_1_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_2_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_2_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_3_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_3_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_4_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_4_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_5_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_5_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SEQ_OF_EVENTS_6_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SEQ_OF_EVENTS_6_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_SPECIAL_FUNCTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_SPECIAL_FUNCTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_TRAFFIC_CONTROL_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_TRAFFIC_CONTROL_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_TURN_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U1_TURN_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_TYPE_OF_UNIT_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_TYPE_OF_UNIT_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U1_UNIT_SPEED_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U1_UNIT_SPEED_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_AGE_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_AGE_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_CONT_CIR_PRIMARY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_CONT_CIR_PRIMARY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_DIRECTION_FROM_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_DIRECTION_FROM_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_DIRECTION_TO_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_DIRECTION_TO_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_DISTRACTED_BY_1_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_DISTRACTED_BY_1_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_GENDER_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_GENDER_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_NON_MOTORIST_LOC_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_NON_MOTORIST_LOC_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_ODPS_UNIT_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_ODPS_UNIT_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_POSTED_SPEED_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_POSTED_SPEED_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_PRECRASH_ACTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_PRECRASH_ACTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_1_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_SEQ_OF_EVENTS_1_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_2_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_SEQ_OF_EVENTS_2_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_3_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_SEQ_OF_EVENTS_3_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_4_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_SEQ_OF_EVENTS_4_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_5_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_SEQ_OF_EVENTS_5_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SEQ_OF_EVENTS_6_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_SEQ_OF_EVENTS_6_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_SPECIAL_FUNCTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_SPECIAL_FUNCTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_TRAFFIC_CONTROL_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_TRAFFIC_CONTROL_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_TURN_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U2_TURN_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_TYPE_OF_UNIT_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_TYPE_OF_UNIT_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U2_UNIT_SPEED_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U2_UNIT_SPEED_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_CONT_CIR_PRIMARY_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_CONT_CIR_PRIMARY_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_ODPS_UNIT_NBR",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_ODPS_UNIT_NBR",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_PRECRASH_ACTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_PRECRASH_ACTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_1_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_SEQ_OF_EVENTS_1_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_2_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U3_SEQ_OF_EVENTS_2_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_3_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U3_SEQ_OF_EVENTS_3_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_4_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U3_SEQ_OF_EVENTS_4_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_5_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U3_SEQ_OF_EVENTS_5_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SEQ_OF_EVENTS_6_CD",
+      "type": "esriFieldTypeString",
+      "alias": "U3_SEQ_OF_EVENTS_6_CD",
+      "sqlType": "sqlTypeOther",
+      "length": 8000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_SPECIAL_FUNCTION_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_SPECIAL_FUNCTION_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_TRAFFIC_CONTROL_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_TRAFFIC_CONTROL_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "U3_TYPE_OF_UNIT_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "U3_TYPE_OF_UNIT_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "UNRESTRAIN_OCCUPANTS",
+      "type": "esriFieldTypeDouble",
+      "alias": "UNRESTRAIN_OCCUPANTS",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "WEATHER_COND_CD",
+      "type": "esriFieldTypeDouble",
+      "alias": "WEATHER_COND_CD",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland All Crashes (2012 to Present)_WEATHER_COND_CD_3a016f7d-17a5-4cb7-8e01-bf774e336ab8",
+        "codedValues": [
+          {
+            "name": "Clear",
+            "code": 1
+          },
+          {
+            "name": "Cloudy",
+            "code": 2
+          },
+          {
+            "name": "Rain",
+            "code": 4
+          },
+          {
+            "name": "Snow",
+            "code": 6
+          },
+          {
+            "name": "Unknown",
+            "code": 99
+          },
+          {
+            "name": "Sleet, Hail",
+            "code": 5
+          },
+          {
+            "name": "Fog, Smog, Smoke",
+            "code": 3
+          },
+          {
+            "name": "Other / Unknown",
+            "code": 9
+          },
+          {
+            "name": "Blowing Sand, Soil, Dirt, Snow",
+            "code": 8
+          },
+          {
+            "name": "Severe Crosswinds",
+            "code": 7
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Crash_Date_Formatted",
+      "type": "esriFieldTypeDate",
+      "alias": "Crash Date",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CLEVELAN__F4B70D85BDD4CCE6",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.CLEVELAND_TRAFFIC_CRASHES_GCAT_CLEVELAND_ALL_CRASHES__2012_TO_PRESENT__Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "CRASH_YR_Index",
+      "fields": "CRASH_YR",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CRASH_YR_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "DOCUMENT_NBR_Index",
+      "fields": "DOCUMENT_NBR",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "DOCUMENT_NBR_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "CRASH_SEVERITY_CD_Index",
+      "fields": "CRASH_SEVERITY_CD",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "CRASH_SEVERITY_CD_Index",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "FUNCTIONAL_CLASS_CD_Index",
+      "fields": "FUNCTIONAL_CLASS_CD",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "FUNCTIONAL_CLASS_CD_Index",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": 1,
+      "name": "1 - Fatal",
+      "domains": {},
+      "templates": [
+        {
+          "name": "1",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "UNRESTRAIN_OCCUPANTS": null,
+              "WEATHER_COND_CD": null,
+              "DOCUMENT_NBR": null,
+              "CRASH_REPORT_LINK": null,
+              "CRASH_YR": null,
+              "CRASH_MONTH_YEAR": null,
+              "DISTRICT_NBR": null,
+              "NLFID": null,
+              "NLF_JUR_CD": null,
+              "NLF_COUNTY_CD": null,
+              "COUNTY_LOG_NBR": null,
+              "ODOT_LATITUDE_NBR": null,
+              "ODOT_LONGITUDE_NBR": null,
+              "ODOT_FIPS_CD": null,
+              "AREA_CODE": null,
+              "CRASH_DATE": null,
+              "CRASH_SEVERITY_CD": 1,
+              "CRASH_TYPE_CD": null,
+              "DAY_IN_WEEK_CD": null,
+              "DISTRACTED_DRIVER_IND": null,
+              "FACILITY_TYPE_CD": null,
+              "FHWA_RDWY_DEPARTURE_IND": null,
+              "FREEWAY_IND": null,
+              "FUNCTIONAL_CLASS_CD": null,
+              "HOUR_OF_CRASH": null,
+              "INCAPAC_INJURIES_NBR": null,
+              "INTERCHANGE_ID": null,
+              "INTERSECTION_ID_CURRENT": null,
+              "INTERSECTION_LEG_ID": null,
+              "INTERSTATE_IND": null,
+              "INV_LOG_NBR": null,
+              "INV_NLFID": null,
+              "IS_COMMERCIAL_RELATED": null,
+              "LIGHT_COND_PRIMARY_CD": null,
+              "LOCAL_REPORT_NUMBER_ID": null,
+              "MAINTENANCE_AUTHORITY_CD": null,
+              "MONTH_OF_CRASH": null,
+              "NHS_CD": null,
+              "NO_INJURY_REPORTED_NBR": null,
+              "NON_INCAPAC_INJURIES_NBR": null,
+              "NUMBER_OF_UNITS_NBR": null,
+              "ODOT_CITY_VILLAGE_TWP_NME": null,
+              "ODOT_CRASH_LOCATION_CD": null,
+              "ODOT_DIR_FROM_REF_CD": null,
+              "ODOT_DIV_UNDIV_IND": null,
+              "ODOT_INTERSECTION_REL_IND": null,
+              "ODOT_LANES_NBR": null,
+              "ODOT_MAINTAINED_HWY_IND": null,
+              "ODOT_MILES_FROM_REF_NBR": null,
+              "ODOT_REF_ROUTE_PREFIX_CD": null,
+              "ODOT_YOUNG_DRIVER_IND": null,
+              "ODPS_ADDRESS_REFERENCE": null,
+              "ODPS_ALCOHOL_IND": null,
+              "ODPS_CITY_VILLAGE_TWP_NME": null,
+              "ODPS_DRUG_IND": null,
+              "ODPS_LOC_DIR_SUFFIX_CD": null,
+              "ODPS_LOC_IN_WORK_ZONE_CD": null,
+              "ODPS_LOC_ROAD_DIRECTION_CD": null,
+              "ODPS_LOC_ROAD_NME": null,
+              "ODPS_LOC_ROAD_SUFFIX_CD": null,
+              "ODPS_LOC_ROUTE_ID": null,
+              "ODPS_LOC_ROUTE_PREFIX_CD": null,
+              "ODPS_LOC_ROUTE_SUFFIX_CD": null,
+              "ODPS_MILEPOST_REFERENCE": null,
+              "ODPS_MOTORCYCLE_IND": null,
+              "ODPS_REF_DIR_SUFFIX_CD": null,
+              "ODPS_REF_DIRECTION_CD": null,
+              "ODPS_REF_GIVEN": null,
+              "ODPS_REF_POINT_USED_CD": null,
+              "ODPS_REF_ROUTE_ID": null,
+              "ODPS_REF_ROUTE_PREFIX_CD": null,
+              "ODPS_REF_ROUTE_SUFFIX_CD": null,
+              "ODPS_REF_SUFFIX_CD": null,
+              "ODPS_SCHOOL_ZONE_IND": null,
+              "ODPS_SENIOR_DRIVER_IND": null,
+              "ODPS_SPEED_IND": null,
+              "ODPS_TOTAL_FATALITIES_NBR": null,
+              "ODPS_TYPE_OF_WORK_ZONE_CD": null,
+              "ODPS_WORK_ZONE_IND": null,
+              "OPER_ACCESS_CONTROL_CD": null,
+              "POSSIBLE_INJURIES_NBR": null,
+              "ROAD_COND_PRIMARY_CD": null,
+              "ROAD_CONTOUR_CD": null,
+              "SA_RAMP_ID": null,
+              "SA_SEGMENT_ID": null,
+              "SECONDARY_CRASH": null,
+              "STATE_TRUE_LOG_NBR": null,
+              "U1_AGE_NBR": null,
+              "U1_AT_FAULT_IND": null,
+              "U1_CONT_CIR_PRIMARY_CD": null,
+              "U1_DIRECTION_FROM_CD": null,
+              "U1_DIRECTION_TO_CD": null,
+              "U1_DISTRACTED_BY_1_CD": null,
+              "U1_GENDER_CD": null,
+              "U1_IS_ALCOHOL_SUSPECTED": null,
+              "U1_IS_MARIJUANA_SUSPECTED": null,
+              "U1_IS_OTHER_DRUG_SUSPECTED": null,
+              "U1_NON_MOTORIST_LOC_CD": null,
+              "U1_NUMBER_OF_THRU_LANES": null,
+              "U1_OBJECT_STRUCK": null,
+              "U1_ODPS_UNIT_NBR": null,
+              "U1_OPERATINGIN_AUTONOMOUS_MODE": null,
+              "U1_POSTED_SPEED_NBR": null,
+              "U1_PRECRASH_ACTION_CD": null,
+              "U1_SEQ_OF_EVENTS_1_CD": null,
+              "U1_SEQ_OF_EVENTS_2_CD": null,
+              "U1_SEQ_OF_EVENTS_3_CD": null,
+              "U1_SEQ_OF_EVENTS_4_CD": null,
+              "U1_SEQ_OF_EVENTS_5_CD": null,
+              "U1_SEQ_OF_EVENTS_6_CD": null,
+              "U1_SPECIAL_FUNCTION_CD": null,
+              "U1_TRAFFIC_CONTROL_CD": null,
+              "U1_TURN_CD": null,
+              "U1_TYPE_OF_UNIT_CD": null,
+              "U1_UNIT_SPEED_NBR": null,
+              "U2_AGE_NBR": null,
+              "U2_CONT_CIR_PRIMARY_CD": null,
+              "U2_DIRECTION_FROM_CD": null,
+              "U2_DIRECTION_TO_CD": null,
+              "U2_DISTRACTED_BY_1_CD": null,
+              "U2_GENDER_CD": null,
+              "U2_NON_MOTORIST_LOC_CD": null,
+              "U2_ODPS_UNIT_NBR": null,
+              "U2_POSTED_SPEED_NBR": null,
+              "U2_PRECRASH_ACTION_CD": null,
+              "U2_SEQ_OF_EVENTS_1_CD": null,
+              "U2_SEQ_OF_EVENTS_2_CD": null,
+              "U2_SEQ_OF_EVENTS_3_CD": null,
+              "U2_SEQ_OF_EVENTS_4_CD": null,
+              "U2_SEQ_OF_EVENTS_5_CD": null,
+              "U2_SEQ_OF_EVENTS_6_CD": null,
+              "U2_SPECIAL_FUNCTION_CD": null,
+              "U2_TRAFFIC_CONTROL_CD": null,
+              "U2_TURN_CD": null,
+              "U2_TYPE_OF_UNIT_CD": null,
+              "U2_UNIT_SPEED_NBR": null,
+              "U3_CONT_CIR_PRIMARY_CD": null,
+              "U3_ODPS_UNIT_NBR": null,
+              "U3_PRECRASH_ACTION_CD": null,
+              "U3_SEQ_OF_EVENTS_1_CD": null,
+              "U3_SEQ_OF_EVENTS_2_CD": null,
+              "U3_SEQ_OF_EVENTS_3_CD": null,
+              "U3_SEQ_OF_EVENTS_4_CD": null,
+              "U3_SEQ_OF_EVENTS_5_CD": null,
+              "U3_SEQ_OF_EVENTS_6_CD": null,
+              "U3_SPECIAL_FUNCTION_CD": null,
+              "U3_TRAFFIC_CONTROL_CD": null,
+              "U3_TYPE_OF_UNIT_CD": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "2 - Serious Injury",
+      "domains": {},
+      "templates": [
+        {
+          "name": "2",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "UNRESTRAIN_OCCUPANTS": null,
+              "WEATHER_COND_CD": null,
+              "DOCUMENT_NBR": null,
+              "CRASH_REPORT_LINK": null,
+              "CRASH_YR": null,
+              "CRASH_MONTH_YEAR": null,
+              "DISTRICT_NBR": null,
+              "NLFID": null,
+              "NLF_JUR_CD": null,
+              "NLF_COUNTY_CD": null,
+              "COUNTY_LOG_NBR": null,
+              "ODOT_LATITUDE_NBR": null,
+              "ODOT_LONGITUDE_NBR": null,
+              "ODOT_FIPS_CD": null,
+              "AREA_CODE": null,
+              "CRASH_DATE": null,
+              "CRASH_SEVERITY_CD": 2,
+              "CRASH_TYPE_CD": null,
+              "DAY_IN_WEEK_CD": null,
+              "DISTRACTED_DRIVER_IND": null,
+              "FACILITY_TYPE_CD": null,
+              "FHWA_RDWY_DEPARTURE_IND": null,
+              "FREEWAY_IND": null,
+              "FUNCTIONAL_CLASS_CD": null,
+              "HOUR_OF_CRASH": null,
+              "INCAPAC_INJURIES_NBR": null,
+              "INTERCHANGE_ID": null,
+              "INTERSECTION_ID_CURRENT": null,
+              "INTERSECTION_LEG_ID": null,
+              "INTERSTATE_IND": null,
+              "INV_LOG_NBR": null,
+              "INV_NLFID": null,
+              "IS_COMMERCIAL_RELATED": null,
+              "LIGHT_COND_PRIMARY_CD": null,
+              "LOCAL_REPORT_NUMBER_ID": null,
+              "MAINTENANCE_AUTHORITY_CD": null,
+              "MONTH_OF_CRASH": null,
+              "NHS_CD": null,
+              "NO_INJURY_REPORTED_NBR": null,
+              "NON_INCAPAC_INJURIES_NBR": null,
+              "NUMBER_OF_UNITS_NBR": null,
+              "ODOT_CITY_VILLAGE_TWP_NME": null,
+              "ODOT_CRASH_LOCATION_CD": null,
+              "ODOT_DIR_FROM_REF_CD": null,
+              "ODOT_DIV_UNDIV_IND": null,
+              "ODOT_INTERSECTION_REL_IND": null,
+              "ODOT_LANES_NBR": null,
+              "ODOT_MAINTAINED_HWY_IND": null,
+              "ODOT_MILES_FROM_REF_NBR": null,
+              "ODOT_REF_ROUTE_PREFIX_CD": null,
+              "ODOT_YOUNG_DRIVER_IND": null,
+              "ODPS_ADDRESS_REFERENCE": null,
+              "ODPS_ALCOHOL_IND": null,
+              "ODPS_CITY_VILLAGE_TWP_NME": null,
+              "ODPS_DRUG_IND": null,
+              "ODPS_LOC_DIR_SUFFIX_CD": null,
+              "ODPS_LOC_IN_WORK_ZONE_CD": null,
+              "ODPS_LOC_ROAD_DIRECTION_CD": null,
+              "ODPS_LOC_ROAD_NME": null,
+              "ODPS_LOC_ROAD_SUFFIX_CD": null,
+              "ODPS_LOC_ROUTE_ID": null,
+              "ODPS_LOC_ROUTE_PREFIX_CD": null,
+              "ODPS_LOC_ROUTE_SUFFIX_CD": null,
+              "ODPS_MILEPOST_REFERENCE": null,
+              "ODPS_MOTORCYCLE_IND": null,
+              "ODPS_REF_DIR_SUFFIX_CD": null,
+              "ODPS_REF_DIRECTION_CD": null,
+              "ODPS_REF_GIVEN": null,
+              "ODPS_REF_POINT_USED_CD": null,
+              "ODPS_REF_ROUTE_ID": null,
+              "ODPS_REF_ROUTE_PREFIX_CD": null,
+              "ODPS_REF_ROUTE_SUFFIX_CD": null,
+              "ODPS_REF_SUFFIX_CD": null,
+              "ODPS_SCHOOL_ZONE_IND": null,
+              "ODPS_SENIOR_DRIVER_IND": null,
+              "ODPS_SPEED_IND": null,
+              "ODPS_TOTAL_FATALITIES_NBR": null,
+              "ODPS_TYPE_OF_WORK_ZONE_CD": null,
+              "ODPS_WORK_ZONE_IND": null,
+              "OPER_ACCESS_CONTROL_CD": null,
+              "POSSIBLE_INJURIES_NBR": null,
+              "ROAD_COND_PRIMARY_CD": null,
+              "ROAD_CONTOUR_CD": null,
+              "SA_RAMP_ID": null,
+              "SA_SEGMENT_ID": null,
+              "SECONDARY_CRASH": null,
+              "STATE_TRUE_LOG_NBR": null,
+              "U1_AGE_NBR": null,
+              "U1_AT_FAULT_IND": null,
+              "U1_CONT_CIR_PRIMARY_CD": null,
+              "U1_DIRECTION_FROM_CD": null,
+              "U1_DIRECTION_TO_CD": null,
+              "U1_DISTRACTED_BY_1_CD": null,
+              "U1_GENDER_CD": null,
+              "U1_IS_ALCOHOL_SUSPECTED": null,
+              "U1_IS_MARIJUANA_SUSPECTED": null,
+              "U1_IS_OTHER_DRUG_SUSPECTED": null,
+              "U1_NON_MOTORIST_LOC_CD": null,
+              "U1_NUMBER_OF_THRU_LANES": null,
+              "U1_OBJECT_STRUCK": null,
+              "U1_ODPS_UNIT_NBR": null,
+              "U1_OPERATINGIN_AUTONOMOUS_MODE": null,
+              "U1_POSTED_SPEED_NBR": null,
+              "U1_PRECRASH_ACTION_CD": null,
+              "U1_SEQ_OF_EVENTS_1_CD": null,
+              "U1_SEQ_OF_EVENTS_2_CD": null,
+              "U1_SEQ_OF_EVENTS_3_CD": null,
+              "U1_SEQ_OF_EVENTS_4_CD": null,
+              "U1_SEQ_OF_EVENTS_5_CD": null,
+              "U1_SEQ_OF_EVENTS_6_CD": null,
+              "U1_SPECIAL_FUNCTION_CD": null,
+              "U1_TRAFFIC_CONTROL_CD": null,
+              "U1_TURN_CD": null,
+              "U1_TYPE_OF_UNIT_CD": null,
+              "U1_UNIT_SPEED_NBR": null,
+              "U2_AGE_NBR": null,
+              "U2_CONT_CIR_PRIMARY_CD": null,
+              "U2_DIRECTION_FROM_CD": null,
+              "U2_DIRECTION_TO_CD": null,
+              "U2_DISTRACTED_BY_1_CD": null,
+              "U2_GENDER_CD": null,
+              "U2_NON_MOTORIST_LOC_CD": null,
+              "U2_ODPS_UNIT_NBR": null,
+              "U2_POSTED_SPEED_NBR": null,
+              "U2_PRECRASH_ACTION_CD": null,
+              "U2_SEQ_OF_EVENTS_1_CD": null,
+              "U2_SEQ_OF_EVENTS_2_CD": null,
+              "U2_SEQ_OF_EVENTS_3_CD": null,
+              "U2_SEQ_OF_EVENTS_4_CD": null,
+              "U2_SEQ_OF_EVENTS_5_CD": null,
+              "U2_SEQ_OF_EVENTS_6_CD": null,
+              "U2_SPECIAL_FUNCTION_CD": null,
+              "U2_TRAFFIC_CONTROL_CD": null,
+              "U2_TURN_CD": null,
+              "U2_TYPE_OF_UNIT_CD": null,
+              "U2_UNIT_SPEED_NBR": null,
+              "U3_CONT_CIR_PRIMARY_CD": null,
+              "U3_ODPS_UNIT_NBR": null,
+              "U3_PRECRASH_ACTION_CD": null,
+              "U3_SEQ_OF_EVENTS_1_CD": null,
+              "U3_SEQ_OF_EVENTS_2_CD": null,
+              "U3_SEQ_OF_EVENTS_3_CD": null,
+              "U3_SEQ_OF_EVENTS_4_CD": null,
+              "U3_SEQ_OF_EVENTS_5_CD": null,
+              "U3_SEQ_OF_EVENTS_6_CD": null,
+              "U3_SPECIAL_FUNCTION_CD": null,
+              "U3_TRAFFIC_CONTROL_CD": null,
+              "U3_TYPE_OF_UNIT_CD": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "3 - Minor Injury",
+      "domains": {},
+      "templates": [
+        {
+          "name": "3",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "UNRESTRAIN_OCCUPANTS": null,
+              "WEATHER_COND_CD": null,
+              "DOCUMENT_NBR": null,
+              "CRASH_REPORT_LINK": null,
+              "CRASH_YR": null,
+              "CRASH_MONTH_YEAR": null,
+              "DISTRICT_NBR": null,
+              "NLFID": null,
+              "NLF_JUR_CD": null,
+              "NLF_COUNTY_CD": null,
+              "COUNTY_LOG_NBR": null,
+              "ODOT_LATITUDE_NBR": null,
+              "ODOT_LONGITUDE_NBR": null,
+              "ODOT_FIPS_CD": null,
+              "AREA_CODE": null,
+              "CRASH_DATE": null,
+              "CRASH_SEVERITY_CD": 3,
+              "CRASH_TYPE_CD": null,
+              "DAY_IN_WEEK_CD": null,
+              "DISTRACTED_DRIVER_IND": null,
+              "FACILITY_TYPE_CD": null,
+              "FHWA_RDWY_DEPARTURE_IND": null,
+              "FREEWAY_IND": null,
+              "FUNCTIONAL_CLASS_CD": null,
+              "HOUR_OF_CRASH": null,
+              "INCAPAC_INJURIES_NBR": null,
+              "INTERCHANGE_ID": null,
+              "INTERSECTION_ID_CURRENT": null,
+              "INTERSECTION_LEG_ID": null,
+              "INTERSTATE_IND": null,
+              "INV_LOG_NBR": null,
+              "INV_NLFID": null,
+              "IS_COMMERCIAL_RELATED": null,
+              "LIGHT_COND_PRIMARY_CD": null,
+              "LOCAL_REPORT_NUMBER_ID": null,
+              "MAINTENANCE_AUTHORITY_CD": null,
+              "MONTH_OF_CRASH": null,
+              "NHS_CD": null,
+              "NO_INJURY_REPORTED_NBR": null,
+              "NON_INCAPAC_INJURIES_NBR": null,
+              "NUMBER_OF_UNITS_NBR": null,
+              "ODOT_CITY_VILLAGE_TWP_NME": null,
+              "ODOT_CRASH_LOCATION_CD": null,
+              "ODOT_DIR_FROM_REF_CD": null,
+              "ODOT_DIV_UNDIV_IND": null,
+              "ODOT_INTERSECTION_REL_IND": null,
+              "ODOT_LANES_NBR": null,
+              "ODOT_MAINTAINED_HWY_IND": null,
+              "ODOT_MILES_FROM_REF_NBR": null,
+              "ODOT_REF_ROUTE_PREFIX_CD": null,
+              "ODOT_YOUNG_DRIVER_IND": null,
+              "ODPS_ADDRESS_REFERENCE": null,
+              "ODPS_ALCOHOL_IND": null,
+              "ODPS_CITY_VILLAGE_TWP_NME": null,
+              "ODPS_DRUG_IND": null,
+              "ODPS_LOC_DIR_SUFFIX_CD": null,
+              "ODPS_LOC_IN_WORK_ZONE_CD": null,
+              "ODPS_LOC_ROAD_DIRECTION_CD": null,
+              "ODPS_LOC_ROAD_NME": null,
+              "ODPS_LOC_ROAD_SUFFIX_CD": null,
+              "ODPS_LOC_ROUTE_ID": null,
+              "ODPS_LOC_ROUTE_PREFIX_CD": null,
+              "ODPS_LOC_ROUTE_SUFFIX_CD": null,
+              "ODPS_MILEPOST_REFERENCE": null,
+              "ODPS_MOTORCYCLE_IND": null,
+              "ODPS_REF_DIR_SUFFIX_CD": null,
+              "ODPS_REF_DIRECTION_CD": null,
+              "ODPS_REF_GIVEN": null,
+              "ODPS_REF_POINT_USED_CD": null,
+              "ODPS_REF_ROUTE_ID": null,
+              "ODPS_REF_ROUTE_PREFIX_CD": null,
+              "ODPS_REF_ROUTE_SUFFIX_CD": null,
+              "ODPS_REF_SUFFIX_CD": null,
+              "ODPS_SCHOOL_ZONE_IND": null,
+              "ODPS_SENIOR_DRIVER_IND": null,
+              "ODPS_SPEED_IND": null,
+              "ODPS_TOTAL_FATALITIES_NBR": null,
+              "ODPS_TYPE_OF_WORK_ZONE_CD": null,
+              "ODPS_WORK_ZONE_IND": null,
+              "OPER_ACCESS_CONTROL_CD": null,
+              "POSSIBLE_INJURIES_NBR": null,
+              "ROAD_COND_PRIMARY_CD": null,
+              "ROAD_CONTOUR_CD": null,
+              "SA_RAMP_ID": null,
+              "SA_SEGMENT_ID": null,
+              "SECONDARY_CRASH": null,
+              "STATE_TRUE_LOG_NBR": null,
+              "U1_AGE_NBR": null,
+              "U1_AT_FAULT_IND": null,
+              "U1_CONT_CIR_PRIMARY_CD": null,
+              "U1_DIRECTION_FROM_CD": null,
+              "U1_DIRECTION_TO_CD": null,
+              "U1_DISTRACTED_BY_1_CD": null,
+              "U1_GENDER_CD": null,
+              "U1_IS_ALCOHOL_SUSPECTED": null,
+              "U1_IS_MARIJUANA_SUSPECTED": null,
+              "U1_IS_OTHER_DRUG_SUSPECTED": null,
+              "U1_NON_MOTORIST_LOC_CD": null,
+              "U1_NUMBER_OF_THRU_LANES": null,
+              "U1_OBJECT_STRUCK": null,
+              "U1_ODPS_UNIT_NBR": null,
+              "U1_OPERATINGIN_AUTONOMOUS_MODE": null,
+              "U1_POSTED_SPEED_NBR": null,
+              "U1_PRECRASH_ACTION_CD": null,
+              "U1_SEQ_OF_EVENTS_1_CD": null,
+              "U1_SEQ_OF_EVENTS_2_CD": null,
+              "U1_SEQ_OF_EVENTS_3_CD": null,
+              "U1_SEQ_OF_EVENTS_4_CD": null,
+              "U1_SEQ_OF_EVENTS_5_CD": null,
+              "U1_SEQ_OF_EVENTS_6_CD": null,
+              "U1_SPECIAL_FUNCTION_CD": null,
+              "U1_TRAFFIC_CONTROL_CD": null,
+              "U1_TURN_CD": null,
+              "U1_TYPE_OF_UNIT_CD": null,
+              "U1_UNIT_SPEED_NBR": null,
+              "U2_AGE_NBR": null,
+              "U2_CONT_CIR_PRIMARY_CD": null,
+              "U2_DIRECTION_FROM_CD": null,
+              "U2_DIRECTION_TO_CD": null,
+              "U2_DISTRACTED_BY_1_CD": null,
+              "U2_GENDER_CD": null,
+              "U2_NON_MOTORIST_LOC_CD": null,
+              "U2_ODPS_UNIT_NBR": null,
+              "U2_POSTED_SPEED_NBR": null,
+              "U2_PRECRASH_ACTION_CD": null,
+              "U2_SEQ_OF_EVENTS_1_CD": null,
+              "U2_SEQ_OF_EVENTS_2_CD": null,
+              "U2_SEQ_OF_EVENTS_3_CD": null,
+              "U2_SEQ_OF_EVENTS_4_CD": null,
+              "U2_SEQ_OF_EVENTS_5_CD": null,
+              "U2_SEQ_OF_EVENTS_6_CD": null,
+              "U2_SPECIAL_FUNCTION_CD": null,
+              "U2_TRAFFIC_CONTROL_CD": null,
+              "U2_TURN_CD": null,
+              "U2_TYPE_OF_UNIT_CD": null,
+              "U2_UNIT_SPEED_NBR": null,
+              "U3_CONT_CIR_PRIMARY_CD": null,
+              "U3_ODPS_UNIT_NBR": null,
+              "U3_PRECRASH_ACTION_CD": null,
+              "U3_SEQ_OF_EVENTS_1_CD": null,
+              "U3_SEQ_OF_EVENTS_2_CD": null,
+              "U3_SEQ_OF_EVENTS_3_CD": null,
+              "U3_SEQ_OF_EVENTS_4_CD": null,
+              "U3_SEQ_OF_EVENTS_5_CD": null,
+              "U3_SEQ_OF_EVENTS_6_CD": null,
+              "U3_SPECIAL_FUNCTION_CD": null,
+              "U3_TRAFFIC_CONTROL_CD": null,
+              "U3_TYPE_OF_UNIT_CD": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "4 - Possible Injury",
+      "domains": {},
+      "templates": [
+        {
+          "name": "4",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "UNRESTRAIN_OCCUPANTS": null,
+              "WEATHER_COND_CD": null,
+              "DOCUMENT_NBR": null,
+              "CRASH_REPORT_LINK": null,
+              "CRASH_YR": null,
+              "CRASH_MONTH_YEAR": null,
+              "DISTRICT_NBR": null,
+              "NLFID": null,
+              "NLF_JUR_CD": null,
+              "NLF_COUNTY_CD": null,
+              "COUNTY_LOG_NBR": null,
+              "ODOT_LATITUDE_NBR": null,
+              "ODOT_LONGITUDE_NBR": null,
+              "ODOT_FIPS_CD": null,
+              "AREA_CODE": null,
+              "CRASH_DATE": null,
+              "CRASH_SEVERITY_CD": 4,
+              "CRASH_TYPE_CD": null,
+              "DAY_IN_WEEK_CD": null,
+              "DISTRACTED_DRIVER_IND": null,
+              "FACILITY_TYPE_CD": null,
+              "FHWA_RDWY_DEPARTURE_IND": null,
+              "FREEWAY_IND": null,
+              "FUNCTIONAL_CLASS_CD": null,
+              "HOUR_OF_CRASH": null,
+              "INCAPAC_INJURIES_NBR": null,
+              "INTERCHANGE_ID": null,
+              "INTERSECTION_ID_CURRENT": null,
+              "INTERSECTION_LEG_ID": null,
+              "INTERSTATE_IND": null,
+              "INV_LOG_NBR": null,
+              "INV_NLFID": null,
+              "IS_COMMERCIAL_RELATED": null,
+              "LIGHT_COND_PRIMARY_CD": null,
+              "LOCAL_REPORT_NUMBER_ID": null,
+              "MAINTENANCE_AUTHORITY_CD": null,
+              "MONTH_OF_CRASH": null,
+              "NHS_CD": null,
+              "NO_INJURY_REPORTED_NBR": null,
+              "NON_INCAPAC_INJURIES_NBR": null,
+              "NUMBER_OF_UNITS_NBR": null,
+              "ODOT_CITY_VILLAGE_TWP_NME": null,
+              "ODOT_CRASH_LOCATION_CD": null,
+              "ODOT_DIR_FROM_REF_CD": null,
+              "ODOT_DIV_UNDIV_IND": null,
+              "ODOT_INTERSECTION_REL_IND": null,
+              "ODOT_LANES_NBR": null,
+              "ODOT_MAINTAINED_HWY_IND": null,
+              "ODOT_MILES_FROM_REF_NBR": null,
+              "ODOT_REF_ROUTE_PREFIX_CD": null,
+              "ODOT_YOUNG_DRIVER_IND": null,
+              "ODPS_ADDRESS_REFERENCE": null,
+              "ODPS_ALCOHOL_IND": null,
+              "ODPS_CITY_VILLAGE_TWP_NME": null,
+              "ODPS_DRUG_IND": null,
+              "ODPS_LOC_DIR_SUFFIX_CD": null,
+              "ODPS_LOC_IN_WORK_ZONE_CD": null,
+              "ODPS_LOC_ROAD_DIRECTION_CD": null,
+              "ODPS_LOC_ROAD_NME": null,
+              "ODPS_LOC_ROAD_SUFFIX_CD": null,
+              "ODPS_LOC_ROUTE_ID": null,
+              "ODPS_LOC_ROUTE_PREFIX_CD": null,
+              "ODPS_LOC_ROUTE_SUFFIX_CD": null,
+              "ODPS_MILEPOST_REFERENCE": null,
+              "ODPS_MOTORCYCLE_IND": null,
+              "ODPS_REF_DIR_SUFFIX_CD": null,
+              "ODPS_REF_DIRECTION_CD": null,
+              "ODPS_REF_GIVEN": null,
+              "ODPS_REF_POINT_USED_CD": null,
+              "ODPS_REF_ROUTE_ID": null,
+              "ODPS_REF_ROUTE_PREFIX_CD": null,
+              "ODPS_REF_ROUTE_SUFFIX_CD": null,
+              "ODPS_REF_SUFFIX_CD": null,
+              "ODPS_SCHOOL_ZONE_IND": null,
+              "ODPS_SENIOR_DRIVER_IND": null,
+              "ODPS_SPEED_IND": null,
+              "ODPS_TOTAL_FATALITIES_NBR": null,
+              "ODPS_TYPE_OF_WORK_ZONE_CD": null,
+              "ODPS_WORK_ZONE_IND": null,
+              "OPER_ACCESS_CONTROL_CD": null,
+              "POSSIBLE_INJURIES_NBR": null,
+              "ROAD_COND_PRIMARY_CD": null,
+              "ROAD_CONTOUR_CD": null,
+              "SA_RAMP_ID": null,
+              "SA_SEGMENT_ID": null,
+              "SECONDARY_CRASH": null,
+              "STATE_TRUE_LOG_NBR": null,
+              "U1_AGE_NBR": null,
+              "U1_AT_FAULT_IND": null,
+              "U1_CONT_CIR_PRIMARY_CD": null,
+              "U1_DIRECTION_FROM_CD": null,
+              "U1_DIRECTION_TO_CD": null,
+              "U1_DISTRACTED_BY_1_CD": null,
+              "U1_GENDER_CD": null,
+              "U1_IS_ALCOHOL_SUSPECTED": null,
+              "U1_IS_MARIJUANA_SUSPECTED": null,
+              "U1_IS_OTHER_DRUG_SUSPECTED": null,
+              "U1_NON_MOTORIST_LOC_CD": null,
+              "U1_NUMBER_OF_THRU_LANES": null,
+              "U1_OBJECT_STRUCK": null,
+              "U1_ODPS_UNIT_NBR": null,
+              "U1_OPERATINGIN_AUTONOMOUS_MODE": null,
+              "U1_POSTED_SPEED_NBR": null,
+              "U1_PRECRASH_ACTION_CD": null,
+              "U1_SEQ_OF_EVENTS_1_CD": null,
+              "U1_SEQ_OF_EVENTS_2_CD": null,
+              "U1_SEQ_OF_EVENTS_3_CD": null,
+              "U1_SEQ_OF_EVENTS_4_CD": null,
+              "U1_SEQ_OF_EVENTS_5_CD": null,
+              "U1_SEQ_OF_EVENTS_6_CD": null,
+              "U1_SPECIAL_FUNCTION_CD": null,
+              "U1_TRAFFIC_CONTROL_CD": null,
+              "U1_TURN_CD": null,
+              "U1_TYPE_OF_UNIT_CD": null,
+              "U1_UNIT_SPEED_NBR": null,
+              "U2_AGE_NBR": null,
+              "U2_CONT_CIR_PRIMARY_CD": null,
+              "U2_DIRECTION_FROM_CD": null,
+              "U2_DIRECTION_TO_CD": null,
+              "U2_DISTRACTED_BY_1_CD": null,
+              "U2_GENDER_CD": null,
+              "U2_NON_MOTORIST_LOC_CD": null,
+              "U2_ODPS_UNIT_NBR": null,
+              "U2_POSTED_SPEED_NBR": null,
+              "U2_PRECRASH_ACTION_CD": null,
+              "U2_SEQ_OF_EVENTS_1_CD": null,
+              "U2_SEQ_OF_EVENTS_2_CD": null,
+              "U2_SEQ_OF_EVENTS_3_CD": null,
+              "U2_SEQ_OF_EVENTS_4_CD": null,
+              "U2_SEQ_OF_EVENTS_5_CD": null,
+              "U2_SEQ_OF_EVENTS_6_CD": null,
+              "U2_SPECIAL_FUNCTION_CD": null,
+              "U2_TRAFFIC_CONTROL_CD": null,
+              "U2_TURN_CD": null,
+              "U2_TYPE_OF_UNIT_CD": null,
+              "U2_UNIT_SPEED_NBR": null,
+              "U3_CONT_CIR_PRIMARY_CD": null,
+              "U3_ODPS_UNIT_NBR": null,
+              "U3_PRECRASH_ACTION_CD": null,
+              "U3_SEQ_OF_EVENTS_1_CD": null,
+              "U3_SEQ_OF_EVENTS_2_CD": null,
+              "U3_SEQ_OF_EVENTS_3_CD": null,
+              "U3_SEQ_OF_EVENTS_4_CD": null,
+              "U3_SEQ_OF_EVENTS_5_CD": null,
+              "U3_SEQ_OF_EVENTS_6_CD": null,
+              "U3_SPECIAL_FUNCTION_CD": null,
+              "U3_TRAFFIC_CONTROL_CD": null,
+              "U3_TYPE_OF_UNIT_CD": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "5 - Property Damage Only",
+      "domains": {},
+      "templates": [
+        {
+          "name": "5",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPoint",
+          "prototype": {
+            "attributes": {
+              "UNRESTRAIN_OCCUPANTS": null,
+              "WEATHER_COND_CD": null,
+              "DOCUMENT_NBR": null,
+              "CRASH_REPORT_LINK": null,
+              "CRASH_YR": null,
+              "CRASH_MONTH_YEAR": null,
+              "DISTRICT_NBR": null,
+              "NLFID": null,
+              "NLF_JUR_CD": null,
+              "NLF_COUNTY_CD": null,
+              "COUNTY_LOG_NBR": null,
+              "ODOT_LATITUDE_NBR": null,
+              "ODOT_LONGITUDE_NBR": null,
+              "ODOT_FIPS_CD": null,
+              "AREA_CODE": null,
+              "CRASH_DATE": null,
+              "CRASH_SEVERITY_CD": 5,
+              "CRASH_TYPE_CD": null,
+              "DAY_IN_WEEK_CD": null,
+              "DISTRACTED_DRIVER_IND": null,
+              "FACILITY_TYPE_CD": null,
+              "FHWA_RDWY_DEPARTURE_IND": null,
+              "FREEWAY_IND": null,
+              "FUNCTIONAL_CLASS_CD": null,
+              "HOUR_OF_CRASH": null,
+              "INCAPAC_INJURIES_NBR": null,
+              "INTERCHANGE_ID": null,
+              "INTERSECTION_ID_CURRENT": null,
+              "INTERSECTION_LEG_ID": null,
+              "INTERSTATE_IND": null,
+              "INV_LOG_NBR": null,
+              "INV_NLFID": null,
+              "IS_COMMERCIAL_RELATED": null,
+              "LIGHT_COND_PRIMARY_CD": null,
+              "LOCAL_REPORT_NUMBER_ID": null,
+              "MAINTENANCE_AUTHORITY_CD": null,
+              "MONTH_OF_CRASH": null,
+              "NHS_CD": null,
+              "NO_INJURY_REPORTED_NBR": null,
+              "NON_INCAPAC_INJURIES_NBR": null,
+              "NUMBER_OF_UNITS_NBR": null,
+              "ODOT_CITY_VILLAGE_TWP_NME": null,
+              "ODOT_CRASH_LOCATION_CD": null,
+              "ODOT_DIR_FROM_REF_CD": null,
+              "ODOT_DIV_UNDIV_IND": null,
+              "ODOT_INTERSECTION_REL_IND": null,
+              "ODOT_LANES_NBR": null,
+              "ODOT_MAINTAINED_HWY_IND": null,
+              "ODOT_MILES_FROM_REF_NBR": null,
+              "ODOT_REF_ROUTE_PREFIX_CD": null,
+              "ODOT_YOUNG_DRIVER_IND": null,
+              "ODPS_ADDRESS_REFERENCE": null,
+              "ODPS_ALCOHOL_IND": null,
+              "ODPS_CITY_VILLAGE_TWP_NME": null,
+              "ODPS_DRUG_IND": null,
+              "ODPS_LOC_DIR_SUFFIX_CD": null,
+              "ODPS_LOC_IN_WORK_ZONE_CD": null,
+              "ODPS_LOC_ROAD_DIRECTION_CD": null,
+              "ODPS_LOC_ROAD_NME": null,
+              "ODPS_LOC_ROAD_SUFFIX_CD": null,
+              "ODPS_LOC_ROUTE_ID": null,
+              "ODPS_LOC_ROUTE_PREFIX_CD": null,
+              "ODPS_LOC_ROUTE_SUFFIX_CD": null,
+              "ODPS_MILEPOST_REFERENCE": null,
+              "ODPS_MOTORCYCLE_IND": null,
+              "ODPS_REF_DIR_SUFFIX_CD": null,
+              "ODPS_REF_DIRECTION_CD": null,
+              "ODPS_REF_GIVEN": null,
+              "ODPS_REF_POINT_USED_CD": null,
+              "ODPS_REF_ROUTE_ID": null,
+              "ODPS_REF_ROUTE_PREFIX_CD": null,
+              "ODPS_REF_ROUTE_SUFFIX_CD": null,
+              "ODPS_REF_SUFFIX_CD": null,
+              "ODPS_SCHOOL_ZONE_IND": null,
+              "ODPS_SENIOR_DRIVER_IND": null,
+              "ODPS_SPEED_IND": null,
+              "ODPS_TOTAL_FATALITIES_NBR": null,
+              "ODPS_TYPE_OF_WORK_ZONE_CD": null,
+              "ODPS_WORK_ZONE_IND": null,
+              "OPER_ACCESS_CONTROL_CD": null,
+              "POSSIBLE_INJURIES_NBR": null,
+              "ROAD_COND_PRIMARY_CD": null,
+              "ROAD_CONTOUR_CD": null,
+              "SA_RAMP_ID": null,
+              "SA_SEGMENT_ID": null,
+              "SECONDARY_CRASH": null,
+              "STATE_TRUE_LOG_NBR": null,
+              "U1_AGE_NBR": null,
+              "U1_AT_FAULT_IND": null,
+              "U1_CONT_CIR_PRIMARY_CD": null,
+              "U1_DIRECTION_FROM_CD": null,
+              "U1_DIRECTION_TO_CD": null,
+              "U1_DISTRACTED_BY_1_CD": null,
+              "U1_GENDER_CD": null,
+              "U1_IS_ALCOHOL_SUSPECTED": null,
+              "U1_IS_MARIJUANA_SUSPECTED": null,
+              "U1_IS_OTHER_DRUG_SUSPECTED": null,
+              "U1_NON_MOTORIST_LOC_CD": null,
+              "U1_NUMBER_OF_THRU_LANES": null,
+              "U1_OBJECT_STRUCK": null,
+              "U1_ODPS_UNIT_NBR": null,
+              "U1_OPERATINGIN_AUTONOMOUS_MODE": null,
+              "U1_POSTED_SPEED_NBR": null,
+              "U1_PRECRASH_ACTION_CD": null,
+              "U1_SEQ_OF_EVENTS_1_CD": null,
+              "U1_SEQ_OF_EVENTS_2_CD": null,
+              "U1_SEQ_OF_EVENTS_3_CD": null,
+              "U1_SEQ_OF_EVENTS_4_CD": null,
+              "U1_SEQ_OF_EVENTS_5_CD": null,
+              "U1_SEQ_OF_EVENTS_6_CD": null,
+              "U1_SPECIAL_FUNCTION_CD": null,
+              "U1_TRAFFIC_CONTROL_CD": null,
+              "U1_TURN_CD": null,
+              "U1_TYPE_OF_UNIT_CD": null,
+              "U1_UNIT_SPEED_NBR": null,
+              "U2_AGE_NBR": null,
+              "U2_CONT_CIR_PRIMARY_CD": null,
+              "U2_DIRECTION_FROM_CD": null,
+              "U2_DIRECTION_TO_CD": null,
+              "U2_DISTRACTED_BY_1_CD": null,
+              "U2_GENDER_CD": null,
+              "U2_NON_MOTORIST_LOC_CD": null,
+              "U2_ODPS_UNIT_NBR": null,
+              "U2_POSTED_SPEED_NBR": null,
+              "U2_PRECRASH_ACTION_CD": null,
+              "U2_SEQ_OF_EVENTS_1_CD": null,
+              "U2_SEQ_OF_EVENTS_2_CD": null,
+              "U2_SEQ_OF_EVENTS_3_CD": null,
+              "U2_SEQ_OF_EVENTS_4_CD": null,
+              "U2_SEQ_OF_EVENTS_5_CD": null,
+              "U2_SEQ_OF_EVENTS_6_CD": null,
+              "U2_SPECIAL_FUNCTION_CD": null,
+              "U2_TRAFFIC_CONTROL_CD": null,
+              "U2_TURN_CD": null,
+              "U2_TYPE_OF_UNIT_CD": null,
+              "U2_UNIT_SPEED_NBR": null,
+              "U3_CONT_CIR_PRIMARY_CD": null,
+              "U3_ODPS_UNIT_NBR": null,
+              "U3_PRECRASH_ACTION_CD": null,
+              "U3_SEQ_OF_EVENTS_1_CD": null,
+              "U3_SEQ_OF_EVENTS_2_CD": null,
+              "U3_SEQ_OF_EVENTS_3_CD": null,
+              "U3_SEQ_OF_EVENTS_4_CD": null,
+              "U3_SEQ_OF_EVENTS_5_CD": null,
+              "U3_SEQ_OF_EVENTS_6_CD": null,
+              "U3_SPECIAL_FUNCTION_CD": null,
+              "U3_TRAFFIC_CONTROL_CD": null,
+              "U3_TYPE_OF_UNIT_CD": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": true,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}

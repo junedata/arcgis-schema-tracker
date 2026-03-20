@@ -1,0 +1,695 @@
+{
+  "currentVersion": 12,
+  "id": 1,
+  "name": "Cleveland Park Amenities",
+  "type": "Feature Layer",
+  "serviceItemId": "25767cf3e63c400e87d3fd7112cfbaa9",
+  "cacheMaxAge": 30,
+  "displayField": "Park_Name",
+  "description": "Point layer of amenities in a Cleveland park or outdoor space associated with a recreational facility.",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": "untracked",
+    "schemaLastEditDate": 1758142300362,
+    "dataLastEditDate": "untracked"
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": false,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 2151260.3709008098,
+    "ymin": 640719.8793648034,
+    "xmax": 2241304.4526233077,
+    "ymax": 699183.3759546429,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "spatialReference": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "drawingInfo": {
+    "renderer": {
+      "visualVariables": [
+        {
+          "type": "sizeInfo",
+          "valueExpression": "$view.scale",
+          "stops": [
+            {
+              "size": 7.5,
+              "value": 282.124294
+            },
+            {
+              "size": 6,
+              "value": 2256.994353
+            },
+            {
+              "size": 3,
+              "value": 18055.954822
+            },
+            {
+              "size": 1.5,
+              "value": 144447.638572
+            }
+          ]
+        }
+      ],
+      "type": "simple",
+      "symbol": {
+        "color": [
+          77,
+          77,
+          77,
+          255
+        ],
+        "size": 6,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            64
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": true,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": true,
+  "enableZDefaults": true,
+  "zDefault": 0,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "",
+  "typeIdField": "",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Park_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Park Name",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"nameOrTitle\"}"
+    },
+    {
+      "name": "Amenity_Type",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_Type",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland Park Amenities_Amenity_Type_05cd87f1-721f-4ca8-8ebb-d31254a2cdb0",
+        "codedValues": [
+          {
+            "name": "Amphitheatre",
+            "code": "Amphitheatre"
+          },
+          {
+            "name": "Badminton Court",
+            "code": "Badminton Court"
+          },
+          {
+            "name": "Basketball Court",
+            "code": "Basketball Court"
+          },
+          {
+            "name": "BMX or Pump Track",
+            "code": "BMX or Pump Track"
+          },
+          {
+            "name": "Bocce Ball Court",
+            "code": "Bocce Ball Court"
+          },
+          {
+            "name": "Community Garden",
+            "code": "Community Garden"
+          },
+          {
+            "name": "Concession Stand",
+            "code": "Concession Stand"
+          },
+          {
+            "name": "Cultural Garden",
+            "code": "Cultural Garden"
+          },
+          {
+            "name": "Cricket Field",
+            "code": "Cricket Field"
+          },
+          {
+            "name": "Diamond Field",
+            "code": "Diamond Field"
+          },
+          {
+            "name": "Dog Park",
+            "code": "Dog Park"
+          },
+          {
+            "name": "Exercise Equipment Station",
+            "code": "Exercise Equipment Station"
+          },
+          {
+            "name": "Fishing Pond",
+            "code": "Fishing Pond"
+          },
+          {
+            "name": "Futsal Court",
+            "code": "Futsal Court"
+          },
+          {
+            "name": "Grill",
+            "code": "Grill"
+          },
+          {
+            "name": "Golf Course",
+            "code": "Golf Course"
+          },
+          {
+            "name": "Greenhouse",
+            "code": "Greenhouse"
+          },
+          {
+            "name": "Handball Court",
+            "code": "Handball Court"
+          },
+          {
+            "name": "Horseshoe Pit",
+            "code": "Horseshoe Pit"
+          },
+          {
+            "name": "Loop Trail",
+            "code": "Loop Trail"
+          },
+          {
+            "name": "Multi-Purpose Field",
+            "code": "Multi-Purpose Field"
+          },
+          {
+            "name": "Parking Lot",
+            "code": "Parking Lot"
+          },
+          {
+            "name": "Outdoor Skating Rink",
+            "code": "Outdoor Skating Rink"
+          },
+          {
+            "name": "Outdoor Swimming Pool",
+            "code": "Outdoor Swimming Pool"
+          },
+          {
+            "name": "Outdoor Swimming Pool-Children",
+            "code": "Outdoor Swimming Pool-Children"
+          },
+          {
+            "name": "Outdoor Waterslide",
+            "code": "Outdoor Waterslide"
+          },
+          {
+            "name": "Pickelball Court Overlay",
+            "code": "Pickelball Court Overlay"
+          },
+          {
+            "name": "Playground",
+            "code": "Playground"
+          },
+          {
+            "name": "Rectangle Field",
+            "code": "Rectangle Field"
+          },
+          {
+            "name": "Restroom",
+            "code": "Restroom"
+          },
+          {
+            "name": "Rugby Field",
+            "code": "Rugby Field"
+          },
+          {
+            "name": "Running Track",
+            "code": "Running Track"
+          },
+          {
+            "name": "Sand Volleyball Court",
+            "code": "Sand Volleyball Court"
+          },
+          {
+            "name": "Shelter",
+            "code": "Shelter"
+          },
+          {
+            "name": "Skate Park",
+            "code": "Skate Park"
+          },
+          {
+            "name": "Splash Pad",
+            "code": "Splash Pad"
+          },
+          {
+            "name": "Splash Pad with Aquatics Playground",
+            "code": "Splash Pad with Aquatics Playground"
+          },
+          {
+            "name": "Sport Lighting",
+            "code": "Sport Lighting"
+          },
+          {
+            "name": "Swing Set",
+            "code": "Swing Set"
+          },
+          {
+            "name": "Tennis Court",
+            "code": "Tennis Court"
+          },
+          {
+            "name": "Tennis Practice Wall",
+            "code": "Tennis Practice Wall"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Amenity_SubType",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_SubType",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland Park and Recreation Center Park Space Amenities_Amenity_SubType_9ae419d1d9b64b48a71dda4cd1bf9a5d",
+        "codedValues": [
+          {
+            "name": "Aquatic Playground Elements",
+            "code": "Aquatic Playground Elements"
+          },
+          {
+            "name": "Clay Infield",
+            "code": "Clay Infield"
+          },
+          {
+            "name": "Full Court",
+            "code": "Full Court"
+          },
+          {
+            "name": "Full Court with Pickleball Overlay",
+            "code": "Full Court with Pickleball Overlay"
+          },
+          {
+            "name": "Grass Field",
+            "code": "Grass Field"
+          },
+          {
+            "name": "Grass Infield",
+            "code": "Grass Infield"
+          },
+          {
+            "name": "Half Court",
+            "code": "Half Court"
+          },
+          {
+            "name": "Overlay",
+            "code": "Overlay"
+          },
+          {
+            "name": "Permanent",
+            "code": "Permanent"
+          },
+          {
+            "name": "Synthetic Field",
+            "code": "Synthetic Field"
+          },
+          {
+            "name": "Synthetic Infield",
+            "code": "Synthetic Infield"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"typeOrCategory\"}"
+    },
+    {
+      "name": "Amenity_Alias",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_Alias",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Amenity_Permitted",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_Permitted",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Amenity_Permitted_1",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "codedValues": [
+          {
+            "name": "Permitted",
+            "code": "Permitted"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Amenity_Lighted",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_Lighted",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Amenity_Lighted_1",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "codedValues": [
+          {
+            "name": "Lighted",
+            "code": "Lighted"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether amenity has nighttime lighting\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Amenity_Location",
+      "type": "esriFieldTypeString",
+      "alias": "Amenity_Location",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Cleveland Park Amenities_Amenity_Location_0dcaa13a-2693-4e6e-85a5-cb7d1025dd46",
+        "codedValues": [
+          {
+            "name": "Within Concession Stand",
+            "code": "Within Concession Stand"
+          },
+          {
+            "name": "Within Outdoor Pool",
+            "code": "Within Outdoor Pool"
+          },
+          {
+            "name": "Within Park",
+            "code": "Within Park"
+          },
+          {
+            "name": "Within Recreation Center",
+            "code": "Within Recreation Center"
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"How this amenity relates to other facilities\",\"fieldValueType\":\"\"}"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__CLEVELAN__F4B70D85ED2D5D63",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_27976.CLEVELAND_PARKS_AND_RECREATION_SYSTEM_CLEVELAND_PARK_AMENITIES_Shape_sidx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "IX_CLEVELAND_PARKS_AND_RECREATION_SYSTEM_CLEVELAND_PARK_AMENITIES_Amenity_Type_ASC",
+      "fields": "Amenity_Type",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "Layer settings",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [],
+  "templates": [
+    {
+      "name": "New Feature",
+      "description": "",
+      "drawingTool": "esriFeatureEditToolNone",
+      "prototype": {
+        "attributes": {
+          "Park_Name": null,
+          "Amenity_Type": null,
+          "Amenity_SubType": null,
+          "Amenity_Alias": null,
+          "Amenity_Permitted": null,
+          "Amenity_Lighted": null,
+          "Amenity_Location": null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel",
+  "supportedConvertFileFormats": "JSON,PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract"
+}
