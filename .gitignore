@@ -3,3 +3,4 @@
 config.yaml
 .python-version
 __pycache__/
+*.log

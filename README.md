@@ -80,12 +80,63 @@ crontab -e
 ```
 
 ```
-0 6 * * * cd /path/to/repo && python sync_all_schemas.py
+0 * * * * cd /path/to/repo && /path/to/python sync_all_schemas.py
 ```
 
 A commit is only created when schemas have actually changed, so the history stays meaningful.
 
 > **Tradeoff:** `on_change: commit` uses a generic datestamped commit message. If your team wants to document the reason for each schema change (recommended), use `on_change: ntfy` instead. The ntfy alert prompts a human to review the diff and commit manually with a meaningful message.
+
+**macOS alternative: launchd**
+
+macOS uses `launchd` as its native scheduler. First, find your Python path:
+
+```bash
+which python3
+```
+
+Create a plist file at `~/Library/LaunchAgents/com.yourname.arcgis-schema-tracker.plist`, replacing `/opt/homebrew/bin/python3` with your actual path:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.yourname.arcgis-schema-tracker</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>/path/to/repo/sync_all_schemas.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/path/to/repo</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/path/to/repo/sync.log</string>
+  <key>StandardErrorPath</key>
+  <string>/path/to/repo/sync.log</string>
+</dict>
+</plist>
+```
+
+Load it with:
+
+```bash
+launchctl load ~/Library/LaunchAgents/com.yourname.arcgis-schema-tracker.plist
+```
+
+To apply changes to the plist (e.g. after editing the interval or path):
+
+```bash
+launchctl unload ~/Library/LaunchAgents/com.yourname.arcgis-schema-tracker.plist
+launchctl load ~/Library/LaunchAgents/com.yourname.arcgis-schema-tracker.plist
+```
 
 ### GitHub credentials
 
