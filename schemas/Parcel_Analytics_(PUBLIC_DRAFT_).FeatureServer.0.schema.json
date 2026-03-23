@@ -2327,6 +2327,7 @@
       "sqlType": "sqlTypeOther",
       "nullable": true,
       "editable": true,
+      "isViewOverride": true,
       "domain": {
         "type": "codedValue",
         "name": "domain_certOfOccupancyFlag",
@@ -2351,6 +2352,7 @@
       "sqlType": "sqlTypeOther",
       "nullable": true,
       "editable": true,
+      "isViewOverride": true,
       "domain": null,
       "defaultValue": null,
       "description": "{\"value\":\"The total number of parcels owned by this parcel owner.\",\"fieldValueType\":\"\"}"
