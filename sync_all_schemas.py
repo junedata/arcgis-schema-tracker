@@ -34,13 +34,16 @@ class Progress:
         self._label = label
         self._width = width
         self._lock = threading.Lock()
-        self._render()
+        self._tty = sys.stdout.isatty()
+        if self._tty:
+            self._render()
 
     def increment(self) -> None:
         """Increment the counter by one and redraw the bar."""
         with self._lock:
             self._current += 1
-            self._render()
+            if self._tty:
+                self._render()
 
     def _render(self) -> None:
         filled = int(self._width * self._current / self._total) if self._total else self._width
@@ -51,8 +54,9 @@ class Progress:
 
     def done(self) -> None:
         """Move to the next line after the bar is complete."""
-        sys.stdout.write("\n")
-        sys.stdout.flush()
+        if self._tty:
+            sys.stdout.write("\n")
+            sys.stdout.flush()
 
 
 def load_config(path: Path) -> dict[str, str | list[str]]:
@@ -369,7 +373,9 @@ def main(
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s", stream=sys.stdout)
+    _start = datetime.now(timezone.utc)
+    print(f"Started {_start.strftime('%Y-%m-%d %H:%M:%S UTC')}", flush=True)
     config = load_config(CONFIG_PATH)
     errors = validate_config(config)
     if errors:
@@ -394,3 +400,6 @@ if __name__ == "__main__":
         ntfy_server=ntfy_server if isinstance(ntfy_server, str) else "https://ntfy.sh",
         repo_url=repo_url if isinstance(repo_url, str) else "",
     )
+    _end = datetime.now(timezone.utc)
+    _elapsed = int((_end - _start).total_seconds())
+    print(f"Finished {_end.strftime('%Y-%m-%d %H:%M:%S UTC')}  ({_elapsed}s elapsed)\n")
