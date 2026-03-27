@@ -502,6 +502,132 @@
       "domain": null,
       "defaultValue": null,
       "description": "{\"value\":\"The average number of cars per day while the count was active for this area.\",\"fieldValueType\":\"countOrAmount\"}"
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": "NEWID() WITH VALUES"
+    },
+    {
+      "name": "average_speed",
+      "type": "esriFieldTypeInteger",
+      "alias": "Average Vehicle Speed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "max_speed",
+      "type": "esriFieldTypeDouble",
+      "alias": "Maximum Vehicle Speed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "total_volume",
+      "type": "esriFieldTypeInteger",
+      "alias": "Total Vehicles Analyzed",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "peak_volume_hour",
+      "type": "esriFieldTypeString",
+      "alias": "Peak Volume Hour",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "peak_speed_hour",
+      "type": "esriFieldTypeString",
+      "alias": "Peak Speed Hour",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "neighborhood",
+      "type": "esriFieldTypeString",
+      "alias": "Neighborhood",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "avg_daily_vol_bin_1",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average Daily Volume (0-5 Over Speed Limit)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "avg_daily_vol_bin_2",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average Daily Volume (5-10 Over Speed Limit)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "avg_daily_vol_bin_3",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average Daily Volume (10-15 Over Speed Limit)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "avg_daily_vol_bin_4",
+      "type": "esriFieldTypeDouble",
+      "alias": "Average Daily Volume (15+ Over Speed Limit)",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Ward_2026",
+      "type": "esriFieldTypeString",
+      "alias": "Ward (2026)",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"\",\"fieldValueType\":\"locationOrPlaceName\"}"
     }
   ],
   "indexes": [
@@ -520,6 +646,14 @@
       "isUnique": false,
       "description": "",
       "indexType": "Spatial"
+    },
+    {
+      "name": "GlobalID_Index",
+      "fields": "GlobalID",
+      "isAscending": false,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
     },
     {
       "name": "uid_Index",
