@@ -3,6 +3,11 @@
 # The orgId appears in the URL of any ArcGIS Online item or service for that org.
 services_url: https://services3.arcgis.com/<orgId>/ArcGIS/rest/services
 
+# IANA timezone name for commit message and log timestamps.
+# Defaults to UTC if omitted. Find names at:
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone: America/New_York
+
 # exclude: all means nothing syncs unless explicitly listed under include.
 # exclude: [list of service names] skips only those services.
 exclude: all

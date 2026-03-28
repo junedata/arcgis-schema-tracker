@@ -222,6 +222,22 @@ ignore_keys:
 
 This keeps commits focused on structural changes: fields added or removed, types changed, and other differences that actually affect downstream consumers.
 
+#### timezone
+
+By default, commit message and log timestamps are in UTC. Set `timezone` to any [IANA timezone name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) to use local time instead:
+
+```yaml
+timezone: America/New_York
+```
+
+With this set, a sync on March 27 2026 at 1:11 PM Eastern Daylight Time produces a commit message like:
+
+```
+Schema sync 2026-03-27 13:11 EDT
+```
+
+If omitted, timestamps remain in UTC.
+
 ---
 
 ## For downstream users

@@ -9,8 +9,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timezone, tzinfo
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from download_schema import apply_ignore_keys, download_schema, encode_url, url_to_filename, SCHEMAS_DIR
 
@@ -147,6 +148,13 @@ def validate_config(config: dict[str, str | list[str]]) -> list[str]:
     if ignore_keys is not None and not isinstance(ignore_keys, list):
         errors.append("ignore_keys must be a list of dot-notation key paths")
 
+    tz_name = config.get("timezone", "")
+    if tz_name:
+        try:
+            ZoneInfo(str(tz_name))
+        except KeyError:
+            errors.append(f"timezone is not a valid IANA timezone name: {tz_name!r}")
+
     return errors
 
 
@@ -196,7 +204,7 @@ def sync_schema(url: str, ignore_keys: list[str] | None = None) -> str | None:
     return str(output_path) if changed else None
 
 
-def git_commit_and_push(changed_files: list[str]) -> str:
+def git_commit_and_push(changed_files: list[str], tz: tzinfo = timezone.utc) -> str:
     """Stage changed schema files, commit with a datestamped message, and push.
 
     Only the explicitly changed schema files are staged. Any other directories
@@ -212,7 +220,9 @@ def git_commit_and_push(changed_files: list[str]) -> str:
         subprocess.CalledProcessError: If any git command fails
     """
     subprocess.run(["git", "add"] + changed_files, check=True)
-    message = f"Schema sync {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+    services = sorted({Path(f).name.split(".")[0] for f in changed_files})
+    timestamp = datetime.now(tz).strftime("%Y-%m-%d %H:%M %Z")
+    message = f"{timestamp} - Changed {', '.join(services)}"
     subprocess.run(["git", "commit", "-m", message], check=True)
     subprocess.run(["git", "push"], check=True)
     commit_hash = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode().strip()
@@ -239,7 +249,8 @@ def notify_ntfy(
         urllib.error.URLError: On network errors
     """
     names = "\n".join(Path(f).name for f in sorted(changed_files))
-    message = f"{len(changed_files)} schema(s) changed:\n{names}"
+    count = len(changed_files)
+    message = f"{count} {'schema' if count == 1 else 'schemas'} changed:\n{names}"
     if commit_url:
         message += f"\n{commit_url}"
     url = f"{server.rstrip('/')}/{topic}"
@@ -295,6 +306,7 @@ def main(
     ntfy_topic: str = "",
     ntfy_server: str = "https://ntfy.sh",
     repo_url: str = "",
+    tz: tzinfo = timezone.utc,
 ) -> None:
     """Download FeatureServer schemas for the org at *services_url*.
 
@@ -308,6 +320,7 @@ def main(
         ntfy_topic: ntfy topic name (required when on_change is ``"ntfy"`` or ``"both"``)
         ntfy_server: ntfy server base URL
         repo_url: Public GitHub repository URL used to build commit links in ntfy alerts
+        tz: Timezone for commit message timestamps; defaults to UTC
     """
     data = fetch_json(services_url)
     all_feature_servers = [
@@ -356,7 +369,7 @@ def main(
     commit_url = ""
     if on_change in ("commit", "both"):
         try:
-            commit_hash = git_commit_and_push(changed_files)
+            commit_hash = git_commit_and_push(changed_files, tz)
             if repo_url:
                 commit_url = f"{repo_url.rstrip('/')}/commit/{commit_hash}"
         except subprocess.CalledProcessError as exc:
@@ -374,14 +387,16 @@ def main(
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s", stream=sys.stdout)
-    _start = datetime.now(timezone.utc)
-    print(f"Started {_start.strftime('%Y-%m-%d %H:%M:%S UTC')}", flush=True)
     config = load_config(CONFIG_PATH)
     errors = validate_config(config)
     if errors:
         for error in errors:
             logger.error("Config error: %s", error)
         sys.exit(1)
+    tz_name = config.get("timezone", "")
+    tz: tzinfo = ZoneInfo(str(tz_name)) if tz_name else timezone.utc
+    _start = datetime.now(tz)
+    print(f"Started {_start.strftime('%Y-%m-%d %H:%M:%S %Z')}", flush=True)
     url = sys.argv[1] if len(sys.argv) == 2 else config["services_url"]
     include = config.get("include", "all")
     exclude = config.get("exclude", [])
@@ -399,7 +414,8 @@ if __name__ == "__main__":
         ntfy_topic=ntfy_topic if isinstance(ntfy_topic, str) else "",
         ntfy_server=ntfy_server if isinstance(ntfy_server, str) else "https://ntfy.sh",
         repo_url=repo_url if isinstance(repo_url, str) else "",
+        tz=tz,
     )
-    _end = datetime.now(timezone.utc)
+    _end = datetime.now(tz)
     _elapsed = int((_end - _start).total_seconds())
-    print(f"Finished {_end.strftime('%Y-%m-%d %H:%M:%S UTC')}  ({_elapsed}s elapsed)\n")
+    print(f"Finished {_end.strftime('%Y-%m-%d %H:%M:%S %Z')}  ({_elapsed}s elapsed)\n")
