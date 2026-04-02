@@ -209,7 +209,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"The unique ID number for each registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "File_Date",
@@ -221,6 +222,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
+      "description": "{\"value\":\"Date the record was created\",\"fieldValueType\":\"\"}",
       "precision": 1
     },
     {
@@ -232,7 +234,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Address associated with the registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Parcel",
@@ -267,7 +270,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Current record status of the registration record\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Record_Status_Date",
@@ -279,6 +283,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
+      "description": "{\"value\":\"Status date of the registration record\",\"fieldValueType\":\"\"}",
       "precision": 1
     },
     {
@@ -338,7 +343,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Name of the property owner at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Owner_Org_Name",
@@ -349,7 +355,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Owner Orgainization name (when applicable) associated with this registraiton \",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Owner_Address",
@@ -360,7 +367,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Address of the property owner at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Local_Agent_In_Charge_Name",
@@ -371,7 +379,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Local Agent in Charge (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Local_Agent_In_Charge_Org_Name",
@@ -382,7 +391,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Local Agent Orgainization name (when applicable) associated with this registraiton \",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Local_Agent_In_Charge_Address",
@@ -393,7 +403,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Address of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Local_Agent_In_Charge_Phone",
@@ -404,7 +415,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Phone number of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Property_Management_Name",
@@ -415,7 +427,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Property Manager (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Property_Management_Org_Name",
@@ -426,7 +439,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Property Management Orgainization name (when applicable) associated with this registraiton\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Property_Management_Address",
@@ -437,7 +451,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Address of the Property Manager (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Property_Management_Phone",
@@ -448,7 +463,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"Phone number of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "ACCELA_CITIZEN_ACCESS_URL",
