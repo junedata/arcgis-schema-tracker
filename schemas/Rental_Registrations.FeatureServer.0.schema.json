@@ -290,7 +290,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"A value of 'Yes' indicates that this record has an valid Certificate Authorizing Rental Occupancy for the current calendar year (CARO)\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Active_CARO_Years",
@@ -301,7 +302,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"A list of valid years that the record received a Certificate Authorizing Rental Occupancy (CARO)\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Active_Registration_Current_Year",
@@ -312,7 +314,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"A value of 'Yes' indicates that this record has an valid Rental Registration for the current calendar year\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Active_Years_Registered",
@@ -323,7 +326,8 @@
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null
+      "defaultValue": null,
+      "description": "{\"value\":\"A list of valid years that the record was registered\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Owner_Name",
