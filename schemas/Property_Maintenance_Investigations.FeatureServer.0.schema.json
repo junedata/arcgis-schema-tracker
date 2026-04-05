@@ -189,16 +189,15 @@
       "defaultValue": null
     },
     {
-      "name": "PERMIT_ID",
+      "name": "RECORD_ID",
       "type": "esriFieldTypeString",
-      "alias": "PERMIT_ID",
+      "alias": "RECORD_ID",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"The unique ID number for each investigation\",\"fieldValueType\":\"\"}"
+      "defaultValue": null
     },
     {
       "name": "FILE_DATE",
@@ -214,19 +213,30 @@
       "precision": 1
     },
     {
-      "name": "B1_APPL_STATUS",
+      "name": "RECORD_STATUS",
       "type": "esriFieldTypeString",
-      "alias": "B1_APPL_STATUS",
+      "alias": "RECORD_STATUS",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"The current status of the investigation\",\"fieldValueType\":\"\"}"
+      "defaultValue": null
     },
     {
-      "name": "Project",
+      "name": "RECORD_STATUS_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "RECORD_STATUS_DATE",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null,
+      "precision": 1
+    },
+    {
+      "name": "PROJECT",
       "type": "esriFieldTypeString",
       "alias": "Project",
       "sqlType": "sqlTypeNVarchar",
@@ -250,7 +260,7 @@
       "description": "{\"value\":\"Address associated with the investigation\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Investigation_Type",
+      "name": "INVESTIGATION_TYPE",
       "type": "esriFieldTypeString",
       "alias": "Investigation_Type",
       "sqlType": "sqlTypeNVarchar",
@@ -262,7 +272,7 @@
       "description": "{\"value\":\"The Buidling & Housing inspection unit conducting the invesitgation.\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Investigation_Desc",
+      "name": "INVESTIGATION_DESC",
       "type": "esriFieldTypeString",
       "alias": "Investigation_Desc",
       "sqlType": "sqlTypeNVarchar",
@@ -274,16 +284,15 @@
       "description": "{\"value\":\"A brief description of the investigaiton\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "LAST_INSEPCTION_DATE",
+      "name": "LAST_INSPECTION_DATE",
       "type": "esriFieldTypeDate",
-      "alias": "LAST_INSEPCTION_DATE",
+      "alias": "LAST_INSPECTION_DATE",
       "sqlType": "sqlTypeOther",
       "length": 8,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Date of the last inspection on this investigation\",\"fieldValueType\":\"\"}",
       "precision": 1
     },
     {
