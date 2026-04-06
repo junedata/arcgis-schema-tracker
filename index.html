@@ -1,0 +1,31 @@
+---
+layout: default
+title: Schema Change Log
+---
+
+<h1>Schema Change Log</h1>
+<p>
+  Tracking schema changes in Cleveland's public ArcGIS datasets.
+  <a href="/feed.xml">Subscribe via RSS</a>
+</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% unless post.draft %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      {% if post.breaking %}
+        <strong>[Breaking]</strong>
+      {% endif %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.tables %}
+        <span class="tables">
+          {% for table in post.tables %}
+            <code>{{ table }}</code>
+          {% endfor %}
+        </span>
+      {% endif %}
+    </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
