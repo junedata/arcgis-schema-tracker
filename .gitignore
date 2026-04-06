@@ -1,6 +1,7 @@
-*.md
+/*.md
 !README.md
 config.yaml
 .python-version
 __pycache__/
 *.log
+.DS_Store
