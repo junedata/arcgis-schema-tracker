@@ -1,9 +1,9 @@
 {
   "currentVersion": 12,
   "id": 0,
-  "name": "Rental_Registrations",
+  "name": "Civil_Tickets",
   "type": "Table",
-  "serviceItemId": "700c7244cd1f4ffa894ae53b2b22dbaa",
+  "serviceItemId": "aec7cde2885f4b56ad23a5166e4380c6",
   "cacheMaxAge": 30,
   "displayField": "",
   "description": "",
@@ -189,33 +189,21 @@
       "defaultValue": null
     },
     {
-      "name": "b1_alt_ID",
+      "name": "TICKET_ID",
       "type": "esriFieldTypeString",
-      "alias": "b1_alt_ID",
-      "sqlType": "sqlTypeOther",
-      "length": 2147483647,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Record ID from source system. Often called the \\\"RR\\\" number in City Hall.\",\"fieldValueType\":\"uniqueIdentifier\"}"
-    },
-    {
-      "name": "Record_ID",
-      "type": "esriFieldTypeString",
-      "alias": "Record_ID",
+      "alias": "TICKET_ID",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"The unique ID number for each registration\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"The unique ID number for each ticket\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "File_Date",
+      "name": "FILE_DATE",
       "type": "esriFieldTypeDate",
-      "alias": "File_Date",
+      "alias": "FILE_DATE",
       "sqlType": "sqlTypeOther",
       "length": 8,
       "nullable": true,
@@ -226,257 +214,90 @@
       "precision": 1
     },
     {
-      "name": "Address_Full",
+      "name": "TICKET_STATUS",
       "type": "esriFieldTypeString",
-      "alias": "Address_Full",
+      "alias": "TICKET_STATUS",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Address associated with the registration\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"The current status of the ticket\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Parcel",
-      "type": "esriFieldTypeString",
-      "alias": "Parcel",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Permanent parcel number as reported in permitting system\",\"fieldValueType\":\"description\"}"
-    },
-    {
-      "name": "Units",
-      "type": "esriFieldTypeString",
-      "alias": "Units",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Number of dwelling units in rental\",\"fieldValueType\":\"countOrAmount\"}"
-    },
-    {
-      "name": "Record_Status",
-      "type": "esriFieldTypeString",
-      "alias": "Record_Status",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Current record status of the registration record\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Record_Status_Date",
+      "name": "TICKET_STATUS_DATE",
       "type": "esriFieldTypeDate",
-      "alias": "Record_Status_Date",
+      "alias": "TICKET_STATUS_DATE",
       "sqlType": "sqlTypeOther",
       "length": 8,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Status date of the registration record\",\"fieldValueType\":\"\"}",
+      "description": "{\"value\":\"Status date of the ticket\",\"fieldValueType\":\"\"}",
       "precision": 1
     },
     {
-      "name": "Active_CARO_Current_Year",
-      "type": "esriFieldTypeString",
-      "alias": "Active_CARO_Current_Year",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
+      "name": "ISSUE_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "ISSUE_DATE",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"A value of 'Yes' indicates that this record has an valid Certificate Authorizing Rental Occupancy for the current calendar year (CARO)\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Date of ticket issuance\",\"fieldValueType\":\"\"}",
+      "precision": 1
     },
     {
-      "name": "Active_CARO_Years",
+      "name": "ADDRESS",
       "type": "esriFieldTypeString",
-      "alias": "Active_CARO_Years",
+      "alias": "ADDRESS",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"A list of valid years that the record received a Certificate Authorizing Rental Occupancy (CARO)\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Address associated with the ticket\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Active_Registration_Current_Year",
+      "name": "PARCEL_NUMBER",
       "type": "esriFieldTypeString",
-      "alias": "Active_Registration_Current_Year",
+      "alias": "PARCEL_NUMBER",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"A value of 'Yes' indicates that this record has an valid Rental Registration for the current calendar year\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"The original, unmodified parcel as recorded in the source system. This field represents the official source of truth at the time the data was collected.\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Active_Years_Registered",
+      "name": "TICKET_CITATIONS",
       "type": "esriFieldTypeString",
-      "alias": "Active_Years_Registered",
+      "alias": "TICKET_CITATIONS",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"A list of valid years that the record was registered\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"The Building or Housing code cited on the ticket\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "Owner_Name",
+      "name": "ADDITIONAL_CITATION_DETAILS",
       "type": "esriFieldTypeString",
-      "alias": "Owner_Name",
+      "alias": "ADDITIONAL_CITATION_DETAILS",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Name of the property owner at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Owner_Org_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Owner_Org_Name",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Owner Orgainization name (when applicable) associated with this registraiton \",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Owner_Address",
-      "type": "esriFieldTypeString",
-      "alias": "Owner_Address",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Address of the property owner at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Local_Agent_In_Charge_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Local_Agent_In_Charge_Name",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Local Agent in Charge (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Local_Agent_In_Charge_Org_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Local_Agent_In_Charge_Org_Name",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Local Agent Orgainization name (when applicable) associated with this registraiton \",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Local_Agent_In_Charge_Address",
-      "type": "esriFieldTypeString",
-      "alias": "Local_Agent_In_Charge_Address",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Address of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Local_Agent_In_Charge_Phone",
-      "type": "esriFieldTypeString",
-      "alias": "Local_Agent_In_Charge_Phone",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Phone number of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Property_Management_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Property_Management_Name",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Property Manager (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Property_Management_Org_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Property_Management_Org_Name",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Property Management Orgainization name (when applicable) associated with this registraiton\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Property_Management_Address",
-      "type": "esriFieldTypeString",
-      "alias": "Property_Management_Address",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Address of the Property Manager (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "Property_Management_Phone",
-      "type": "esriFieldTypeString",
-      "alias": "Property_Management_Phone",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Phone number of the Local Agent (when applicable) at the time of registration\",\"fieldValueType\":\"\"}"
-    },
-    {
-      "name": "ACCELA_CITIZEN_ACCESS_URL",
-      "type": "esriFieldTypeString",
-      "alias": "ACCELA_CITIZEN_ACCESS_URL",
-      "sqlType": "sqlTypeNVarchar",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"Hyperlink to the public access portal of the permitting system for this record.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Additional notes regarding the ticket's citation\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Parcel",
@@ -488,7 +309,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Current Cuyahoga County parcel that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"An enhanced version of the original PARCEL_NUMBER field, processed by the data warehouse. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Ward",
@@ -499,7 +320,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"City ward currently active that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Current ward, which is added by the data warehouse to enhance this dataset. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Ward2026",
@@ -510,7 +331,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"The 2026 vintage City ward area that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Ward (2026 boundaries), which is added by the data warehouse to enhance this dataset. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Ward2014",
@@ -521,7 +342,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"The 2014 vintage City ward area that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Ward (2014 boundaries), which is added by the data warehouse to enhance this dataset. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Tract2020",
@@ -533,7 +354,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"The 2020 Census tract that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"2020 Census Tract, which is added by the data warehouse to enhance this dataset. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "DW_Neighborhood",
@@ -545,12 +366,12 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"City neighborhood that matches this address. This is calculated after retrieval from the system and is not primary information.\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"Neighborhood, which is added by the data warehouse to enhance this dataset. This value may be standardized, validated, or enriched with current information to improve usability for analysis.\",\"fieldValueType\":\"\"}"
     }
   ],
   "indexes": [
     {
-      "name": "PK__RENTAL_R__9A619291D35429FA",
+      "name": "PK__CIVIL_TI__9A6192919379F22F",
       "fields": "ObjectId",
       "isAscending": true,
       "isUnique": true,
@@ -582,5 +403,5 @@
   "standardMaxRecordCount": 32000,
   "tileMaxRecordCount": 8000,
   "maxRecordCountFactor": 1,
-  "capabilities": "Query,Extract"
+  "capabilities": "Query"
 }
