@@ -1,7 +1,7 @@
 title: "ArcGIS Schema Tracker"
 description: "Tracking schema changes in public ArcGIS datasets. Subscribe to be notified when a field is added, renamed, or removed."
-baseurl: ""
-url: ""  # Set to your custom domain, e.g. https://schemas.yourdomain.com
+baseurl: "/arcgis-schema-tracker"
+url: "https://junedata.github.io"
 
 # Build
 markdown: kramdown
@@ -42,8 +42,8 @@ author:
 # Navigation shown on site (optional, theme-dependent)
 nav:
   - title: Posts
-    url: /
+    url: /arcgis-schema-tracker/
   - title: Schemas
     url: https://github.com/junedata/arcgis-schema-tracker/tree/main/schemas
   - title: Subscribe (RSS)
-    url: /feed.xml
+    url: /arcgis-schema-tracker/feed.xml
