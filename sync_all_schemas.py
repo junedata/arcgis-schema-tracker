@@ -226,7 +226,8 @@ def git_commit_and_push(changed_files: list[str], tz: tzinfo = timezone.utc) -> 
     subprocess.run(["git", "commit", "-m", message], check=True)
     subprocess.run(["git", "push"], check=True)
     commit_hash = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode().strip()
-    logger.info("Committed and pushed %d changed schema(s)", len(changed_files))
+    n = len(changed_files)
+    logger.info("Committed and pushed %d changed %s", n, "schema" if n == 1 else "schemas")
     return commit_hash
 
 
@@ -361,7 +362,8 @@ def main(
                 progress.increment()
     progress.done()
 
-    logger.info("%d schema(s) changed", len(changed_files))
+    n = len(changed_files)
+    logger.info("%d %s changed", n, "schema" if n == 1 else "schemas")
 
     if not changed_files:
         return

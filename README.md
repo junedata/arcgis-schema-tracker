@@ -233,7 +233,7 @@ timezone: America/New_York
 With this set, a sync on March 27 2026 at 1:11 PM Eastern Daylight Time produces a commit message like:
 
 ```
-Schema sync 2026-03-27 13:11 EDT
+2026-03-27 13:11 EDT - ParksBoundaries, WaterMains
 ```
 
 If omitted, timestamps remain in UTC.
