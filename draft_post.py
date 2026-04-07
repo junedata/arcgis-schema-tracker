@@ -36,7 +36,6 @@ FIELD_TYPE_KEY = "type"
 FIELD_ALIAS_KEY = "alias"
 
 BREAKING_BADGE = "[Breaking]"
-INFO_BADGE = "[Info]"
 
 
 def _run(cmd: list[str]) -> str:
@@ -651,7 +650,7 @@ def render_draft(
     Returns:
         Complete markdown draft string with YAML frontmatter
     """
-    badge = BREAKING_BADGE if is_breaking else INFO_BADGE
+    badge = BREAKING_BADGE if is_breaking else ""
     tables_joined = ", ".join(service_names)
     date_short = date_str[:10]
 
@@ -663,7 +662,8 @@ def render_draft(
     verb = "schema change" if is_breaking else "Schema update"
     commit_link = f"[`{commit_sha[:8]}`]({repo_url}/commit/{commit_sha})"
 
-    title = f"{badge} {verb.capitalize()}: {tables_joined}"
+    prefix = f"{badge} " if badge else ""
+    title = f"{prefix}{verb.capitalize()}: {tables_joined}"
 
     breaking_banner = ""
     if is_breaking:
