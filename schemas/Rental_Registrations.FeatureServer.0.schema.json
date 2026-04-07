@@ -198,7 +198,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"Record ID from source system. Often called the \\\"RR\\\" number in City Hall.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+      "description": "{\"value\":\"Record ID from source system. Often called the \\\"RR\\\" number in City Hall.\",\"fieldValueType\":\"\"}"
     },
     {
       "name": "Record_ID",
@@ -210,7 +210,7 @@
       "editable": true,
       "domain": null,
       "defaultValue": null,
-      "description": "{\"value\":\"The unique ID number for each registration\",\"fieldValueType\":\"\"}"
+      "description": "{\"value\":\"The unique ID number for each registration\",\"fieldValueType\":\"uniqueIdentifier\"}"
     },
     {
       "name": "File_Date",
