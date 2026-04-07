@@ -35,9 +35,9 @@ feed:
   posts_limit: 20
 
 # SEO
-author:
-  name: ""   # TODO: your name or org name
-  email: ""  # TODO: contact email (optional)
+# author:
+  # name: ""   # TODO: your name or org name
+  # email: ""  # TODO: contact email (optional)
 
 # Navigation shown on site (optional, theme-dependent)
 nav:

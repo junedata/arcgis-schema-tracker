@@ -663,17 +663,17 @@ def render_draft(
     verb = "schema change" if is_breaking else "Schema update"
     commit_link = f"[`{commit_sha[:8]}`]({repo_url}/commit/{commit_sha})"
 
+    title = f"{badge} {verb.capitalize()}: {tables_joined}"
+
     breaking_banner = ""
     if is_breaking:
         breaking_banner = (
-            "---\n"
             "> **This commit contains a potential breaking change.**"
             " A breaking change occurs when a field is removed,"
             " renamed, or has its type changed -- any downstream"
             " query, pipeline, or application that references the"
             " old field name or type will fail silently or return"
-            " no data.\n"
-            "---"
+            " no data."
         )
 
     breaking_dev_note = (
@@ -689,6 +689,7 @@ def render_draft(
 
     return f"""---
 date: {date_short}
+title: "{title}"
 commit: {commit_sha[:8]}
 tables:
 {tables_yaml}
@@ -697,8 +698,6 @@ change_types:
 breaking: {"true" if is_breaking else "false"}
 draft: true
 ---
-
-# {badge} {verb.capitalize()}: {tables_joined}
 
 **{local_timestamp}** | {commit_link}
 

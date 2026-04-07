@@ -1,5 +1,6 @@
 ---
 date: 2026-04-05
+title: "[Breaking] Schema change: Property_Maintenance_Investigations"
 commit: 2072cd9c
 tables:
   - Property_Maintenance_Investigations
@@ -10,13 +11,9 @@ change_types:
 breaking: true
 ---
 
-# [Breaking] Schema change: Property_Maintenance_Investigations
-
 **2026-04-05 10:18 AM EDT** | [`2072cd9c`](https://github.com/junedata/arcgis-schema-tracker/commit/2072cd9ce4c215d3d2e60ed7b50025339689303a)
 
----
 > **This commit contains a potential breaking change.** A breaking change occurs when a field is removed, renamed, or has its type changed -- any downstream query, pipeline, or application that references the old field name or type will fail silently or return no data.
----
 
 ## `Property_Maintenance_Investigations`
 
