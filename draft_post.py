@@ -602,7 +602,7 @@ def render_what_changed(
         items = "\n".join(f"- {c}" for c in top_level["top_level"])
         parts.append(f"**Top-level metadata changes:**\n{items}\n")
 
-    stats_lines: list[str] = []
+    stats_lines: list[str] = ["**Table configuration:**"]
     if not has_table_description:
         stats_lines.append(
             "- **Table description:** missing"
