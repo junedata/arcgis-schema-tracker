@@ -5,3 +5,31 @@
 .post-content blockquote {
   font-size: 12px;
 }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #e8e8e8;
+  font-size: 14px;
+}
+
+.post-nav-prev,
+.post-nav-next {
+  max-width: 48%;
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
+.footer-links {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}

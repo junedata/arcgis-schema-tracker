@@ -14,9 +14,6 @@ title: Schema Change Log
     {% unless post.draft %}
     <li>
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-      {% if post.breaking %}
-        <strong>[Breaking]</strong>
-      {% endif %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% if post.tables %}
         <span class="tables">

@@ -13,3 +13,16 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<nav class="post-navigation">
+  <div class="post-nav-prev">
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}">&larr; {{ page.next.title | escape }}</a>
+    {% endif %}
+  </div>
+  <div class="post-nav-next">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title | escape }} &rarr;</a>
+    {% endif %}
+  </div>
+</nav>
