@@ -8,7 +8,7 @@
   "displayField": "NAME",
   "description": "",
   "copyrightText": "",
-  "defaultVisibility": false,
+  "defaultVisibility": true,
   "editingInfo": {
     "lastEditDate": "untracked",
     "schemaLastEditDate": "untracked",
@@ -174,7 +174,7 @@
   ],
   "useStandardizedQueries": true,
   "geometryType": "esriGeometryPolygon",
-  "minScale": 5000000,
+  "minScale": 0,
   "maxScale": 0,
   "extent": {
     "xmin": 2113706.9286193848,
@@ -197,21 +197,21 @@
         "type": "esriSFS",
         "style": "esriSFSSolid",
         "color": [
-          130,
-          130,
-          130,
+          252,
+          189,
+          193,
           0
         ],
         "outline": {
           "type": "esriSLS",
           "style": "esriSLSSolid",
           "color": [
-            0,
-            0,
-            0,
+            78,
+            78,
+            78,
             255
           ],
-          "width": 1
+          "width": 0.7
         }
       }
     },
@@ -1077,7 +1077,7 @@
     },
     {
       "name": "AGE",
-      "type": "esriFieldTypeInteger",
+      "type": "esriFieldTypeDouble",
       "alias": "AGE",
       "sqlType": "sqlTypeOther",
       "nullable": true,
@@ -1087,7 +1087,7 @@
     },
     {
       "name": "EFF_AGE",
-      "type": "esriFieldTypeInteger",
+      "type": "esriFieldTypeDouble",
       "alias": "EFF_AGE",
       "sqlType": "sqlTypeOther",
       "nullable": true,
@@ -1118,7 +1118,7 @@
   ],
   "indexes": [
     {
-      "name": "PK__CLEVELAN__F4B70D85232B479E",
+      "name": "PK__CLEVELAN__F4B70D85BC98954B",
       "fields": "OBJECTID",
       "isAscending": true,
       "isUnique": true,
@@ -1126,7 +1126,7 @@
       "indexType": "Attribute"
     },
     {
-      "name": "user_27976.CLEVELAND_PARCELS_FOR_SALESFORCE_CLEVELAND_PARCELS_FOR_SALESFORCE_Shape_sidx",
+      "name": "user_27976.CLEVELAND_PARCELS_FOR_SALESFORCE_CLEVELAND_PARCELS_FOR_SALESFORCE2_Shape_sidx",
       "fields": "Shape",
       "isAscending": true,
       "isUnique": false,
