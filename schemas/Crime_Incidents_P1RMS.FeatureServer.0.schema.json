@@ -688,5 +688,5 @@
   "standardMaxRecordCountNoGeometry": 32000,
   "tileMaxRecordCount": 8000,
   "maxRecordCountFactor": 1,
-  "capabilities": "Query"
+  "capabilities": "Query,Extract"
 }
