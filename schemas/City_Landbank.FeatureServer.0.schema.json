@@ -179,16 +179,7 @@
   "geometryType": "esriGeometryPolygon",
   "minScale": 0,
   "maxScale": 0,
-  "extent": {
-    "xmin": -9084917.601200104,
-    "ymin": 5086345.5036997795,
-    "xmax": -9084377.716599941,
-    "ymax": 5087071.363299847,
-    "spatialReference": {
-      "wkid": 102100,
-      "latestWkid": 3857
-    }
-  },
+  "extent": null,
   "spatialReference": {
     "wkid": 102100,
     "latestWkid": 3857
@@ -286,43 +277,6 @@
       "domain": null,
       "defaultValue": null,
       "description": "{\"value\":\"The address of the property as listed in the County Fiscal GIS system.\",\"fieldValueType\":\"locationOrPlaceName\"}"
-    },
-    {
-      "name": "total_legal_front",
-      "type": "esriFieldTypeDouble",
-      "alias": "Legal Frontage (County Fiscal)",
-      "sqlType": "sqlTypeOther",
-      "nullable": true,
-      "editable": true,
-      "isViewOverride": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"The total amount of frontage (sidewalk, yard extensions, etc.) of the property as listed in the County Fiscal GIS system.\",\"fieldValueType\":\"measurement\"}"
-    },
-    {
-      "name": "total_square_ft",
-      "type": "esriFieldTypeDouble",
-      "alias": "Parcel Square Feet (County Fiscal)",
-      "sqlType": "sqlTypeOther",
-      "nullable": true,
-      "editable": true,
-      "isViewOverride": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"The total area of the property in square feet as listed in the County Fiscal GIS system.\",\"fieldValueType\":\"measurement\"}"
-    },
-    {
-      "name": "cityLandBankType",
-      "type": "esriFieldTypeString",
-      "alias": "City Land Bank Type",
-      "sqlType": "sqlTypeOther",
-      "length": 5000,
-      "nullable": true,
-      "editable": true,
-      "isViewOverride": true,
-      "domain": null,
-      "defaultValue": null,
-      "description": "{\"value\":\"The desingation of the land bank the property is held in.\",\"fieldValueType\":\"typeOrCategory\"}"
     }
   ],
   "indexes": [
