@@ -2177,6 +2177,54 @@
       "description": "{\"value\":\"The current status of the most recently filed rental registration record.\",\"fieldValueType\":\"\"}"
     },
     {
+      "name": "activeRentalRegistrationFlag",
+      "type": "esriFieldTypeInteger",
+      "alias": "Has Active Rental Registration",
+      "sqlType": "sqlTypeInteger",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "domain_activeRentalRegistrationFlag",
+        "codedValues": [
+          {
+            "name": "False",
+            "code": 0
+          },
+          {
+            "name": "True",
+            "code": 1
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"Indicates whether the parcel has an active rental registration in the current year.\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "leadSafeCertificateActiveFlag",
+      "type": "esriFieldTypeInteger",
+      "alias": "Has Active Lead Safe Certificate",
+      "sqlType": "sqlTypeInteger",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "domain_leadSafeCertificateActiveFlag",
+        "codedValues": [
+          {
+            "name": "False",
+            "code": 0
+          },
+          {
+            "name": "True",
+            "code": 1
+          }
+        ]
+      },
+      "defaultValue": null,
+      "description": "{\"value\":\"A true or false flag indicating whether or not a Lead Safe Certificate is issued for the parcel.\",\"fieldValueType\":\"\"}"
+    },
+    {
       "name": "certOfOccupancyFlag",
       "type": "esriFieldTypeInteger",
       "alias": "Has Certificate of Occupancy",
