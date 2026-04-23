@@ -251,9 +251,9 @@
       "description": "{\"value\":\"ID for this incident, which is specific to the response by Police.\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "offlineincidentNumber",
+      "name": "IncidentNumber",
       "type": "esriFieldTypeString",
-      "alias": "offlineincidentNumber",
+      "alias": "IncidentNumber",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,

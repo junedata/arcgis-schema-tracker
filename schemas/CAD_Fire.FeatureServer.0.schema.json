@@ -250,6 +250,17 @@
       "defaultValue": null
     },
     {
+      "name": "IncidentNumber",
+      "type": "esriFieldTypeString",
+      "alias": "IncidentNumber",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 5000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
       "name": "IncidentTypeDescription",
       "type": "esriFieldTypeString",
       "alias": "IncidentTypeDescription",

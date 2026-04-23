@@ -201,9 +201,9 @@
       "description": "{\"value\":\"ID for this incident, which is specific to the response by EMS.\",\"fieldValueType\":\"\"}"
     },
     {
-      "name": "incident_offlineincidentNumber",
+      "name": "IncidentNumber",
       "type": "esriFieldTypeString",
-      "alias": "incident_offlineincidentNumber",
+      "alias": "IncidentNumber",
       "sqlType": "sqlTypeNVarchar",
       "length": 5000,
       "nullable": true,
