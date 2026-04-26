@@ -179,16 +179,7 @@
   "geometryType": "esriGeometryPolygon",
   "minScale": 0,
   "maxScale": 0,
-  "extent": {
-    "xmin": -9084917.601200104,
-    "ymin": 5086345.5036997795,
-    "xmax": -9084377.716599941,
-    "ymax": 5087071.363299847,
-    "spatialReference": {
-      "wkid": 102100,
-      "latestWkid": 3857
-    }
-  },
+  "extent": null,
   "spatialReference": {
     "wkid": 102100,
     "latestWkid": 3857
