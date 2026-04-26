@@ -179,7 +179,16 @@
   "geometryType": "esriGeometryPolygon",
   "minScale": 0,
   "maxScale": 0,
-  "extent": null,
+  "extent": {
+    "xmin": -9084917.601200104,
+    "ymin": 5086345.5036997795,
+    "xmax": -9084377.716599941,
+    "ymax": 5087071.363299847,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
   "spatialReference": {
     "wkid": 102100,
     "latestWkid": 3857
@@ -2174,7 +2183,21 @@
       "sqlType": "sqlTypeInteger",
       "nullable": true,
       "editable": true,
-      "domain": null,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "domain_activeRentalRegistrationFlag",
+        "codedValues": [
+          {
+            "name": "False",
+            "code": 0
+          },
+          {
+            "name": "True",
+            "code": 1
+          }
+        ]
+      },
       "defaultValue": null,
       "description": "{\"value\":\"Indicates whether the parcel has an active rental registration in the current year.\",\"fieldValueType\":\"\"}"
     },
@@ -2185,7 +2208,21 @@
       "sqlType": "sqlTypeInteger",
       "nullable": true,
       "editable": true,
-      "domain": null,
+      "isViewOverride": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "domain_leadSafeCertificateActiveFlag",
+        "codedValues": [
+          {
+            "name": "False",
+            "code": 0
+          },
+          {
+            "name": "True",
+            "code": 1
+          }
+        ]
+      },
       "defaultValue": null,
       "description": "{\"value\":\"A true or false flag indicating whether or not a Lead Safe Certificate is issued for the parcel.\",\"fieldValueType\":\"\"}"
     },
