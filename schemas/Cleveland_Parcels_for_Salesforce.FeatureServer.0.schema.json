@@ -8,7 +8,7 @@
   "displayField": "NAME",
   "description": "",
   "copyrightText": "",
-  "defaultVisibility": true,
+  "defaultVisibility": false,
   "editingInfo": {
     "lastEditDate": "untracked",
     "schemaLastEditDate": "untracked",
@@ -197,21 +197,21 @@
         "type": "esriSFS",
         "style": "esriSFSSolid",
         "color": [
-          252,
-          189,
-          193,
+          130,
+          130,
+          130,
           0
         ],
         "outline": {
           "type": "esriSLS",
           "style": "esriSLSSolid",
           "color": [
-            78,
-            78,
-            78,
+            0,
+            0,
+            0,
             255
           ],
-          "width": 0.7
+          "width": 1
         }
       }
     },
@@ -1118,7 +1118,7 @@
   ],
   "indexes": [
     {
-      "name": "PK__CLEVELAN__F4B70D85BC98954B",
+      "name": "PK__CLEVELAN__F4B70D8516430007",
       "fields": "OBJECTID",
       "isAscending": true,
       "isUnique": true,
@@ -1126,7 +1126,7 @@
       "indexType": "Attribute"
     },
     {
-      "name": "user_27976.CLEVELAND_PARCELS_FOR_SALESFORCE_CLEVELAND_PARCELS_FOR_SALESFORCE2_Shape_sidx",
+      "name": "user_27976.CLEVELAND_PARCELS_FOR_SALESFORCE_CLEVELAND_PARCELS_FOR_SALESFORCE_Shape_sidx",
       "fields": "Shape",
       "isAscending": true,
       "isUnique": false,
